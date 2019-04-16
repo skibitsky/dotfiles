@@ -1,0 +1,78 @@
+{
+ :templates {:alfred "osascript -e 'tell application \"Alfred 3\" to run trigger \"%s\" in workflow \"%s\" with argument \"%s\"'"
+             :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"}
+ :simlayers {:caps_lock-mode {:key :caps_lock}
+ 						 :1-mode {:key :1}
+             :2-mode {:key :2}
+             :3-mode {:key :3}
+             :4-mode {:key :4}
+             :q-mode {:key :q}
+             :w-mode {:key :w}
+             :e-mode {:key :e}
+             :r-mode {:key :r}
+             :t-mode {:key :t}
+             :i-mode {:key :i}
+             :o-mode {:key :o}
+             :p-mode {:key :p}
+             :a-mode {:key :a}
+             :s-mode {:key :s}
+             :d-mode {:key :d}
+             :f-mode {:key :f}
+             :g-mode {:key :g}
+             :z-mode {:key :z}
+             :x-mode {:key :x}
+             :c-mode {:key :c}
+             :v-mode {:key :v}
+             :b-mode {:key :b}
+             :n-mode {:key :n}
+             :m-mode {:key :m}
+             :spacebar-mode {:key :spacebar}},
+ :main [{:des "capskey",
+         :rules [:caps_lock-mode
+                 [:open_bracket :!TOopen_bracket]
+                 [:close_bracket :!TOclose_bracket]
+                 [:semicolon :!TOsemicolon]
+                 [:quote :!TOquote]
+                 [:comma :!TOcomma]
+                 [:period :!TOperiod]
+                 [:slash :!TOslash]
+                 [:a :!TOa]
+                 [:b :!TOb]
+                 [:c :!TOc]
+                 [:d :!TOd]
+                 [:e :!TOe]
+                 [:f :!TOf]
+                 [:g :!TOg]
+                 [:h :!TOh]
+                 [:i :!TOi]
+                 [:j :!TOj]
+                 [:k :!TOk]
+                 [:l :!TOl]
+                 [:m :!TOm]
+                 [:n :!TOn]
+                 [:o :!TOo]
+                 [:p :!TOp]
+                 [:q :!TOq]
+                 [:r :!TOr]
+                 [:s :!TOs]
+                 [:t :!TOt]
+                 [:u :!TOu]
+                 [:v :!TOv]
+                 [:w :!TOw]
+                 [:x :!TOx]
+                 [:y :!TOy]
+                 [:z :!TOz]
+                 [:1 :!TO1]
+                 [:2 :!TO2]
+                 [:3 :!TO3]
+                 [:4 :!TO4]
+                 [:5 :!TO5]
+                 [:6 :!TO6]
+                 [:7 :!TO7]
+                 [:8 :!TO8]
+                 [:9 :!TO9]
+                 [:0 :!TO0]]}
+        {:des "o-mode (open app)"
+         :rules [:o-mode
+                 [:t [:km "open: Telegram"]]]}]
+}
