@@ -2,7 +2,7 @@
  :templates {:alfred "osascript -e 'tell application \"Alfred 3\" to run trigger \"%s\" in workflow \"%s\" with argument \"%s\"'"
              :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"}
  :simlayers {:caps_lock-mode {:key :caps_lock}
- 						 :1-mode {:key :1}
+             :1-mode {:key :1}
              :2-mode {:key :2}
              :3-mode {:key :3}
              :4-mode {:key :4}
@@ -74,5 +74,19 @@
                  [:0 :!TO0]]}
         {:des "o-mode (open app)"
          :rules [:o-mode
-                 [:t [:km "open: Telegram"]]]}]
+                 [:t [:km "open: Telegram"]]
+                 [:b [:km "open: Bear"]]
+                 [:s [:km "open: Safari"]]
+                 [:f [:km "open: Fantastical"]]
+                 [:f [:km "open: Fantastical"]]
+                 [:e [:km "open: Email"]]
+                 [:m [:km "open: Spotify"]]
+                 [:w [:km "open: Things"]]
+                 [:h [:km "open: Hyper"]]
+                 [:k [:km "open: KM"]]
+                 [:g [:km "open: GitHub"]]]}
+        {:des "a-mode (Alfred)"
+         :rules [:a-mode
+                 [:m [:alfred "run" "iansinnott.keyboardmaestro"]]
+                 [:g [:alfred "search repos" "me.lachlan.githubjump"]]]}]
 }
