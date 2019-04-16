@@ -78,14 +78,24 @@
                  [:b [:km "open: Bear"]]
                  [:s [:km "open: Safari"]]
                  [:f [:km "open: Fantastical"]]
-                 [:f [:km "open: Fantastical"]]
                  [:e [:km "open: Email"]]
                  [:m [:km "open: Spotify"]]
                  [:w [:km "open: Things"]]
                  [:h [:km "open: Hyper"]]
                  [:k [:km "open: KM"]]
-                 [:g [:km "open: GitHub"]]]}
-        {:des "a-mode (Alfred)"
+                 [:g [:km "open: GitHub"]]
+                 [:a [:km "open: Alfred"]]
+                 [:d [:km "open: Discord"]]
+                 [:q [:km "open: MoneyWiz"]]
+                 [:c [:km "open: Timing"]]
+                 [:r [:km "open: Sublime"]]]}
+        {:des "skey (essential)"
+         :rules [:s-mode
+                 [:o :!CTO9]]}
+        {:des "mkey (make)"
+         :rules [:m-mode
+                 [:t [:!CT9]]]} ; Add to Typinator 
+        {:des "akey (Alfred)"
          :rules [:a-mode
                  [:m [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:g [:alfred "search repos" "me.lachlan.githubjump"]]]}]
