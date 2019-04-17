@@ -91,12 +91,13 @@
                  [:r [:km "open: Sublime"]]]}
         {:des "skey (essential)"
          :rules [:s-mode
-                 [:o :!CTO9]]}
+                 [:o :!CTO9]]} ; Typintar quick search
         {:des "mkey (make)"
          :rules [:m-mode
                  [:t [:!CT9]]]} ; Add to Typinator 
         {:des "akey (Alfred)"
          :rules [:a-mode
                  [:m [:alfred "run" "iansinnott.keyboardmaestro"]]
-                 [:g [:alfred "search repos" "me.lachlan.githubjump"]]]}]
+                 [:g [:alfred "search repos" "me.lachlan.githubjump"]]
+                 [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
