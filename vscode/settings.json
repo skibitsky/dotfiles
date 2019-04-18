@@ -1,5 +1,9 @@
 {
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "workbench.colorTheme": "Monokai Night",
-    "workbench.tree.indent": 18
+    "workbench.tree.indent": 18,
+    "editor.fontLigatures": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "editor.fontSize": 13
 }

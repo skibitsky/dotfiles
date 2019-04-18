@@ -11,6 +11,8 @@
              :e-mode {:key :e}
              :r-mode {:key :r}
              :t-mode {:key :t}
+             :y-mode {:key :y}
+             :u-mode {:key :u}
              :i-mode {:key :i}
              :o-mode {:key :o}
              :p-mode {:key :p}
@@ -89,9 +91,17 @@
                  [:q [:km "open: MoneyWiz"]]
                  [:c [:km "open: Timing"]]
                  [:r [:km "open: Sublime"]]]}
-        {:des "skey (essential)"
+        {:des "skey (essential actions)"
          :rules [:s-mode
                  [:o :!CTO9]]} ; Typintar quick search
+        {:des "ukey (urls and addresses)"
+         :rules [:u-mode
+                 [:d [:!CTOS0]] ; Dragonglass links and essentials
+                 [:w [:!CTOS9]] ; Personal links
+                 [:p [:!CTOS8]]]} ; Personal essentials
+        ;{:des "tkey (type)"
+        ; :rules [:t-mode
+        ;         [:q [:!CTOSP]] ; Questions
         {:des "mkey (make)"
          :rules [:m-mode
                  [:t [:!CT9]]]} ; Add to Typinator 
