@@ -9,4 +9,4 @@ mkdir ~/.dotfiles
 cd ~/.dotfiles
 git clone https://github.com/skibitsky/dotfiles.git .
 bash install.sh
- ```
+```
