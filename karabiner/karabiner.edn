@@ -90,6 +90,7 @@
                  [:d [:km "open: Discord"]]
                  [:q [:km "open: MoneyWiz"]]
                  [:c [:km "open: Timing"]]
+                 [:j [:km "open: Grammarly"]]
                  [:r [:km "open: Sublime"]]]}
         {:des "skey (essential actions)"
          :rules [:s-mode
@@ -107,7 +108,7 @@
                  [:t [:!CT9]]]} ; Add to Typinator 
         {:des "akey (Alfred)"
          :rules [:a-mode
-                 [:m [:alfred "run" "iansinnott.keyboardmaestro"]]
+                 [:j [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:g [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
