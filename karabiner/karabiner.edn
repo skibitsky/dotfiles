@@ -113,11 +113,17 @@
 				 :rules [:p-mode
 								 [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
 								 [:a [:!St :h :a :n :k :s]]]} ; Thanks
+				{:des "zkey (Trello)"
+				 :rules [:z-mode
+								 [:i [:km "trello: open Ideas"]]
+								 [:l [:km "trello: open Learn"]]
+								 [:w [:km "trello: open Watch list"]]
+								 [:b [:km "trello: open Books"]]]}
 				{:des "akey (Alfred)"
 				 :rules [:a-mode
 								 [:j [:alfred "run" "iansinnott.keyboardmaestro"]]
 								 [:k [:alfred "search repos" "me.lachlan.githubjump"]]
-								 [:g [:alfred "search google" "net.deanishe.alfred-searchio"]]
+								 [:h [:alfred "search google" "net.deanishe.alfred-searchio"]]
 								 [:l [:alfred "search google lucky" "net.deanishe.alfred-searchio"]]
 								 [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
 								 [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
