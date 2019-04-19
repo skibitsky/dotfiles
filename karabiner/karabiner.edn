@@ -116,6 +116,9 @@
 				{:des "akey (Alfred)"
 				 :rules [:a-mode
 								 [:j [:alfred "run" "iansinnott.keyboardmaestro"]]
-								 [:g [:alfred "search repos" "me.lachlan.githubjump"]]
+								 [:k [:alfred "search repos" "me.lachlan.githubjump"]]
+								 [:g [:alfred "search google" "net.deanishe.alfred-searchio"]]
+								 [:l [:alfred "search google lucky" "net.deanishe.alfred-searchio"]]
+								 [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
 								 [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
