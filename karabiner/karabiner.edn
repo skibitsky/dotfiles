@@ -106,6 +106,10 @@
         {:des "mkey (make)"
          :rules [:m-mode
                  [:t [:!CT9]]]} ; Add to Typinator 
+        {:des "pkey (words and phrases)"
+         :rules [:p-mode
+         								[:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
+                 [:a [:!St :h :a :n :k :s]]]} ; Thanks
         {:des "akey (Alfred)"
          :rules [:a-mode
                  [:j [:alfred "run" "iansinnott.keyboardmaestro"]]
