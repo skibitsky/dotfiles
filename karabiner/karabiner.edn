@@ -117,7 +117,7 @@
          :rules [:z-mode
                  [:i [:km "trello: open Ideas"]]
                  [:l [:km "trello: open Learn"]]
-                 [:w [:km "trello: open Watch list"]]
+                 [:n [:km "trello: open Watch list"]]
                  [:b [:km "trello: open Books"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
