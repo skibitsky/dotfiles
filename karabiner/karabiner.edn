@@ -98,10 +98,10 @@
         {:des "skey (essential actions)"
          :rules [:s-mode
                  [:o :!CTO9]]} ; Typintar quick search
-        {:des "ukey (urls and addresses)"
-         :rules [:u-mode
-                 [:d [:!CTOS0]] ; Dragonglass links and essentials
-                 [:w [:!CTOS9]] ; Personal links
+        {:des "wkey (web urls and non-web addresses)"
+         :rules [:w-mode
+                 [:d [:!CTOS0]] ; Dragonglass urls and essentials
+                 [:u [:!CTOS9]] ; Personal urls
                  [:p [:!CTOS8]]]} ; Personal essentials
         ;{:des "tkey (type)"
         ; :rules [:t-mode
@@ -119,6 +119,9 @@
                  [:l [:km "trello: open Learn"]]
                  [:w [:km "trello: open Watch list"]]
                  [:b [:km "trello: open Books"]]]}
+        {:des "ckey (text)"
+         :rules [:c-mode
+                 [:u [:!CTOSm]]]} ; Selected text actions
         {:des "akey (Alfred)"
          :rules [:a-mode
                  [:j [:alfred "run" "iansinnott.keyboardmaestro"]]
