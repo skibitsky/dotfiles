@@ -86,17 +86,19 @@
                  [:e [:km "open: Email"]]
                  [:m [:km "open: Spotify"]]
                  [:w [:km "open: Things"]]
-                 [:h [:km "open: Hyper"]]
+                 [:j [:km "open: Hyper"]]
                  [:k [:km "open: KM"]]
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
                  [:d [:km "open: Discord"]]
                  [:q [:km "open: MoneyWiz"]]
                  [:c [:km "open: Timing"]]
-                 [:j [:km "open: Grammarly"]]
-                 [:r [:km "open: Sublime"]]]}
+                 [:u [:km "open: Grammarly"]]
+                 [:r [:km "open: Sublime"]]
+                 [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (essential actions)"
          :rules [:s-mode
+                 ;[:k :!CTperiod]
                  [:o :!CTO9]]} ; Typintar quick search
         {:des "wkey (web urls and non-web addresses)"
          :rules [:w-mode
@@ -108,6 +110,7 @@
         ;         [:q [:!CTOSP]] ; Questions
         {:des "mkey (make)"
          :rules [:m-mode
+                 [:e [:km "m: new spark email"]] ; New email in Spark
                  [:t [:!CT9]]]} ; Add to Typinator 
         {:des "pkey (words and phrases)"
          :rules [:p-mode
@@ -122,6 +125,9 @@
         {:des "ckey (text)"
          :rules [:c-mode
                  [:u [:!CTOSm]]]} ; Selected text actions
+        {:des "qkey (quick actions)"
+         :rules [:q-mode
+                 [:n [:km "q: new text file"]]]} ; Open new plain text file
         {:des "akey (Alfred)"
          :rules [:a-mode
                  [:j [:alfred "run" "iansinnott.keyboardmaestro"]]
@@ -129,5 +135,6 @@
                  [:h [:alfred "search google" "net.deanishe.alfred-searchio"]]
                  [:l [:alfred "search google lucky" "net.deanishe.alfred-searchio"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
+                 [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
