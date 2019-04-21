@@ -136,5 +136,8 @@
                  [:l [:alfred "search google lucky" "net.deanishe.alfred-searchio"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
+                 [:m [:alfred "search mind node" "com.skibitsky.filessearch"]]
+                 [:n [:alfred "search numbers" "com.skibitsky.filessearch"]]
+                 [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
