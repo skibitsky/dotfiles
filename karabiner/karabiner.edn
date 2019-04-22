@@ -94,6 +94,8 @@
                  [:c [:km "open: Timing"]]
                  [:u [:km "open: Grammarly"]]
                  [:r [:km "open: Sublime"]]
+                 [:1 [:km "open: Unity Hub"]]
+                 [:2 [:km "open: Caprine"]]
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (essential actions)"
          :rules [:s-mode
@@ -124,20 +126,24 @@
                  [:b [:km "trello: open Books"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
+                 [:d [:km "c: search text in Google"]]
+                 [:s [:km "c: open as URL"]]
+                 [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
         {:des "qkey (quick actions)"
          :rules [:q-mode
                  [:n [:km "q: new text file"]]]} ; Open new plain text file
         {:des "akey (Alfred)"
          :rules [:a-mode
-                 [:j [:alfred "run" "iansinnott.keyboardmaestro"]]
+                 [:h [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
-                 [:h [:alfred "search google" "net.deanishe.alfred-searchio"]]
+                 [:j [:alfred "search google" "net.deanishe.alfred-searchio"]]
                  [:l [:alfred "search google lucky" "net.deanishe.alfred-searchio"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
                  [:m [:alfred "search mind node" "com.skibitsky.filessearch"]]
                  [:n [:alfred "search numbers" "com.skibitsky.filessearch"]]
+                 [:i [:alfred "search websites" "nikivi.web.searches"]]
                  [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
