@@ -32,6 +32,8 @@
  :main [
               {:des "§ to ~"
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
+              {:des "Search contexts"
+               :rules [[:grave_accent_and_tilde :!TOo]]}
               {:des "capskey",
                :rules [:caps_lock-mode
                  [:open_bracket :!TOopen_bracket]

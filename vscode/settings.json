@@ -5,5 +5,7 @@
     "editor.fontLigatures": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "terminal.external.osxExec": "Hyper.app",
+    "terminal.integrated.fontSize": 13
 }
