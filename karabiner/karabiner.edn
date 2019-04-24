@@ -165,8 +165,13 @@
         {:des "qkey (quick actions)"
          :rules [:q-mode
                  [:n [:km "q: new text file"]]]} ; Open new plain text file
+        {:des "xkey (markdown typing)"
+         :rules [:x-mode
+                 [:m [:km "md: Code"]]
+                 [:n [:km "md: Inline code"]]]}
         {:des "akey (Alfred)"
          :rules [:a-mode
+                 [:d [:!CTOS1]] ; Dash
                  [:h [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:j [:alfred "search google" "net.deanishe.alfred-searchio"]]
