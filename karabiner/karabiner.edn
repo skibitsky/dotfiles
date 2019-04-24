@@ -1,6 +1,7 @@
 {
  :templates {:alfred "osascript -e 'tell application \"Alfred 3\" to run trigger \"%s\" in workflow \"%s\" with argument \"%s\"'"
              :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"}
+ :applications {:binded_apps ["^com\\.apple\\.Safari$", "^com\\.apple\\.finder$", "^com\\.stairways\\.keyboardmaestro\\.editor$"]}
  :simlayers {:caps_lock-mode {:key :caps_lock}
              :1-mode {:key :1}
              :2-mode {:key :2}
@@ -28,12 +29,41 @@
              :b-mode {:key :b}
              :n-mode {:key :n}
              :m-mode {:key :m}
+             :right_command-mode {:key :right_command :condi :binded_apps}
              :spacebar-mode {:key :spacebar}},
  :main [
               {:des "§ to ~"
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
               {:des "Search contexts"
                :rules [[:grave_accent_and_tilde :!TOo]]}
+              {:des "Actions for binded apps"
+               :rules [:right_command-mode
+                 [:a :!TSOa]
+                 [:b :!TSOb]
+                 [:c :!TSOc]
+                 [:d :!TSOd]
+                 [:e :!TSOe]
+                 [:f :!TSOf]
+                 [:g :!TSOg]
+                 [:h :!TSOh]
+                 [:i :!TSOi]
+                 [:j :!TSOj]
+                 [:k :!TSOk]
+                 [:l :!TSOl]
+                 [:m :!TSOm]
+                 [:n :!TSOn]
+                 [:o :!TSOo]
+                 [:p :!TSOp]
+                 [:q :!TSOq]
+                 [:r :!TSOr]
+                 [:s :!TSOs]
+                 [:t :!TSOt]
+                 [:u :!TSOu]
+                 [:v :!TSOv]
+                 [:w :!TSOw]
+                 [:x :!TSOx]
+                 [:y :!TSOy]
+                 [:z :!TSOz]]}
               {:des "capskey",
                :rules [:caps_lock-mode
                  [:open_bracket :!TOopen_bracket]
