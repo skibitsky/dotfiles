@@ -133,7 +133,7 @@
          :rules [:s-mode
                  ;[:k :!CTperiod]
                  [:k :!CTO9] ; Typintar quick search
-                 [:j :!CTO9]]} ; Typintar quick search (again)
+                 [:l :!CTO9]]} ; Typintar quick search (again)
         {:des "wkey (web urls and non-web addresses)"
          :rules [:w-mode
                  [:d [:!CTOS0]] ; Dragonglass urls and essentials

@@ -22,3 +22,5 @@ ln -sf ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User
 # Hyper
 ln -sf ~/.dotfiles/hyper/hyper.js ~/.hyper.js
 
+# Bash
+ln -sf ~/.dotfiles/bash/.bash_profile ~/.bash_profile
