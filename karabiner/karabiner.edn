@@ -35,7 +35,7 @@
               {:des "§ to ~"
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
               {:des "Search contexts"
-               :rules [[:right_gui :!TOo]]}
+               :rules [[:right_alt :!TOo]]}
               {:des "Actions for binded apps"
                :rules [:right_command-mode
                  [:a :!TSOa]
