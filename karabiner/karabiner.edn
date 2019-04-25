@@ -35,7 +35,7 @@
               {:des "§ to ~"
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
               {:des "Search contexts"
-               :rules [[:grave_accent_and_tilde :!TOo]]}
+               :rules [[:right_gui :!TOo]]}
               {:des "Actions for binded apps"
                :rules [:right_command-mode
                  [:a :!TSOa]
@@ -128,6 +128,7 @@
                  [:r [:km "open: Sublime"]]
                  [:1 [:km "open: Unity Hub"]]
                  [:2 [:km "open: Caprine"]]
+                 [:3 [:km "open: Keynote"]]
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (essential actions)"
          :rules [:s-mode
