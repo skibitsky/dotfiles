@@ -128,7 +128,7 @@
                  [:r [:km "open: Sublime"]]
                  [:1 [:km "open: Unity Hub"]]
                  [:2 [:km "open: Caprine"]]
-                 [:3 [:km "open: Keynote"]]
+                 [:3 [:km "open: Photos"]]
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (essential actions)"
          :rules [:s-mode
