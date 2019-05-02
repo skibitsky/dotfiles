@@ -34,8 +34,10 @@
  :main [
               {:des "§ to ~"
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
+              {:des "Right Option to Grave accent"
+               :rules [[:right_alt :grave_accent_and_tilde]]}
               {:des "Search contexts"
-               :rules [[:right_alt :!TOo]]}
+               :rules [[:grave_accent_and_tilde :!TOo]]}
               {:des "Actions for binded apps"
                :rules [:right_command-mode
                  [:a :!TSOa]
@@ -140,9 +142,10 @@
                  [:d [:!CTOS0]] ; Dragonglass urls and essentials
                  [:u [:!CTOS9]] ; Personal urls
                  [:p [:!CTOS8]]]} ; Personal essentials
-        ;{:des "tkey (type)"
-        ; :rules [:t-mode
-        ;         [:q [:!CTOSP]] ; Questions
+        {:des "ekey (type using KM palettes)"
+         :rules [:e-mode
+                 [:u [:!CTOSu]] ; Unicode symbols
+                 [:r [:!CTOSr]]]} ; Emojis
         {:des "mkey (make)"
          :rules [:m-mode
                  [:e [:km "m: new spark email"]] ; New email in Spark
