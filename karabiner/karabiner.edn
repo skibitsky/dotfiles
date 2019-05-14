@@ -169,10 +169,10 @@
         {:des "qkey (quick actions)"
          :rules [:q-mode
                  [:n [:km "q: new text file"]]]} ; Open new plain text file
-        {:des "xkey (markdown typing)"
-         :rules [:x-mode
-                 [:m [:km "md: Code"]]
-                 [:n [:km "md: Inline code"]]]}
+        ;{:des "xkey (markdown typing)"
+        ; :rules [:x-mode
+        ;         [:m [:km "md: Code"]]
+        ;         [:n [:km "md: Inline code"]]]}
         {:des "akey (Alfred)"
          :rules [:a-mode
                  [:d [:!CTOS1]] ; Dash
