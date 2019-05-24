@@ -36,8 +36,10 @@
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
               {:des "Right Option to Grave accent"
                :rules [[:right_alt :grave_accent_and_tilde]]}
-              {:des "Search contexts"
-               :rules [[:grave_accent_and_tilde :!TOo]]}
+              {:des "Search contexts using Tab"
+               :rules [[:tab :!TOo]]}
+              {:des "Grave accent to Tab"
+               :rules [[:grave_accent_and_tilde :tab]]}
               {:des "Actions for binded apps"
                :rules [:right_command-mode
                  [:a :!TSOa]
