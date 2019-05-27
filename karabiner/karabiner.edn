@@ -130,9 +130,10 @@
                  [:c [:km "open: Timing"]]
                  [:u [:km "open: Grammarly"]]
                  [:r [:km "open: Sublime"]]
-                 [:1 [:km "open: Unity Hub"]]
+                 [:1 [:km "open: 1Password"]]
                  [:2 [:km "open: Caprine"]]
                  [:3 [:km "open: Photos"]]
+                 [:4 [:km "open: Unity Hub"]]
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (essential actions)"
          :rules [:s-mode
