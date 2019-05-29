@@ -138,8 +138,8 @@
         {:des "skey (essential actions)"
          :rules [:s-mode
                  ;[:k :!CTperiod]
-                 [:k :!CTO9] ; Typintar quick search
-                 [:l :!CTO9]]} ; Typintar quick search (again)
+                 [:k :!CTO9] ; Text Expander quick search
+                 [:l :!CTO9]]} ; Text Expander quick search (again)
         {:des "wkey (web urls and non-web addresses)"
          :rules [:w-mode
                  [:d [:!CTOS0]] ; Dragonglass urls and essentials
@@ -152,7 +152,7 @@
         {:des "mkey (make)"
          :rules [:m-mode
                  [:e [:km "m: new spark email"]] ; New email in Spark
-                 [:t [:!CT9]]]} ; Add to Typinator 
+                 [:t [:!CT9]]]} ; Add to Text Expander 
         {:des "pkey (words and phrases)"
          :rules [:p-mode
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
