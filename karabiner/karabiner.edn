@@ -173,7 +173,7 @@
                  [:d [:!CTOS1]] ; Dash
                  [:h [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
-                 [:j [:alfred "search google" "net.deanishe.alfred-searchio"]]
+                 [:j [:alfred "search bear" "com.chrisbro.bear"]]
                  [:l [:alfred "search google lucky" "net.deanishe.alfred-searchio"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
