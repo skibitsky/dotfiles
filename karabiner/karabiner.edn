@@ -140,7 +140,8 @@
          :rules [:w-mode
                  [:d [:!CTOS0]] ; Dragonglass urls and essentials
                  [:u [:!CTOS9]] ; Personal urls
-                 [:p [:!CTOS8]]]} ; Personal essentials
+                 [:p [:!CTOS8]] ; Personal essentials
+                 [:f [:!CTOS7]]]} ; Different urls and essentials
         {:des "ekey (type using KM palettes)"
          :rules [:e-mode
                  [:u [:!CTOSu]] ; Unicode symbols
@@ -152,6 +153,8 @@
         {:des "pkey (words and phrases)"
          :rules [:p-mode
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
+                 [:f [:!Sd :i :f :f :e :r :e :n :t]] ; Different
+                 [:g [:!Sd :i :f :f :e :r :e :n :t :spacebar :a :g :e :n :c :y]] ; Different agency
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks
         {:des "zkey (Trello)"
          :rules [:z-mode
@@ -171,7 +174,7 @@
         {:des "akey (Alfred)"
          :rules [:a-mode
                  [:d [:!CTOS1]] ; Dash
-                 [:h [:alfred "run" "iansinnott.keyboardmaestro"]]
+                 [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:j [:alfred "search bear" "com.chrisbro.bear"]]
                  [:l [:alfred "search google lucky" "net.deanishe.alfred-searchio"]]
