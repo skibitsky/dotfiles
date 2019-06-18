@@ -161,7 +161,8 @@
                  [:i [:km "trello: open Ideas"]]
                  [:l [:km "trello: open Learn"]]
                  [:n [:km "trello: open Watch list"]]
-                 [:b [:km "trello: open Books"]]]}
+                 [:b [:km "trello: open Books"]]
+                 [:f [:km "trello: open Focus"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
                  [:d [:km "c: search text in Google"]]
