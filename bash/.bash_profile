@@ -8,3 +8,5 @@ alias refresh='source ~/.bash_profile'
 
 # Open in Sublime
 alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+export PATH="$HOME/.cargo/bin:$PATH"

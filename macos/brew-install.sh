@@ -21,3 +21,4 @@ brew install vapor
 brew install watchexec
 brew install xz
 brew install mas
+brew install protobuf

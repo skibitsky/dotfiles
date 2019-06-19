@@ -7,5 +7,8 @@
     "git.autofetch": true,
     "editor.fontSize": 13,
     "terminal.external.osxExec": "Hyper.app",
-    "terminal.integrated.fontSize": 13
+    "terminal.integrated.fontSize": 13,
+    "files.associations": {
+        "*.mvir": "rust"
+    }
 }
