@@ -126,6 +126,7 @@
                  [:c [:km "open: Timing"]]
                  [:u [:km "open: Grammarly"]]
                  [:r [:km "open: Sublime"]]
+                 [:v [:km "open: Dictionary"]]
                  [:1 [:km "open: 1Password"]]
                  [:2 [:km "open: Caprine"]]
                  [:3 [:km "open: Photos"]]
@@ -148,6 +149,7 @@
                  [:r [:!CTOSr]]]} ; Emojis
         {:des "mkey (make)"
          :rules [:m-mode
+         								[:n [:km "q: new text file"]] ; Open new plain text file
                  [:e [:km "m: new spark email"]] ; New email in Spark
                  [:t [:!CT9]]]} ; Add to Text Expander 
         {:des "pkey (words and phrases)"
@@ -170,9 +172,50 @@
                  [:x [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
-        {:des "qkey (quick actions)"
+        {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode
-                 [:n [:km "q: new text file"]]]} ; Open new plain text file
+                 [:open_bracket :!Topen_bracket]
+                 [:close_bracket :!Tclose_bracket]
+                 [:semicolon :!Tsemicolon]
+                 [:quote :!Tquote]
+                 [:comma :!Tcomma]
+                 [:period :!Tperiod]
+                 [:slash :!Tslash]
+                 [:b :!Tb]
+                 [:c :!Tc]
+                 [:d :!Td]
+                 [:e :!Te]
+                 [:f :!Tf]
+                 [:g :!Tg]
+                 [:h :!Th]
+                 [:i :!Ti]
+                 [:j :!Tj]
+                 [:k :!Tk]
+                 [:l :!Tl]
+                 [:m :!Tm]
+                 [:n :!Tn]
+                 [:o :!To]
+                 [:p :!Tp]
+                 [:q :!Tq]
+                 [:r :!Tr]
+                 [:s :!Ts]
+                 [:t :!Tt]
+                 [:u :!Tu]
+                 [:v :!Tv]
+                 [:w :!Tw]
+                 [:x :!Tx]
+                 [:y :!Ty]
+                 [:z :!Tz]
+                 [:1 :!T1]
+                 [:2 :!T2]
+                 [:3 :!T3]
+                 [:4 :!T4]
+                 [:5 :!T5]
+                 [:6 :!T6]
+                 [:7 :!T7]
+                 [:8 :!T8]
+                 [:9 :!T9]
+                 [:0 :!T0]]}
         {:des "akey (Alfred)"
          :rules [:a-mode
                  [:d [:!CTOS1]] ; Dash
