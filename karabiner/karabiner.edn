@@ -122,7 +122,7 @@
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
                  [:d [:km "open: Discord"]]
-                 [:q [:km "open: MoneyWiz"]]
+                 [:q [:km "open: Slack"]]
                  [:c [:km "open: Timing"]]
                  [:u [:km "open: Grammarly"]]
                  [:r [:km "open: Sublime"]]
@@ -167,6 +167,7 @@
          :rules [:c-mode
                  [:d [:km "c: search text in Google"]]
                  [:s [:km "c: open as URL"]]
+                 [:x [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
         {:des "qkey (quick actions)"
