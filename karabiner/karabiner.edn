@@ -1,7 +1,7 @@
 {
  :templates {:alfred "osascript -e 'tell application \"Alfred 4\" to run trigger \"%s\" in workflow \"%s\" with argument \"%s\"'"
              :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"}
- :applications {:binded_apps ["^com\\.apple\\.Safari$", "^com\\.apple\\.finder$", "^com\\.stairways\\.keyboardmaestro\\.editor$"]}
+; :applications {:binded_apps ["^com\\.apple\\.Safari$", "^com\\.apple\\.finder$", "^com\\.stairways\\.keyboardmaestro\\.editor$"]}
  :simlayers {:caps_lock-mode {:key :caps_lock}
              :1-mode {:key :1}
              :2-mode {:key :2}
@@ -36,34 +36,6 @@
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
               {:des "Right Option to Grave accent"
                :rules [[:right_alt :grave_accent_and_tilde]]}
-              {:des "Actions for binded apps"
-               :rules [:right_command-mode
-                 [:a :!TSOa]
-                 [:b :!TSOb]
-                 [:c :!TSOc]
-                 [:d :!TSOd]
-                 [:e :!TSOe]
-                 [:f :!TSOf]
-                 [:g :!TSOg]
-                 [:h :!TSOh]
-                 [:i :!TSOi]
-                 [:j :!TSOj]
-                 [:k :!TSOk]
-                 [:l :!TSOl]
-                 [:m :!TSOm]
-                 [:n :!TSOn]
-                 [:o :!TSOo]
-                 [:p :!TSOp]
-                 [:q :!TSOq]
-                 [:r :!TSOr]
-                 [:s :!TSOs]
-                 [:t :!TSOt]
-                 [:u :!TSOu]
-                 [:v :!TSOv]
-                 [:w :!TSOw]
-                 [:x :!TSOx]
-                 [:y :!TSOy]
-                 [:z :!TSOz]]}
               {:des "capskey",
                :rules [:caps_lock-mode
                  [:open_bracket :!TOopen_bracket]
@@ -181,6 +153,7 @@
                  [:comma :!Tcomma]
                  [:period :!Tperiod]
                  [:slash :!Tslash]
+                 [:a :!Ta]
                  [:b :!Tb]
                  [:c :!Tc]
                  [:d :!Td]
@@ -196,7 +169,6 @@
                  [:n :!Tn]
                  [:o :!To]
                  [:p :!Tp]
-                 [:q :!Tq]
                  [:r :!Tr]
                  [:s :!Ts]
                  [:t :!Tt]
