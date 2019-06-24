@@ -114,6 +114,7 @@
         {:des "skey (essential actions)"
          :rules [:s-mode
                  ;[:k :!CTperiod]
+                 [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
                  [:k :!CTO9] ; Text Expander quick search
                  [:l :!CTO9]]} ; Text Expander quick search (again)
         {:des "wkey (web urls and non-web addresses)"
