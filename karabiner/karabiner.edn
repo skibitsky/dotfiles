@@ -151,6 +151,7 @@
                  [:s [:km "c: open as URL"]]
                  [:a [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:z [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
+                 [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
         {:des "qkey (in-app actions | replacement for ⌃ )"
