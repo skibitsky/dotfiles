@@ -150,6 +150,7 @@
                  [:d [:km "c: search text in Google"]]
                  [:s [:km "c: open as URL"]]
                  [:a [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
+                 [:z [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
         {:des "qkey (in-app actions | replacement for ⌃ )"
