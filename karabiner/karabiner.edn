@@ -122,7 +122,7 @@
                  [:d [:!CTOS0]] ; Dragonglass urls and essentials
                  [:u [:!CTOS9]] ; Personal urls
                  [:p [:!CTOS8]] ; Personal essentials
-                 [:f [:!CTOS7]]]} ; Different urls and essentials
+                 [:r [:!CTOS7]]]} ; Different urls and essentials
         {:des "ekey (type using KM palettes)"
          :rules [:e-mode
                  [:u [:!CTOSu]] ; Unicode symbols
@@ -204,12 +204,12 @@
                  [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:j [:alfred "search bear" "com.chrisbro.bear"]]
-                 [:l [:alfred "search google lucky" "net.deanishe.alfred-searchio"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
                  [:m [:alfred "search mind node" "com.skibitsky.filessearch"]]
                  [:n [:alfred "search numbers" "com.skibitsky.filessearch"]]
                  [:i [:alfred "search websites" "nikivi.web.searches"]]
                  [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
+                 [:l [:alfred "search slack" "com.yannickglt.alfred2.slack"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
