@@ -211,5 +211,6 @@
                  [:i [:alfred "search websites" "nikivi.web.searches"]]
                  [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
                  [:l [:alfred "search slack" "com.yannickglt.alfred2.slack"]]
+                 [:o [:alfred "iterm" "net.isometry.alfred.tty"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
