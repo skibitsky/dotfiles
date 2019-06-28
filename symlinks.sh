@@ -24,3 +24,6 @@ ln -sf ~/.dotfiles/hyper/hyper.js ~/.hyper.js
 
 # Bash
 ln -sf ~/.dotfiles/bash/.bash_profile ~/.bash_profile
+
+# zsh
+ln -sf ~/.dotfiles/zsh/.zshrc ~/.zshrc
