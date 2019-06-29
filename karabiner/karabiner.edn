@@ -8,8 +8,8 @@
              :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"}
 ; :applications {:binded_apps ["^com\\.apple\\.Safari$", "^com\\.apple\\.finder$", "^com\\.stairways\\.keyboardmaestro\\.editor$"]}
  :input-sources {:en {:language "en"}
- 																:lt {:language "lt"}
- 																:ru {:language "ru"}}
+ 								 :lt {:language "lt"}
+ 								 :ru {:language "ru"}}
  :simlayers {:caps_lock-mode {:key :caps_lock}
              :1-mode {:key :1}
              :2-mode {:key :2}
@@ -40,11 +40,11 @@
              ;:right_command-mode {:key :right_command }
              :spacebar-mode {:key :spacebar}},
  :main [
- 													{:des "Swap : with ; in English layout"
-         						:rules [[:#Psemicolon :!Ssemicolon :en]
+ 							{:des "Swap : with ; in English layout"
+         			 :rules [[:#Psemicolon :!Ssemicolon :en]
                  [:!Ssemicolon :semicolon :en]]}
               {:des "Swap : with ; in Lithuanian layout"
-         						:rules [[:#Psemicolon :!Ssemicolon :lt]
+         			 :rules [[:#Psemicolon :!Ssemicolon :lt]
                  [:!Ssemicolon :semicolon :lt]]}
               {:des "§ to ~"
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
