@@ -105,7 +105,7 @@
                  [:e [:km "open: Email"]]
                  [:m [:km "open: Spotify"]]
                  [:w [:km "open: Things"]]
-                 [:j [:km "open: Hyper"]]
+                 [:j [:km "open: iTerm2"]]
                  [:k [:km "open: KM"]]
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
@@ -156,10 +156,10 @@
                  [:f [:km "trello: open Focus"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
-                 [:d [:km "c: search text in Google"]]
-                 [:s [:km "c: open as URL"]]
-                 [:a [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
-                 [:z [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
+                 [:e [:km "c: search text in Google"]]
+                 [:w [:km "c: open as URL"]]
+                 [:s [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
+                 [:d [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
