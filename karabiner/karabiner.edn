@@ -158,6 +158,7 @@
          :rules [:c-mode
                  [:e [:km "c: search text in Google"]]
                  [:w [:km "c: open as URL"]]
+                 [:q [:km "c: execute in iTerm"]]
                  [:s [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:d [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
