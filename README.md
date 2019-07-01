@@ -10,5 +10,5 @@ Some of my configuration files for macOS
 mkdir ~/.dotfiles
 cd ~/.dotfiles
 git clone https://github.com/skibitsky/dotfiles.git .
-bash install.sh
+sh install.sh
 ```

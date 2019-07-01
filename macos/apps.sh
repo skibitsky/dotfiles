@@ -10,4 +10,4 @@ fi
 # Install Brew packages
 sh brew-install.sh
 
-# Install AppStore apps using mas
+# Install AppStore apps using mas !TODO
