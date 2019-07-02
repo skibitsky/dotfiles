@@ -23,3 +23,5 @@ brew install xz
 brew install mas
 brew install protobuf
 brew install duti
+brew install gnu-getopt
+brew install git-flow-avh

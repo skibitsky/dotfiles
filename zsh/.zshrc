@@ -1,5 +1,13 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+function reset_trap {
+  # Hacky hack because of <function/script-that-sets-trap-INT>
+  trap - INT
+}
+
+autoload -Uz add-zsh-hook
+add-zsh-hook preexec reset_trap
+
 # Path to oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
