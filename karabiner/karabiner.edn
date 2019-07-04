@@ -164,6 +164,10 @@
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
+        {:des "ikey (Dash)"
+         :rules [:i-mode
+                 [:u [:alfred "search dash" "com.kapeli.dash.workflow" "unity: "]]
+                 [:s [:alfred "search dash" "com.kapeli.dash.workflow" "swift: "]]]} ; Selected text actions
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode
                  [:open_bracket :!Topen_bracket]
