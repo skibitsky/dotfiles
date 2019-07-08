@@ -10,5 +10,6 @@
     "terminal.integrated.fontSize": 13,
     "files.associations": {
         "*.mvir": "rust"
-    }
+    },
+    "[csharp]": {}
 }
