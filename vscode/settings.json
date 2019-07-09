@@ -6,7 +6,7 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "editor.fontSize": 13,
-    "terminal.external.osxExec": "Hyper.app",
+    "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontSize": 13,
     "files.associations": {
         "*.mvir": "rust"

@@ -38,3 +38,7 @@ alias cdd='cd ~/.dotfiles'
 
 # Screenfetch bug workaround https://github.com/KittyKatt/screenFetch/issues/552
 alias screenfetch='screenfetch -E'
+
+# Git Flow 
+alias gfff='git flow feature finish'
+alias gffs='git flow feature start'
