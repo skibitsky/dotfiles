@@ -96,7 +96,7 @@
                  [:8 :!TO8]
                  [:9 :!TO9]
                  [:0 :!TO0]]}
-        {:des "o-mode (open app)"
+        {:des "o-mode (open)"
          :rules [:o-mode
                  [:t [:km "open: Telegram"]]
                  [:b [:km "open: Bear"]]
@@ -109,7 +109,7 @@
                  [:k [:km "open: KM"]]
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
-                 [:d [:km "open: Discord"]]
+                 [:d [:km "open: Downloads in Finder"]]
                  [:q [:km "open: Slack"]]
                  [:c [:km "open: Timing"]]
                  [:u [:km "open: Grammarly"]]
@@ -122,10 +122,13 @@
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (essential actions)"
          :rules [:s-mode
-                 ;[:k :!CTperiod]
+                 [:#COSl [:right_arrow]]
+                 [:#COSk [:up_arrow]]
+                 [:#COSj [:down_arrow]]
+                 [:#COSh [:left_arrow]]
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
-                 [:k :!CTO9] ; Text Expander quick search
-                 [:l :!CTO9]]} ; Text Expander quick search (again)
+                 [:i :!CTO9] ; Text Expander quick search
+                 [:o :!CTO9]]} ; Text Expander quick search (again)
         {:des "wkey (web urls and non-web addresses)"
          :rules [:w-mode
                  [:d [:!CTOS0]] ; Dragonglass urls and essentials
@@ -141,8 +144,9 @@
                  [:n [:km "q: new text file"]] ; Open new plain text file
                  [:e [:km "m: new spark email"]] ; New email in Spark
                  [:t [:!CT9]]]} ; Add to Text Expander 
-        {:des "pkey (words and phrases in English)"
+        {:des "pkey (Text snippets)"
          :rules [:p-mode
+                 [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :!Ssemicolon :left_arrow :left_arrow]] ; Debug.Log(^):
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
                  [:f [:!Sd :i :f :f :e :r :e :n :t]] ; Different
                  [:g [:!Sd :i :f :f :e :r :e :n :t :spacebar :a :g :e :n :c :y]] ; Different agency
