@@ -143,6 +143,7 @@
          :rules [:m-mode
                  [:n [:km "q: new text file"]] ; Open new plain text file
                  [:e [:km "m: new spark email"]] ; New email in Spark
+                 [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
                  [:t [:!CT9]]]} ; Add to Text Expander 
         {:des "pkey (Text snippets)"
          :rules [:p-mode
@@ -172,6 +173,7 @@
                  [:s [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:d [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
+                 [:m [:!CTOSb]] ; Add selection to Current Task
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
         {:des "ikey (Dash)"
