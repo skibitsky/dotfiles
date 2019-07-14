@@ -129,11 +129,12 @@
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
                  [:i :!CTO9] ; Text Expander quick search
                  [:o :!CTO9]]} ; Text Expander quick search (again)
-        {:des "wkey (web urls and non-web addresses)"
+        {:des "wkey (text data)"
          :rules [:w-mode
                  [:d [:!CTOS0]] ; Dragonglass urls and essentials
                  [:u [:!CTOS9]] ; Personal urls
                  [:p [:!CTOS8]] ; Personal essentials
+                 [:e [:!CTOS6]] ; Current Task
                  [:r [:!CTOS7]]]} ; Different urls and essentials
         {:des "ekey (type using KM palettes)"
          :rules [:e-mode
@@ -180,6 +181,7 @@
          :rules [:i-mode
                  [:u [:alfred "search dash" "com.kapeli.dash.workflow" "unity: "]]
                  [:n [:alfred "search dash" "com.kapeli.dash.workflow" "net: "]]
+                 [:a [:alfred "search dash" "com.kapeli.dash.workflow" "as: "]]
                  [:s [:alfred "search dash" "com.kapeli.dash.workflow" "swift: "]]]}
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode
