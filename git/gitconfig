@@ -8,7 +8,7 @@
 	email = gl.skib@gmail.com
 	signingkey = D76208C11CEA85AE78D067AD75B70998C203524C
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/gleb/.gitignore_global
 	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
