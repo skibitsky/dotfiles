@@ -36,6 +36,9 @@ alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 # Jump into dotfiles
 alias cdd='cd ~/.dotfiles'
 
+# Jump into iCloud Downloads
+alias cdid='cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Downloads'
+
 # Screenfetch bug workaround https://github.com/KittyKatt/screenFetch/issues/552
 alias screenfetch='screenfetch -E'
 
