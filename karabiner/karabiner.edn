@@ -127,8 +127,8 @@
                  [:#COSj [:down_arrow]]
                  [:#COSh [:left_arrow]]
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
-                 [:i :!CTO9] ; Text Expander quick search
-                 [:o :!CTO9]]} ; Text Expander quick search (again)
+                 [:i :!CTO9] ; Typinator quick search
+                 [:o :!CTO9]]} ; Typinator quick search (again)
         {:des "wkey (text data)"
          :rules [:w-mode
                  [:d [:!CTOS0]] ; Dragonglass urls and essentials
@@ -145,7 +145,7 @@
                  [:n [:km "q: new text file"]] ; Open new plain text file
                  [:e [:km "m: new spark email"]] ; New email in Spark
                  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
-                 [:t [:!CT9]]]} ; Add to Text Expander 
+                 [:t [:!CT9]]]} ; Add to Typinator
         {:des "pkey (Text snippets)"
          :rules [:p-mode
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
