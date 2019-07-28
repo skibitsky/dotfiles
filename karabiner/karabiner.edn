@@ -149,6 +149,7 @@
         {:des "pkey (Text snippets)"
          :rules [:p-mode
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
+                 [:t [:slash :slash :spacebar :!St :!So :!Sd :!So :!Ssemicolon :spacebar]] ; // TODO: 
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
                  [:f [:!Sd :i :f :f :e :r :e :n :t]] ; Different
                  [:g [:!Sd :i :f :f :e :r :e :n :t :spacebar :a :g :e :n :c :y]] ; Different agency
