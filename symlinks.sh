@@ -6,9 +6,6 @@
 ln -sf ~/.dotfiles/git/gitignore_global  ~/.gitignore_global
 ln -sf ~/.dotfiles/git/gitconfig ~/.gitconfig
 
-# System
-ln -sf ~/.dotfiles/spelling/LocalDictionary ~/Library/Spelling/LocalDictionary
-
 # Karabiner
 ln -sf ~/.dotfiles/karabiner/karabiner.edn ~/.config/karabiner.edn
 
