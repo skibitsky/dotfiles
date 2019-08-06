@@ -1,3 +1,7 @@
+# Removing shell startup lag caused by nvm
+# https://github.com/lukechilds/zsh-nvm#lazy-loading
+export NVM_LAZY_LOAD=true
+
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 function reset_trap {
