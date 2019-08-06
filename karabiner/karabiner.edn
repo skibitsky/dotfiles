@@ -185,6 +185,7 @@
                  [:n [:alfred "search dash" "com.kapeli.dash.workflow" "net: "]]
                  [:a [:alfred "search dash" "com.kapeli.dash.workflow" "as: "]]
                  [:a [:alfred "search dash" "com.kapeli.dash.workflow" "react: "]]
+                 [:j [:alfred "search dash" "com.kapeli.dash.workflow" "js: "]]
                  [:s [:alfred "search dash" "com.kapeli.dash.workflow" "swift: "]]]}
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode

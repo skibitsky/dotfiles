@@ -1,6 +1,5 @@
 {
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-    "workbench.colorTheme": "Monokai Night",
     "workbench.tree.indent": 18,
     "editor.fontLigatures": true,
     "git.confirmSync": false,
@@ -11,5 +10,10 @@
     "files.associations": {
         "*.mvir": "rust"
     },
-    "[csharp]": {}
+    "liveshare.featureSet": "insiders",
+    "workbench.colorTheme": "Monokai Night",
+    "workbench.iconTheme": "file-icons",
+    "git.autoStash": true,
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
 }
