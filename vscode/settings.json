@@ -11,8 +11,8 @@
         "*.mvir": "rust"
     },
     "liveshare.featureSet": "insiders",
-    "workbench.colorTheme": "Monokai Night",
-    "workbench.iconTheme": "file-icons",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.iconTheme": "ayu",
     "git.autoStash": true,
     "editor.tabSize": 2,
     "explorer.confirmDelete": false,
