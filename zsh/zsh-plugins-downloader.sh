@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Downloading zsh plugins..."
+
 # zsh-nvm
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
 

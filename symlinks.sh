@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Installing Symlinks..."
+
 ## Symlinks
 
 # Git

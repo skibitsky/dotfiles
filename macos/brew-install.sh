@@ -1,7 +1,8 @@
 #!/bin/sh
 
-# Install all brew packages
+echo "Installing brew packages (aka formulae)..."
 
+# Install all brew packages
 brew install cmake
 brew install ctls
 brew install ethereum

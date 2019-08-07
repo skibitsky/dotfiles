@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Setting up macOS deafults..."
+
 COMPUTER_NAME="Gleb’s MacBook Pro"
 
 osascript -e 'tell application "System Preferences" to quit'
@@ -47,15 +49,17 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Dock
 
 # Dock: Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true; killall Dock
+defaults write com.apple.dock autohide -bool true;
 
 # Dock: Don't show recently used applications
-defaults write com.Apple.Dock show-recents -bool false; killall Dock
+defaults write com.Apple.Dock show-recents -bool false;
 
 # Dock: magnification settings
-defaults write com.apple.dock magnification -bool true; killall Dock
-defaults write com.apple.dock largesize -int 55; killall Dock
-defaults write com.apple.dock tilesize -int 41; killall Dock
+defaults write com.apple.dock magnification -bool true;
+defaults write com.apple.dock largesize -int 55;
+defaults write com.apple.dock tilesize -int 41;
 
 # Dock: Minimise to application
-defaults write com.apple.dock minimize-to-application -bool true; killall Dock
+defaults write com.apple.dock minimize-to-application -bool true; 
+
+killall Dock
