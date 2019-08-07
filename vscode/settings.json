@@ -16,4 +16,5 @@
     "git.autoStash": true,
     "editor.tabSize": 2,
     "explorer.confirmDelete": false,
+    "omnisharp.enableRoslynAnalyzers": true,
 }

@@ -170,7 +170,7 @@
                  [:o [:km "trello: open omnia"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
-                 [:e [:km "c: search text in Google"]]
+                 [:e [:km "c: search text in DuckDuckGo"]]
                  [:w [:km "c: open as URL"]]
                  [:q [:km "c: execute in iTerm"]]
                  [:s [:!Oleft_arrow :!OSright_arrow]] ; Highlight word

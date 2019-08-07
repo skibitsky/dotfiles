@@ -16,6 +16,7 @@ ln -sf ~/.dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ S
 
 # VS Code
 ln -sf ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sf ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 # Hyper
 ln -sf ~/.dotfiles/hyper/hyper.js ~/.hyper.js
