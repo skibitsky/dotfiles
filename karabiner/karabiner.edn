@@ -142,6 +142,9 @@
                  [:r [:!CTOSr]]]} ; Emojis
         {:des "mkey (make)"
          :rules [:m-mode
+         								[:a [:!CTOSa]] ; Capture Fullscreen in CleanShot
+         								[:s [:!CTOSs]] ; Capture Area in CleanShot
+         								[:d [:!CTOSd]] ; Record video in CleanShot
                  [:n [:km "q: new text file"]] ; Open new plain text file
                  [:e [:km "m: new spark email"]] ; New email in Spark
                  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
