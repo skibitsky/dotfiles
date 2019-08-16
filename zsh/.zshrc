@@ -28,24 +28,10 @@ HIST_STAMPS="yyyy-mm-dd"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(git brew z gitignore zsh-nvm git-flow zsh-autosuggestions)
+plugins=(git brew z gitignore zsh-nvm git-flow zsh-autosuggestions zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 
+source ~/.dotfiles/zsh/aliases.zsh
+
 export PATH="$HOME/.cargo/bin:$PATH"
-
-# Open in Sublime Text
-alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-
-# Jump into dotfiles
-alias cdd='cd ~/.dotfiles'
-
-# Jump into iCloud Downloads
-alias cdid='cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Downloads'
-
-# Screenfetch bug workaround https://github.com/KittyKatt/screenFetch/issues/552
-alias screenfetch='screenfetch -E'
-
-# Git Flow 
-alias gfff='git flow feature finish'
-alias gffs='git flow feature start'
