@@ -5,8 +5,7 @@
 	required = true
 [user]
 	name = skibitsky
-	email = gl.skib@gmail.com
-	signingkey = D76208C11CEA85AE78D067AD75B70998C203524C
+	email = 15127974+skibitsky@users.noreply.github.com
 [core]
 	excludesfile = /Users/gleb/.gitignore_global
 	autocrlf = input
