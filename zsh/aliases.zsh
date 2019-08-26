@@ -24,6 +24,8 @@ alias gs='git status --short'
 # Git Flow 
 alias gfff='git flow feature finish'
 alias gffs='git flow feature start'
+alias gfbs='git flow bugfix start'
+alias gfbf='git flow bugfix finish'
 
 # Navigation
 alias ..="cd .."
