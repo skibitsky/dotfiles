@@ -170,7 +170,8 @@
                  [:n [:km "trello: open Watch list"]]
                  [:b [:km "trello: open Books"]]
                  [:f [:km "trello: open Focus"]]
-                 [:o [:km "trello: open omnia"]]]}
+                 [:o [:km "trello: open omnia"]]
+                 [:h [:km "trello: open Humans"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
                  [:e [:km "c: search text in DuckDuckGo"]]
