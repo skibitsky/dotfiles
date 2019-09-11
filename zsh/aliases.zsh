@@ -29,3 +29,6 @@ alias gfbf='git flow bugfix finish'
 
 # Navigation
 alias ..="cd .."
+
+# cd into selected Finder dir
+alias ppath='cd "$(osascript <<<"tell application \"Finder\" to get the POSIX path of (the insertion location as text)")"'

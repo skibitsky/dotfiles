@@ -105,7 +105,7 @@
                  [:e [:km "open: Email"]]
                  [:m [:km "open: Spotify"]]
                  [:w [:km "open: Things"]]
-                 [:j [:km "open: iTerm2"]]
+                 [:j [:!CTOS5]] ; Open iTerm2
                  [:k [:km "open: KM"]]
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
