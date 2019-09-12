@@ -126,6 +126,8 @@
                  [:#COSk [:up_arrow]]
                  [:#COSj [:down_arrow]]
                  [:#COSh [:left_arrow]]
+                 [:f :!CTOSf] ; Fantastical Mini Window
+                 [:m :!CTOm] ; MindNode Quick Entry
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
                  [:i :!CTO9] ; Typinator quick search
                  [:o :!CTO9]]} ; Typinator quick search (again)
