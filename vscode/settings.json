@@ -17,4 +17,7 @@
     "explorer.confirmDelete": false,
     "omnisharp.enableRoslynAnalyzers": true,
     "workbench.iconTheme": "file-icons",
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.tabCompletion": "on",
 }
