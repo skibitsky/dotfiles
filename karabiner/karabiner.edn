@@ -105,7 +105,7 @@
                  [:e [:km "open: Email"]]
                  [:m [:km "open: Spotify"]]
                  [:w [:km "open: Things"]]
-                 [:j [:!CTOS5]] ; Open iTerm2
+                 [:j [:km "open: iTerm"]]
                  [:k [:km "open: KM"]]
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
@@ -243,7 +243,7 @@
                  [:d [:!CTOS1]] ; Dash
                  [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
-                 [:j [:alfred "search bear" "com.chrisbro.bear"]]
+                 [:j [:alfred "search bear" "com.drgrib.bear"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
                  [:m [:alfred "search mindnode" "nikivi.search.content"]]
