@@ -20,4 +20,5 @@
     "git.enableSmartCommit": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.tabCompletion": "on",
+    "explorer.confirmDragAndDrop": false,
 }
