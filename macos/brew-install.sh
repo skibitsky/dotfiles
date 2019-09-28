@@ -24,3 +24,4 @@ brew install duti
 brew install gnu-getopt
 brew install git-flow-avh
 brew install youtube-dl
+brew install hub
