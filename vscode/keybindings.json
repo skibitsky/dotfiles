@@ -14,5 +14,4 @@
     "command": "-workbench.action.reloadWindow",
     "when": "isDevelopment"
   },
-
-  
+]

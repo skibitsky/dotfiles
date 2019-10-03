@@ -243,6 +243,7 @@
                  [:d [:!CTOS1]] ; Dash
                  [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
+                 [:t [:alfred "start timing task" "com.skibitsky.alfred-timing"]]
                  [:j [:alfred "search bear" "com.drgrib.bear"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
