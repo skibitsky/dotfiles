@@ -3,5 +3,16 @@
   {
     "key": "shift+cmd+r",
     "command": "workbench.action.tasks.runTask"
-  }
-]
+  },
+  {
+    "key": "cmd+r",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-workbench.action.reloadWindow",
+    "when": "isDevelopment"
+  },
+
+  
