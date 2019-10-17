@@ -133,7 +133,7 @@
                  [:o :!CTO9]]} ; Typinator quick search (again)
         {:des "wkey (text data)"
          :rules [:w-mode
-                 [:d [:!CTOS0]] ; Dragonglass urls and essentials
+                 ;[:d [:!CTOS0]] ; Dragonglass urls and essentials
                  [:u [:!CTOS9]] ; Personal urls
                  [:p [:!CTOS8]] ; Personal essentials
                  [:e [:!CTOS6]] ; Current Task
@@ -240,7 +240,6 @@
                  [:0 :!T0]]}
         {:des "akey (Alfred)"
          :rules [:a-mode
-                 [:d [:!CTOS1]] ; Dash
                  [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:t [:alfred "start timing task" "com.skibitsky.alfred-timing"]]
