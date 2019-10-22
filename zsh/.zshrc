@@ -28,7 +28,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(git brew z gitignore zsh-nvm git-flow zsh-autosuggestions zsh-completions)
+plugins=(git brew z gitignore zsh-nvm git-flow-avh zsh-autosuggestions zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 
