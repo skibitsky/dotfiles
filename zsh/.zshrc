@@ -33,5 +33,6 @@ plugins=(git brew z gitignore zsh-nvm git-flow-avh zsh-autosuggestions zsh-compl
 source $ZSH/oh-my-zsh.sh
 
 source ~/.dotfiles/zsh/aliases.zsh
+source ~/.dotfiles/zsh/functions/git-functions.zsh
 
 export PATH="$HOME/.cargo/bin:$PATH"

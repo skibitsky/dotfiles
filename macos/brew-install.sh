@@ -6,7 +6,10 @@ echo "Installing brew packages (aka formulae)..."
 brew install cmake
 brew install ctls
 brew install gdbm
+
 brew install goku
+brew services start goku # Start goku service
+
 brew install hugo
 brew install joker
 brew install libressl
