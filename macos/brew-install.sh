@@ -13,7 +13,6 @@ brew services start goku # Start goku service
 brew install hugo
 brew install joker
 brew install libressl
-brew install openssl
 brew install pcg-config
 brew install python
 brew install readline
@@ -28,5 +27,5 @@ brew install gnu-getopt
 brew install git-flow-avh
 brew install youtube-dl
 brew install hub
-brew install .keepme
 brew install tree
+brew install openssl

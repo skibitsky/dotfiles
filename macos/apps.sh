@@ -4,13 +4,13 @@ echo "Installing apps..."
 
 # Install Brew
 BREW_VAR=$(which brew)
-if [ $BREW_VAR != "/usr/local/bin/brew" ]
+if [ "$BREW_VAR" != "/usr/local/bin/brew" ]
 then
 	echo "Brew is missing. Installing brew..."
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # Install Brew packages
-sh brew-install.sh
+sh ./macos/brew-install.sh
 
 # Install AppStore apps using mas !TODO
