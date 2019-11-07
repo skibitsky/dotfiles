@@ -3,6 +3,7 @@
 export NVM_LAZY_LOAD=true
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$HOME/.cargo/bin:$PATH"
 
 function reset_trap {
   # Hacky hack because of <function/script-that-sets-trap-INT>
@@ -34,5 +35,3 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.dotfiles/zsh/aliases.zsh
 source ~/.dotfiles/zsh/functions/git-functions.zsh
-
-export PATH="$HOME/.cargo/bin:$PATH"
