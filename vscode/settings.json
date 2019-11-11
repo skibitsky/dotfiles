@@ -13,7 +13,6 @@
     "liveshare.featureSet": "insiders",
     "workbench.colorTheme": "Ayu Mirage Bordered",
     "git.autoStash": true,
-    "editor.tabSize": 2,
     "explorer.confirmDelete": false,
     "omnisharp.enableRoslynAnalyzers": true,
     "workbench.iconTheme": "file-icons",
