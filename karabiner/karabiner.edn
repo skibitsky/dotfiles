@@ -249,7 +249,7 @@
                  [:m [:alfred "search mindnode" "nikivi.search.content"]]
                  [:n [:alfred "search numbers" "com.skibitsky.filessearch"]]
                  [:i [:alfred "search websites" "nikivi.web.searches"]]
-                 [:open_bracket [:alfred "launch tldr" "com.chedanji.tldr2.1"]]
+                 ;[:open_bracket [:alfred "launch tldr" "com.chedanji.tldr2.1"]]
                  [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
                  [:l [:alfred "search slack" "com.yannickglt.alfred2.slack"]]
                  [:o [:alfred "iterm" "net.isometry.alfred.tty"]]

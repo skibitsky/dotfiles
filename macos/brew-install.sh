@@ -29,3 +29,5 @@ brew install youtube-dl
 brew install hub
 brew install tree
 brew install openssl
+brew install libzip
+brew install tldr
