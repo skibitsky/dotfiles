@@ -193,6 +193,7 @@
                  [:r [:alfred "search dash" "com.kapeli.dash.workflow" "react: "]]
                  [:j [:alfred "search dash" "com.kapeli.dash.workflow" "js: "]]
                  [:w [:alfred "search dash" "com.kapeli.dash.workflow" "web: "]]
+                 [:g [:alfred "search dash" "com.kapeli.dash.workflow" "go: "]]
                  [:s [:alfred "search dash" "com.kapeli.dash.workflow" "swift: "]]]}
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode
