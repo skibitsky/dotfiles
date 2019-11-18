@@ -7,7 +7,7 @@
 	name = skibitsky
 	email = 15127974+skibitsky@users.noreply.github.com
 [core]
-	excludesfile = /Users/gleb/.gitignore_global
+	excludesfile = ~/.dotfiles/.gitignore_global
 	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
