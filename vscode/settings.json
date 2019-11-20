@@ -21,4 +21,5 @@
     "editor.tabCompletion": "on",
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 0,
+    "go.formatTool": "goimports",
 }
