@@ -123,9 +123,9 @@
         {:des "skey (essential actions)"
          :rules [:s-mode
                  [:#COSl [:right_arrow]]
-                 [:#COSk [:up_arrow]]
+                 [:#COSk [:left_arrow]]
                  [:#COSj [:down_arrow]]
-                 [:#COSh [:left_arrow]]
+                 [:#COSh [:up_arrow]]
                  [:f :!CTOSf] ; Fantastical Mini Window
                  [:m :!CTOm] ; MindNode Quick Entry
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
@@ -167,13 +167,13 @@
                  [:#COSh [:left_arrow]]]}
         {:des "zkey (Trello)"
          :rules [:z-mode
-                 [:i [:km "trello: open Ideas"]]
+                 [:i [:km "trello: open Setup Ideas"]]
                  [:l [:km "trello: open Learn"]]
                  [:n [:km "trello: open Watch list"]]
                  [:b [:km "trello: open Books"]]
                  [:f [:km "trello: open Focus"]]
-                 [:o [:km "trello: open omnia"]]
-                 [:h [:km "trello: open Humans"]]]}
+                 [:g [:km "trello: open SSG"]]
+                 [:j [:km "trello: open Inventions"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
                  [:e [:km "c: search text in DuckDuckGo"]]

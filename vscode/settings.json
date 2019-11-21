@@ -22,4 +22,6 @@
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 0,
     "go.formatTool": "goimports",
+    "go.autocompleteUnimportedPackages": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
 }
