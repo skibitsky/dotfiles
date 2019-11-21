@@ -24,4 +24,5 @@
     "go.formatTool": "goimports",
     "go.autocompleteUnimportedPackages": true,
     "go.useCodeSnippetsOnFunctionSuggest": true,
+    "diffEditor.ignoreTrimWhitespace": false,
 }
