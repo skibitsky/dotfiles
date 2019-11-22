@@ -10,7 +10,8 @@ then
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Install Brew packages
-sh ./macos/brew-install.sh
+# Install Brew packages and apps, and AppStore apps
+brew bundle --file="~/.dotfiles/macos/Brewfile"
 
-# Install AppStore apps using mas !TODO
+# Start Brew Services
+brew services start goku

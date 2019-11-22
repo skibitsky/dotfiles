@@ -109,6 +109,7 @@
                  [:k [:km "open: KM"]]
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
+                 [:p [:km "open: Pixave"]]
                  [:d [:km "open: Downloads in Finder"]]
                  [:q [:km "open: Slack"]]
                  [:c [:km "open: Timing"]]
@@ -120,24 +121,28 @@
                  [:3 [:km "open: Photos"]]
                  [:4 [:km "open: Unity Hub"]]
                  [:period [:km "open: dotfiles in Finder"]]]}
-        {:des "skey (essential actions)"
+        {:des "skey (actions and arrows)"
          :rules [:s-mode
-                 [:#COSsemicolon [:right_arrow]]
-                 [:#COSl [:left_arrow]]
-                 [:#COSk [:down_arrow]]
-                 [:#COSj [:up_arrow]]
+                 [:##semicolon [:right_arrow]]
+                 [:##l [:left_arrow]]
+                 [:##k [:down_arrow]]
+                 [:##j [:up_arrow]]
                  [:n :!CTOSf] ; Fantastical Mini Window
                  [:m :!CTOm] ; MindNode Quick Entry
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
                  [:d :delete_or_backspace]
                  [:f :return_or_enter]
                  [:spacebar :!Cz] ; ⌘ + Z
-                 [:p :!CSreturn_or_enter] ; ⌘ + ⇧ + Z
+                 [:open_bracket :!CSreturn_or_enter] ; ⌘ + ⇧ + Z
+                 [:p :!Creturn_or_enter] ; ⌘ + Z
                  [:i :!CTO9] ; Typinator quick search
                  [:o :!CTO9]]} ; Typinator quick search (again)
-        {:des "wkey (text data)"
+        {:des "wkey (text data and ⌥ + arrows)"
          :rules [:w-mode
-                 ;[:d [:!CTOS0]] ; Dragonglass urls and essentials
+                 [:##semicolon [:!Oright_arrow]]
+                 [:##l [:!Oleft_arrow]]
+                 [:##k [:!Odown_arrow]]
+                 [:##j [:!Oup_arrow]]
                  [:u [:!CTOS9]] ; Personal urls
                  [:p [:!CTOS8]] ; Personal essentials
                  [:e [:!CTOS6]] ; Current Task
@@ -158,10 +163,9 @@
         {:des "pkey (Text snippets)"
          :rules [:p-mode
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
-                 [:t [:slash :slash :spacebar :!St :!So :!Sd :!So :!Ssemicolon :spacebar]] ; // TODO: 
+                 [:t [:slash :slash :spacebar :!St :!So :!Sd :!So :!Ssemicolon :spacebar]] ; // TODO: ^
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
-                 [:f [:!Sd :i :f :f :e :r :e :n :t]] ; Different
-                 [:g [:!Sd :i :f :f :e :r :e :n :t :spacebar :a :g :e :n :c :y]] ; Different agency
+                 [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
         {:des "dkey (arrows)"
          :rules [:d-mode
