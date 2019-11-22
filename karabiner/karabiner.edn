@@ -40,12 +40,12 @@
              ;:right_command-mode {:key :right_command }
              :spacebar-mode {:key :spacebar}},
  :main [
-              {:des "Swap : with ; in English layout"
-               :rules [[:#Psemicolon :!Ssemicolon :en]
-                 [:!Ssemicolon :semicolon :en]]}
-              {:des "Swap : with ; in Lithuanian layout"
-               :rules [[:#Psemicolon :!Ssemicolon :lt]
-                 [:!Ssemicolon :semicolon :lt]]}
+              ; {:des "Swap : with ; in English layout"
+              ;  :rules [[:semicolon :!Ssemicolon :en]
+              ;    [:!Ssemicolon :semicolon :en]]}
+              ; {:des "Swap : with ; in Lithuanian layout"
+              ;  :rules [[:#Psemicolon :!Ssemicolon :lt]
+              ;    [:!Ssemicolon :semicolon :lt]]}
               {:des "§ to ~"
                :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
               {:des "Right ⌘ to ⌘ + ⇥"
@@ -122,13 +122,17 @@
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (essential actions)"
          :rules [:s-mode
-                 [:#COSl [:right_arrow]]
-                 [:#COSk [:left_arrow]]
-                 [:#COSj [:down_arrow]]
-                 [:#COSh [:up_arrow]]
-                 [:f :!CTOSf] ; Fantastical Mini Window
+                 [:#COSsemicolon [:right_arrow]]
+                 [:#COSl [:left_arrow]]
+                 [:#COSk [:down_arrow]]
+                 [:#COSj [:up_arrow]]
+                 [:n :!CTOSf] ; Fantastical Mini Window
                  [:m :!CTOm] ; MindNode Quick Entry
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
+                 [:d :delete_or_backspace]
+                 [:f :return_or_enter]
+                 [:spacebar :!Cz] ; ⌘ + Z
+                 [:p :!CSreturn_or_enter] ; ⌘ + ⇧ + Z
                  [:i :!CTO9] ; Typinator quick search
                  [:o :!CTO9]]} ; Typinator quick search (again)
         {:des "wkey (text data)"
