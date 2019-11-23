@@ -14,4 +14,4 @@ fi
 brew bundle --file="~/.dotfiles/macos/Brewfile"
 
 # Start Brew Services
-brew services start goku
+# brew services start goku
