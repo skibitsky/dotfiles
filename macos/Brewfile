@@ -27,7 +27,6 @@ brew "screenfetch"
 brew "tldr"
 brew "tree"
 brew "youtube-dl"
-cask "gswitch"
 mas "1Password 7", id: 1333542190
 mas "Bear", id: 1091189122
 mas "Cascadea", id: 1432182561
