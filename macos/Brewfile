@@ -9,6 +9,7 @@ brew "duti"
 brew "gdbm"
 brew "gnu-getopt"
 brew "git-flow-avh"
+brew "go"
 brew "joker"
 brew "watchexec"
 brew "goku", restart_service: true
