@@ -32,3 +32,6 @@ alias ..="cd .."
 
 # cd into selected Finder dir
 alias ppath='cd "$(osascript <<<"tell application \"Finder\" to get the POSIX path of (the insertion location as text)")"'
+
+# Docker
+alias dk='docker'
