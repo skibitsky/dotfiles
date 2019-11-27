@@ -13,25 +13,58 @@ function reset_trap {
 autoload -Uz add-zsh-hook
 add-zsh-hook preexec reset_trap
 
-# Path to oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-
-ZSH_THEME="robbyrussell"
-
-DISABLE_UPDATE_PROMPT="true"
-
-export UPDATE_ZSH_DAYS=5
-
-ENABLE_CORRECTION="true"
-
-HIST_STAMPS="yyyy-mm-dd"
+# ZSH_THEME="robbyrussell"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(git brew z gitignore zsh-nvm git-flow-avh zsh-autosuggestions zsh-completions docker docker-compose)
+# Zplug
+export ZPLUG_HOME=/usr/local/opt/zplug
+source $ZPLUG_HOME/init.zsh
 
-source $ZSH/oh-my-zsh.sh
+zplug "zsh-users/zsh-history-substring-search"
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "greymd/docker-zsh-completion"
+
+# oh-my-zsh plugins 
+zplug "plugins/git",	from:oh-my-zsh
+zplug "plugins/github", from:oh-my-zsh
+zplug "plugins/z", from:oh-my-zsh
+zplug "plugins/gitignore", from:oh-my-zsh
+zplug "plugins/zsh-nvm", from:oh-my-zsh
+
+# Note: To specify the order in which packages should be loaded, use the defer
+#       tag described in the next section
+
+# Set the priority when loading
+# e.g., zsh-syntax-highlighting must be loaded
+# after executing compinit command and sourcing other plugins
+# (If the defer tag is given 2 or above, run after compinit command)
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
+# Theme
+zplug 'dracula/zsh', as:theme
+
+# Install zplug plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+# Then, source plugins and add commands to $PATH
+# Print all the rubbish to null, not terminal
+zplug load --verbose > /dev/null
+
+# zsh-completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+# The Fuck
+eval "$(thefuck --alias)"
+
+# plugins=(git brew z gitignore zsh-nvm git-flow-avh zsh-autosuggestions zsh-completions docker docker-compose)
 
 source ~/.dotfiles/zsh/aliases.zsh
 source ~/.dotfiles/zsh/functions/git-functions.zsh

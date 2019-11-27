@@ -13,5 +13,5 @@ fi
 # Install Brew packages and apps, and AppStore apps
 brew bundle --file="~/.dotfiles/macos/Brewfile"
 
-# Start Brew Services
-# brew services start goku
+# Make brew zsh default shell
+sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
