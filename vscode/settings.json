@@ -25,4 +25,7 @@
     "go.autocompleteUnimportedPackages": true,
     "go.useCodeSnippetsOnFunctionSuggest": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "githubPullRequests.telemetry.enabled": false,
 }
