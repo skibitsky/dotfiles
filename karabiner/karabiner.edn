@@ -196,14 +196,15 @@
                  [:u [:!CTOSm]]]} ; Selected text actions
         {:des "ikey (Dash)"
          :rules [:i-mode
-                 [:u [:alfred "search dash" "com.kapeli.dash.workflow" "unity: "]]
-                 [:n [:alfred "search dash" "com.kapeli.dash.workflow" "net: "]]
-                 [:a [:alfred "search dash" "com.kapeli.dash.workflow" "as: "]]
-                 [:r [:alfred "search dash" "com.kapeli.dash.workflow" "react: "]]
-                 [:j [:alfred "search dash" "com.kapeli.dash.workflow" "js: "]]
-                 [:w [:alfred "search dash" "com.kapeli.dash.workflow" "web: "]]
-                 [:g [:alfred "search dash" "com.kapeli.dash.workflow" "go: "]]
-                 [:s [:alfred "search dash" "com.kapeli.dash.workflow" "swift: "]]]}
+                 [:u [:alfred "search dash" "com.kapeli.dash.workflow" "!unity: "]]
+                 [:n [:alfred "search dash" "com.kapeli.dash.workflow" "!net: "]]
+                 [:a [:alfred "search dash" "com.kapeli.dash.workflow" "!as: "]]
+                 [:r [:alfred "search dash" "com.kapeli.dash.workflow" "!react: "]]
+                 [:j [:alfred "search dash" "com.kapeli.dash.workflow" "!js: "]]
+                 [:w [:alfred "search dash" "com.kapeli.dash.workflow" "!web: "]]
+                 [:g [:alfred "search dash" "com.kapeli.dash.workflow" "!go: "]]
+                 [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
+                 [:s [:alfred "search dash" "com.kapeli.dash.workflow" "!swift: "]]]}
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode
                  [:open_bracket :!Topen_bracket]
