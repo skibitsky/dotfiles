@@ -35,3 +35,8 @@ alias ppath='cd "$(osascript <<<"tell application \"Finder\" to get the POSIX pa
 
 # Docker
 alias dk='docker'
+
+# exa
+alias ls='exa -F'
+alias ll='exa --long --header --git -F'
+alias tree='exa --tree'

@@ -264,5 +264,7 @@
                  [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
                  [:l [:alfred "search slack" "com.yannickglt.alfred2.slack"]]
                  [:o [:alfred "iterm" "net.isometry.alfred.tty"]]
+                 [:h [:alfred "search docker hub" "com.ryanparman.docker-hub"]]
+                 [:d [:alfred "docker" "com.alfredapp.docker"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
