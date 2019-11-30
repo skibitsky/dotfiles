@@ -5,7 +5,7 @@
 	required = true
 [user]
 	name = skibitsky
-	email = 15127974+skibitsky@users.noreply.github.com
+	email = gleb@skibitsky.com
 [core]
 	excludesfile = ~/.dotfiles/.gitignore_global
 	autocrlf = input
