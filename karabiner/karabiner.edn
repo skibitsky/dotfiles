@@ -171,7 +171,7 @@
         {:des "dkey (symbols)"
          :rules [:d-mode
          								[:w [:tab]] ; tab
-                 [:p [:equal_sign :spacebar]]]} ; =
+                 [:o [:equal_sign :spacebar]]]} ; =
         {:des "zkey (Trello)"
          :rules [:z-mode
                  [:i [:km "trello: open Setup Ideas"]]
