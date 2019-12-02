@@ -153,10 +153,10 @@
                  [:r [:!CTOSr]]]} ; Emojis
         {:des "mkey (make)"
          :rules [:m-mode
-         								[:a [:!CTOSa]] ; Connetct/Disconnect AirPods using ToothFairy app
-         								[:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
-         								[:x [:!CTOSx]] ; Capture Area in CleanShot
-         								[:c [:!CTOSc]] ; Record video in CleanShot
+                 [:a [:!CTOSa]] ; Connetct/Disconnect AirPods using ToothFairy app
+                 [:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
+                 [:x [:!CTOSx]] ; Capture Area in CleanShot
+                 [:c [:!CTOSc]] ; Record video in CleanShot
                  [:n [:km "q: new text file"]] ; Open new plain text file
                  [:e [:km "m: new spark email"]] ; New email in Spark
                  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
@@ -170,7 +170,7 @@
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
         {:des "dkey (symbols)"
          :rules [:d-mode
-         								[:w [:tab]] ; tab
+                 [:w [:tab]] ; tab
                  [:o [:equal_sign :spacebar]]]} ; =
         {:des "zkey (Trello)"
          :rules [:z-mode
