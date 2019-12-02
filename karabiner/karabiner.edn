@@ -168,12 +168,10 @@
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
-        {:des "dkey (arrows)"
+        {:des "dkey (symbols)"
          :rules [:d-mode
-                 [:#COSl [:right_arrow]]
-                 [:#COSk [:up_arrow]]
-                 [:#COSj [:down_arrow]]
-                 [:#COSh [:left_arrow]]]}
+         								[:w [:tab]] ; tab
+                 [:p [:equal_sign :spacebar]]]} ; =
         {:des "zkey (Trello)"
          :rules [:z-mode
                  [:i [:km "trello: open Setup Ideas"]]
