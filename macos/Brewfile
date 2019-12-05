@@ -35,3 +35,39 @@ brew "zplug"
 brew "zsh"
 cask "font-hack-nerd-font"
 cask "openconnect-gui"
+mas "1Password 7", id: 1333542190
+mas "Bear", id: 1091189122
+mas "Cascadea", id: 1432182561
+mas "Coin Tick", id: 1141688067
+mas "Connecto VPN", id: 1446554408
+mas "Dark Reader for Safari", id: 1438243180
+mas "Day One", id: 1055511498
+mas "Decompressor", id: 1033480833
+mas "DevCleaner", id: 1388020431
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
+mas "Gifski", id: 1351639930
+mas "Grammarly for Safari", id: 1462114288
+mas "Guildlings", id: 1462676746
+mas "iMovie", id: 408981434
+mas "Inmost", id: 1465235605
+mas "Instapaper", id: 1481302432
+mas "Keynote", id: 409183694
+mas "Klib", id: 1196268448
+mas "Negative", id: 1378123825
+mas "Numbers", id: 409203825
+mas "Outlanders", id: 1468558187
+mas "Pages", id: 409201541
+mas "Pilgrims", id: 1466037080
+mas "Pixave", id: 924891282
+mas "SafariMarkdownLinker", id: 1289119450
+mas "Select Like A Boss For Safari", id: 1437310115
+mas "Shazam", id: 897118787
+mas "Slack", id: 803453959
+mas "Spark", id: 1176895641
+mas "Speedtest", id: 1153157709
+mas "Termius", id: 1176074088
+mas "Tokenary", id: 1375542355
+mas "Trello", id: 1278508951
+mas "Tweetbot", id: 1384080005
+mas "Wipr", id: 1320666476
+mas "Xcode", id: 497799835
