@@ -134,7 +134,7 @@
                  [:f :return_or_enter]
                  [:spacebar :!Cz] ; ⌘ + Z
                  [:open_bracket :!CSreturn_or_enter] ; ⌘ + ⇧ + Z
-                 [:p :!Creturn_or_enter] ; ⌘ + Z
+                 [:p :!Creturn_or_enter] ; ⌘ + ↩
                  [:i :!CTO9] ; Typinator quick search
                  [:o :!CTO9]]} ; Typinator quick search (again)
         {:des "wkey (text data and ⌥ + arrows)"
