@@ -68,3 +68,6 @@ eval "$(thefuck --alias)"
 
 source ~/.dotfiles/zsh/aliases.zsh
 source ~/.dotfiles/zsh/functions/git-functions.zsh
+
+# This loads NVM
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh 
