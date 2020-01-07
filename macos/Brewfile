@@ -33,6 +33,7 @@ brew "wget"
 brew "youtube-dl"
 brew "zplug"
 brew "zsh"
+cask "android-platform-tools"
 cask "font-hack-nerd-font"
 cask "openconnect-gui"
 mas "1Password 7", id: 1333542190
