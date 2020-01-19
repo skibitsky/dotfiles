@@ -179,7 +179,7 @@
                  [:l [:km "trello: open Learn"]]
                  [:n [:km "trello: open Watch list"]]
                  [:b [:km "trello: open Books"]]
-                 [:f [:km "trello: open Focus"]]
+                 [:r [:km "trello: open Rules"]]
                  [:g [:km "trello: open SSG"]]
                  [:j [:km "trello: open Inventions"]]]}
         {:des "ckey (text)"
