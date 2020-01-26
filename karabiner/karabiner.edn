@@ -36,6 +36,7 @@
              :v-mode {:key :v}
              :b-mode {:key :b}
              :n-mode {:key :n}
+             :l-mode {:key :l}
              :m-mode {:key :m}
              ;:right_command-mode {:key :right_command }
              :spacebar-mode {:key :spacebar}},
@@ -152,6 +153,11 @@
          :rules [:e-mode
                  [:u [:!CTOSu]] ; Unicode symbols
                  [:r [:!CTOSr]]]} ; Emojis
+								{:des "lkey (quick capture)"
+         :rules [:l-mode
+                 [:d [:!CTOd]] ; New entry in Drafts
+                 [:f [:!CTOf]] ; New entry in Fantastical
+                 [:a [:!CTOa]]]} ; New entry in DayOne
         {:des "mkey (make)"
          :rules [:m-mode
                  [:a [:!CTOSa]] ; Connetct/Disconnect AirPods using ToothFairy app
