@@ -99,7 +99,7 @@
                  [:0 :!TO0]]}
         {:des "o-mode (open)"
          :rules [:o-mode
-         								[:x [:km "open: Tower"]]
+                 [:x [:km "open: Tower"]]
                  [:t [:km "open: Telegram"]]
                  [:b [:km "open: Bear"]]
                  [:s [:km "open: Safari"]]
@@ -154,7 +154,7 @@
          :rules [:e-mode
                  [:u [:!CTOSu]] ; Unicode symbols
                  [:r [:!CTOSr]]]} ; Emojis
-								{:des "lkey (quick capture)"
+        {:des "lkey (quick capture)"
          :rules [:l-mode
                  [:d [:!CTOd]] ; New entry in Drafts
                  [:f [:!CTOf]] ; New entry in Fantastical
