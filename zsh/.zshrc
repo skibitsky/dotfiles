@@ -4,6 +4,10 @@ export NVM_LAZY_LOAD=true
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="$HOME/.cargo/bin:$PATH"
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
 
 function reset_trap {
   # Hacky hack because of <function/script-that-sets-trap-INT>

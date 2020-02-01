@@ -99,6 +99,7 @@
                  [:0 :!TO0]]}
         {:des "o-mode (open)"
          :rules [:o-mode
+         								[:x [:km "open: Tower"]]
                  [:t [:km "open: Telegram"]]
                  [:b [:km "open: Bear"]]
                  [:s [:km "open: Safari"]]
@@ -189,6 +190,19 @@
                  [:r [:km "trello: open Rules"]]
                  [:g [:km "trello: open SSG"]]
                  [:j [:km "trello: open Inventions"]]]}
+        {:des "xkey (Spotify)"
+         :rules [:x-mode
+                 [:m [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
+                 ; [:m [:alfred "show_alfred_playlist" "com.vdesabou.spotify.mini.player"]]
+                 [:c [:alfred "show_current_track" "com.vdesabou.spotify.mini.player"]]
+                 [:s [:alfred "share" "com.vdesabou.spotify.mini.player"]]
+                 [:semicolon [:alfred "next" "com.vdesabou.spotify.mini.player"]]
+                 [:m [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
+                 [:p [:alfred "show_playlists" "com.vdesabou.spotify.mini.player"]]
+                 [:equal_sign [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
+                 [:hyphen [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
+                 [:l [:alfred "song_radio" "com.vdesabou.spotify.mini.player"]]
+                 [:u [:alfred "artist_radio" "com.vdesabou.spotify.mini.player"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
                  [:e [:km "c: search text in DuckDuckGo"]]
@@ -232,7 +246,7 @@
                  [:j :!Tj]
                  [:k :!Tk]
                  [:l :!Tl]
-                 [:m :!Tm]
+                 [:m [:km "Open App Macro Group"]]
                  [:n :!Tn]
                  [:o :!To]
                  [:p :!Tp]
@@ -272,5 +286,6 @@
                  [:o [:alfred "iterm" "net.isometry.alfred.tty"]]
                  [:h [:alfred "search docker hub" "com.ryanparman.docker-hub"]]
                  [:d [:alfred "docker" "com.alfredapp.docker"]]
+                 [:u [:alfred "search menu bar" "com.tedwise.menubarsearch"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
