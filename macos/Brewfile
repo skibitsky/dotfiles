@@ -21,6 +21,7 @@ brew "hugo"
 brew "libressl"
 brew "libzip"
 brew "mas"
+brew "modd"
 brew "protobuf"
 brew "readline", link: true
 brew "sqlite"
