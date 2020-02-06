@@ -8,7 +8,9 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontSize": 13,
     "files.associations": {
-        "*.mvir": "rust"
+        "*.mvir": "rust",
+        "*.meta": "yaml",
+        "*.mat": "yaml"
     },
     "liveshare.featureSet": "insiders",
     "workbench.colorTheme": "Ayu Mirage Bordered",

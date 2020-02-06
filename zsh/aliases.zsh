@@ -3,6 +3,9 @@
 # General
 alias f='open .'
 
+# VS Code
+alias c='code .'
+
 # Brew
 alias bi='brew install'
 
