@@ -40,10 +40,13 @@ plugins=(
 	zsh-completions 
 	docker 
 	docker-compose
+	zsh-syntax-highlighting
 )
 
+autoload -U compinit && compinit
+
 # The Fuck
-eval $(thefuck --alias FUCK)
+eval $(thefuck --alias)
 
 source $ZSH/oh-my-zsh.sh
 
