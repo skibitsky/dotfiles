@@ -192,7 +192,7 @@
                  [:j [:km "trello: open Inventions"]]]}
         {:des "xkey (Spotify)"
          :rules [:x-mode
-                 [:m [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
+                 [:j [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
                  ; [:m [:alfred "show_alfred_playlist" "com.vdesabou.spotify.mini.player"]]
                  [:c [:alfred "show_current_track" "com.vdesabou.spotify.mini.player"]]
                  [:s [:alfred "share" "com.vdesabou.spotify.mini.player"]]
