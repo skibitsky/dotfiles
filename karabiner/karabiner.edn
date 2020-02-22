@@ -125,10 +125,10 @@
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (actions and arrows)"
          :rules [:s-mode
-                 [:##semicolon [:right_arrow]]
-                 [:##l [:left_arrow]]
-                 [:##k [:down_arrow]]
-                 [:##j [:up_arrow]]
+                 [:##l [:right_arrow]]
+                 [:##h [:left_arrow]]
+                 [:##k [:up_arrow]]
+                 [:##j [:down_arrow]]
                  [:n :!CTOSf] ; Fantastical Mini Window
                  [:m :!CTOm] ; MindNode Quick Entry
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
