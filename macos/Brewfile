@@ -15,7 +15,7 @@ brew "openssl@1.1"
 brew "go"
 brew "joker"
 brew "watchexec"
-brew "goku"
+brew "goku", restart_service: true
 brew "hub"
 brew "hugo"
 brew "libressl"
