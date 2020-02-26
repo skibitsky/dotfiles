@@ -20,8 +20,10 @@
 	template = ~/.stCommitMsg
 	gpgsign = false
 [github]
-    user = skibitsky
+   user = skibitsky
 [alias]
-    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+	stash-staged = "!zsh -c \"git stash --keep-index; git stash push -m \"staged\" --keep-index; git stash pop stash@{1}\""
+	move-staged = "!zsh -c \"git stash-staged; git commit -m \"temp\"; git stash; git reset --hard HEAD^; git stash pop\""
 [gpg]
 	program = /usr/local/MacGPG2/bin/gpg2
