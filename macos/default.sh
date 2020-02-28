@@ -36,6 +36,8 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # Follow the keyboard focus while zoomed in
 defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
+# Disable accented chars on press and hold 
+defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Finder
 
