@@ -31,4 +31,7 @@ ln -sf ~/.dotfiles/hyper/hyper.js ~/.hyper.js
 ln -sf ~/.dotfiles/bash/.bash_profile ~/.bash_profile
 
 # zsh
-ln -sf ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/.dotfiles/yabai/.zshrc ~/.zshrc
+
+# yabai
+ln -sf ~/.dotfiles/yabai/.yabairc ~/.yabairc
