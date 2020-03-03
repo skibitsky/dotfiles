@@ -165,7 +165,6 @@
                  [:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
                  [:x [:!CTOSx]] ; Capture Area in CleanShot
                  [:c [:!CTOSc]] ; Record video in CleanShot
-                 ; [:n [:km "q: new text file"]] ; Open new plain text file
                  [:e [:km "m: new spark email"]] ; New email in Spark
                  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
                  [:t [:!CT9]]]} ; Add to Typinator
