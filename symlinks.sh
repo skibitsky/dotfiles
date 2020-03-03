@@ -34,4 +34,4 @@ ln -sf ~/.dotfiles/bash/.bash_profile ~/.bash_profile
 ln -sf ~/.dotfiles/yabai/.zshrc ~/.zshrc
 
 # yabai
-ln -sf ~/.dotfiles/yabai/.yabairc ~/.yabairc
+ln -sf ~/.dotfiles/yabai/yabairc ~/.yabairc

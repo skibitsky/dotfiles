@@ -180,6 +180,7 @@
         {:des "dkey (symbols)"
          :rules [:d-mode
                  [:w [:tab]] ; tab
+                 [:i [:!S1 :equal_sign :spacebar]] ; != 
                  [:o [:equal_sign :spacebar]]]} ; =
         {:des "zkey (Trello)"
          :rules [:z-mode
@@ -196,13 +197,15 @@
                  ; [:m [:alfred "show_alfred_playlist" "com.vdesabou.spotify.mini.player"]]
                  [:c [:alfred "show_current_track" "com.vdesabou.spotify.mini.player"]]
                  [:s [:alfred "share" "com.vdesabou.spotify.mini.player"]]
+                 [:u [:alfred "shuffle" "com.vdesabou.spotify.mini.player"]]
+                 [:o [:alfred "search_online" "com.vdesabou.spotify.mini.player"]]
                  [:n [:alfred "next" "com.vdesabou.spotify.mini.player"]]
                  [:m [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
                  [:p [:alfred "show_playlists" "com.vdesabou.spotify.mini.player"]]
                  [:equal_sign [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
                  [:hyphen [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
-                 [:l [:alfred "song_radio" "com.vdesabou.spotify.mini.player"]]
-                 [:u [:alfred "artist_radio" "com.vdesabou.spotify.mini.player"]]]}
+                 [:r [:alfred "song_radio" "com.vdesabou.spotify.mini.player"]]
+                 [:a [:alfred "artist_radio" "com.vdesabou.spotify.mini.player"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
                  [:e [:km "c: search text in DuckDuckGo"]]

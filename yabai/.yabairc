@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-
-# bsp or float (default: bsp)
-yabai -m config layout bsp
-
-
