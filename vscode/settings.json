@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Monaco, 'Courier New', monospace",
     "workbench.tree.indent": 18,
     "editor.fontLigatures": true,
     "git.confirmSync": false,

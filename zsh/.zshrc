@@ -3,7 +3,13 @@
 export NVM_LAZY_LOAD=true
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# rust
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# go
+export GOPATH=$HOME/go
+export PATH="$GOPATH/bin:$PATH"
 
 function reset_trap {
   # Hacky hack because of <function/script-that-sets-trap-INT>
