@@ -215,6 +215,7 @@
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
                  [:m [:!CTOSb]] ; Add selection to Current Task
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
+                 [:i [:!CTOSi]] ; Eddit and search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
         {:des "ikey (Dash)"
          :rules [:i-mode
@@ -226,6 +227,7 @@
                  [:w [:alfred "search dash" "com.kapeli.dash.workflow" "!web: "]]
                  [:g [:alfred "search dash" "com.kapeli.dash.workflow" "!go: "]]
                  [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
+                 [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]
                  [:s [:alfred "search dash" "com.kapeli.dash.workflow" "!swift: "]]]}
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode
