@@ -215,7 +215,7 @@
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
                  [:m [:!CTOSb]] ; Add selection to Current Task
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
-                 [:i [:!CTOSi]] ; Eddit and search selected text in alfred-web-searches
+                 [:i [:!CTOSi]] ; Edit and search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
         {:des "ikey (Dash)"
          :rules [:i-mode
