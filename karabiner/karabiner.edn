@@ -149,6 +149,7 @@
                  [:p [:!CTOS8]] ; Personal essentials
                  [:e [:!CTOS6]] ; Current Task
                  [:d [:!CTOSd]] ; Paste Clipboard Palette
+                 [:c [:!CTOc]] ; Futuclass urls and essentials
                  [:r [:!CTOS7]]]} ; Different urls and essentials
         {:des "ekey (type using KM palettes)"
          :rules [:e-mode
