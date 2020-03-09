@@ -174,6 +174,7 @@
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
                  [:t [:slash :slash :spacebar :!St :!So :!Sd :!So :!Ssemicolon :spacebar]] ; // TODO: ^
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
+                 [:s [:open_bracket :!Ss :e :r :i :a :l :i :z :e :!Sf :i :e :l :d :close_bracket :spacebar :p :r :i :v :a :t :e]] ; [SerializeField] private
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
