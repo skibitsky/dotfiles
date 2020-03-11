@@ -115,13 +115,12 @@
                  [:d [:km "open: Downloads in Finder"]]
                  [:q [:km "open: Slack"]]
                  [:c [:km "open: Timing"]]
-                 [:u [:km "open: Grammarly"]]
+                 [:u [:km "open: Unity Hub"]]
                  [:r [:km "open: Sublime"]]
                  [:v [:km "open: Dictionary"]]
                  [:1 [:km "open: 1Password"]]
                  [:2 [:km "open: Caprine"]]
                  [:3 [:km "open: Photos"]]
-                 [:4 [:km "open: Unity Hub"]]
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (actions and arrows)"
          :rules [:s-mode
