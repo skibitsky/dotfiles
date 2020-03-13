@@ -142,12 +142,12 @@
                  [:o :!CTO8]]} ; iTerm2 floating window
         {:des "wkey (text data and ⌥ + arrows)"
          :rules [:w-mode
-                 [:##semicolon [:!Oright_arrow]]
-                 [:##l [:!Oleft_arrow]]
-                 [:##k [:!Odown_arrow]]
-                 [:##j [:!Oup_arrow]]
+                 [:##l [:!Oright_arrow]]
+                 [:##h [:!Oleft_arrow]]
+                 [:##j [:!Odown_arrow]]
+                 [:##k [:!Oup_arrow]]
                  [:o [:!CTOS5]] ; Things Today lists
-                 [:p [:!CTOS4]] ; Things tools lists
+                 [:i [:!CTOS4]] ; Things tools lists
                  [:u [:!CTOS9]] ; Personal urls
                  [:p [:!CTOS8]] ; Personal essentials
                  [:e [:!CTOS6]] ; Current Task
