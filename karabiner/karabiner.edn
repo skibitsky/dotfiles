@@ -166,6 +166,7 @@
         {:des "mkey (make)"
          :rules [:m-mode
                  [:a [:!CTOSa]] ; Connetct/Disconnect AirPods using ToothFairy app
+                 [:s [:!CTOSs]] ; Connetct/Disconnect AirPods Pro using ToothFairy app
                  [:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
                  [:x [:!CTOSx]] ; Capture Area in CleanShot
                  [:c [:!CTOSc]] ; Record video in CleanShot

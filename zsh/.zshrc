@@ -47,6 +47,7 @@ plugins=(
 	docker 
 	docker-compose
 	zsh-syntax-highlighting
+	zsh-better-npm-completion
 )
 
 autoload -U compinit && compinit
