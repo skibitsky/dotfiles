@@ -29,18 +29,17 @@
              :p-mode {:key :p :condi :en}
              :a-mode {:key :a}
              :s-mode {:key :s}
-             :d-mode {:key :d}
-             :f-mode {:key :f}
+             :yabai-move-mode {:key :d}
+             :yabai-focus-mode {:key :f}
              :g-mode {:key :g}
              :z-mode {:key :z}
              :x-mode {:key :x}
              :c-mode {:key :c}
-             :v-mode {:key :v}
              :b-mode {:key :b}
              :n-mode {:key :n}
              :l-mode {:key :l}
              :m-mode {:key :m}
-             ;:right_command-mode {:key :right_command }
+             ;:right_commanyabai-move-mode {:key :right_command }
              :spacebar-mode {:key :spacebar}},
  :main [
               {:des "Swap : with ; in English layout"
@@ -182,11 +181,24 @@
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
-        {:des "dkey (symbols)"
-         :rules [:d-mode
-                 [:w [:tab]] ; tab
-                 [:i [:!S1 :equal_sign :spacebar]] ; != 
-                 [:o [:equal_sign :spacebar]]]} ; =
+        {:des "yabai move"
+         :rules [:yabai-move-mode
+        		 						[:h "/usr/local/bin/yabai -m window --warp west"]
+                 [:j "/usr/local/bin/yabai -m window --warp south"]
+                 [:k "/usr/local/bin/yabai -m window --warp north"]
+                 [:l "/usr/local/bin/yabai -m window --warp east"]
+                 [:n "/usr/local/bin/yabai -m window --warp next"]
+                 [:m "/usr/local/bin/yabai -m window --warp prev"]
+                 [:i "/usr/local/bin/yabai -m window --display recent"]
+                 [:b "/usr/local/bin/yabai -m space --balance"]]}
+								{:des "yabai focus"
+         :rules [:yabai-focus-mode
+        		 						[:h "/usr/local/bin/yabai -m window --focus west"]
+                 [:j "/usr/local/bin/yabai -m window --focus south"]
+                 [:k "/usr/local/bin/yabai -m window --focus north"]
+                 [:l "/usr/local/bin/yabai -m window --focus east"]
+                	[:n "/usr/local/bin/yabai -m window --focus next"]
+               		[:m "/usr/local/bin/yabai -m window --focus prev"]]}
         {:des "zkey (Trello)"
          :rules [:z-mode
                  [:i [:km "trello: open Setup Ideas"]]
