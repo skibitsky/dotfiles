@@ -30,4 +30,7 @@
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "githubPullRequests.telemetry.enabled": false,
+    "files.exclude": {
+        "**/.git": false
+    },
 }
