@@ -182,24 +182,24 @@
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
-        {:des "yabai move"
-         :rules [:yabai-move-mode
-        		 						[:h "/usr/local/bin/yabai -m window --warp west"]
-                 [:j "/usr/local/bin/yabai -m window --warp south"]
-                 [:k "/usr/local/bin/yabai -m window --warp north"]
-                 [:l "/usr/local/bin/yabai -m window --warp east"]
-                 [:n "/usr/local/bin/yabai -m window --warp next"]
-                 [:m "/usr/local/bin/yabai -m window --warp prev"]
-                 [:i "/usr/local/bin/yabai -m window --display recent"]
-                 [:b "/usr/local/bin/yabai -m space --balance"]]}
-								{:des "yabai focus"
-         :rules [:yabai-focus-mode
-        		 						[:h "/usr/local/bin/yabai -m window --focus west"]
-                 [:j "/usr/local/bin/yabai -m window --focus south"]
-                 [:k "/usr/local/bin/yabai -m window --focus north"]
-                 [:l "/usr/local/bin/yabai -m window --focus east"]
-                	[:n "/usr/local/bin/yabai -m window --focus next"]
-               		[:m "/usr/local/bin/yabai -m window --focus prev"]]}
+        ; {:des "yabai move"
+        ;  :rules [:yabai-move-mode
+        ; 		 						[:h "/usr/local/bin/yabai -m window --warp west"]
+        ;          [:j "/usr/local/bin/yabai -m window --warp south"]
+        ;          [:k "/usr/local/bin/yabai -m window --warp north"]
+        ;          [:l "/usr/local/bin/yabai -m window --warp east"]
+        ;          [:n "/usr/local/bin/yabai -m window --warp next"]
+        ;          [:m "/usr/local/bin/yabai -m window --warp prev"]
+        ;          [:i "/usr/local/bin/yabai -m window --display recent"]
+        ;          [:b "/usr/local/bin/yabai -m space --balance"]]}
+								; {:des "yabai focus"
+        ;  :rules [:yabai-focus-mode
+        ; 		 						[:h "/usr/local/bin/yabai -m window --focus west"]
+        ;          [:j "/usr/local/bin/yabai -m window --focus south"]
+        ;          [:k "/usr/local/bin/yabai -m window --focus north"]
+        ;          [:l "/usr/local/bin/yabai -m window --focus east"]
+        ;         	[:n "/usr/local/bin/yabai -m window --focus next"]
+        ;        		[:m "/usr/local/bin/yabai -m window --focus prev"]]}
         {:des "zkey (Trello)"
          :rules [:z-mode
                  [:i [:km "trello: open Setup Ideas"]]
@@ -218,7 +218,6 @@
                  [:u [:alfred "shuffle" "com.vdesabou.spotify.mini.player"]]
                  [:o [:alfred "show_search_online" "com.vdesabou.spotify.mini.player"]]
                  [:n [:alfred "next" "com.vdesabou.spotify.mini.player"]]
-                 [:m [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
                  [:p [:alfred "show_playlists" "com.vdesabou.spotify.mini.player"]]
                  [:equal_sign [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
                  [:hyphen [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
