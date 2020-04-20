@@ -5,40 +5,62 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "schniz/tap"
+# Cross-platform make
 brew "cmake"
-brew "cmatrix"
-brew "ctls"
-brew "doctl"
+# Select default apps for documents and URL schemes on macOS
 brew "duti"
+# Modern replacement for 'ls'
 brew "exa"
+# GNU database manager
 brew "gdbm"
+# Command-line option parsing utility
 brew "gnu-getopt"
+# AVH edition of git-flow
 brew "git-flow-avh"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
+# Library for command-line editing
 brew "readline", link: true
+# Command-line interface for SQLite
 brew "sqlite"
+# General-purpose data compression with high compression ratio
 brew "xz"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Small Clojure interpreter and linter
 brew "joker"
+# Execute commands when watched files change
 brew "watchexec"
+# karabiner configurator
 brew "goku", restart_service: true
+# Add GitHub support to git on the command-line
 brew "hub"
+# Configurable static site generator
 brew "hugo"
+# Interpreted, interactive, object-oriented programming language
 brew "python"
+# Version of the SSL/TLS protocol forked from OpenSSL
 brew "libressl"
+# C library for reading, creating, and modifying zip archives
 brew "libzip"
+# Mac App Store command-line interface
 brew "mas"
+# Flexible tool for responding to filesystem changes
 brew "modd"
+# Fast, highly customisable system info script
 brew "neofetch"
-brew "protobuf"
+# Generate ASCII art with terminal, shell, and OS info
 brew "screenfetch"
+# Programatically correct mistyped console commands
 brew "thefuck"
+# Simplified and community-driven man pages
 brew "tldr"
+# Internet file retriever
 brew "wget"
+# Download YouTube videos from the command-line
 brew "youtube-dl"
-brew "zplug"
+# UNIX shell (command interpreter)
 brew "zsh"
-brew "koekeishiya/formulae/yabai"
 cask "android-platform-tools"
 cask "brooklyn"
 cask "font-hack-nerd-font"
