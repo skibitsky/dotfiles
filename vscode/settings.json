@@ -10,7 +10,8 @@
     "files.associations": {
         "*.mvir": "rust",
         "*.meta": "yaml",
-        "*.mat": "yaml"
+        "*.mat": "yaml",
+        "*.asset": "yaml"
     },
     "liveshare.featureSet": "insiders",
     "workbench.colorTheme": "Ayu Mirage Bordered",
