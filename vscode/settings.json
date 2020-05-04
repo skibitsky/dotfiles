@@ -34,4 +34,6 @@
     "files.exclude": {
         "**/.git": false
     },
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
 }
