@@ -11,6 +11,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH="$GOPATH/bin:$PATH"
 
+# .NET Core SDK tools
+export PATH="$PATH:/$HOME/.dotnet/tools"
+
 function reset_trap {
   # Hacky hack because of <function/script-that-sets-trap-INT>
   trap - INT
