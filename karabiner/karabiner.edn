@@ -118,7 +118,7 @@
                  [:c [:km "open: Timing"]]
                  [:u [:km "open: Unity Hub"]]
                  [:r [:km "open: Sublime"]]
-                 [:v [:km "open: Dictionary"]]
+                 [:v [:!CTOSv]] ; Open dotfiles
                  [:1 [:km "open: 1Password"]]
                  [:2 [:km "open: Caprine"]]
                  [:3 [:km "open: Photos"]]
