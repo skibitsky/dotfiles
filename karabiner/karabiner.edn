@@ -29,7 +29,7 @@
              :p-mode {:key :p :condi :en}
              :a-mode {:key :a}
              :s-mode {:key :s}
-             :yabai-move-mode {:key :d}
+             :windows-move {:key :d}
              :yabai-focus-mode {:key :f}
              :g-mode {:key :g}
              :z-mode {:key :z}
@@ -126,9 +126,9 @@
         {:des "skey (actions and arrows)"
          :rules [:s-mode
                  [:##l [:right_arrow]]
-                 [:##h [:left_arrow]]
-                 [:##k [:up_arrow]]
-                 [:##j [:down_arrow]]
+                 [:##j [:left_arrow]]
+                 [:##i [:up_arrow]]
+                 [:##k [:down_arrow]]
                  [:n :!CTOSf] ; Fantastical Mini Window
                  [:m :!CTOm] ; MindNode Quick Entry
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
@@ -137,7 +137,6 @@
                  [:spacebar :!Cz] ; ⌘ + Z
                  [:open_bracket :!CSreturn_or_enter] ; ⌘ + ⇧ + Z
                  [:p :!Creturn_or_enter] ; ⌘ + ↩
-                 [:i :!CTO9] ; Typinator quick search
                  [:o :!CTO9] ; Typinator quick search
                  [:u :!CTO8]]} ; iTerm2 floating window
         {:des "wkey (text data and ⌥ + arrows)"
@@ -182,24 +181,6 @@
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
-        ; {:des "yabai move"
-        ;  :rules [:yabai-move-mode
-        ; 		 						[:h "/usr/local/bin/yabai -m window --warp west"]
-        ;          [:j "/usr/local/bin/yabai -m window --warp south"]
-        ;          [:k "/usr/local/bin/yabai -m window --warp north"]
-        ;          [:l "/usr/local/bin/yabai -m window --warp east"]
-        ;          [:n "/usr/local/bin/yabai -m window --warp next"]
-        ;          [:m "/usr/local/bin/yabai -m window --warp prev"]
-        ;          [:i "/usr/local/bin/yabai -m window --display recent"]
-        ;          [:b "/usr/local/bin/yabai -m space --balance"]]}
-								; {:des "yabai focus"
-        ;  :rules [:yabai-focus-mode
-        ; 		 						[:h "/usr/local/bin/yabai -m window --focus west"]
-        ;          [:j "/usr/local/bin/yabai -m window --focus south"]
-        ;          [:k "/usr/local/bin/yabai -m window --focus north"]
-        ;          [:l "/usr/local/bin/yabai -m window --focus east"]
-        ;         	[:n "/usr/local/bin/yabai -m window --focus next"]
-        ;        		[:m "/usr/local/bin/yabai -m window --focus prev"]]}
         {:des "zkey (Trello)"
          :rules [:z-mode
                  [:i [:km "trello: open Setup Ideas"]]
@@ -209,6 +190,12 @@
                  [:r [:km "trello: open Rules"]]
                  [:g [:km "trello: open SSG"]]
                  [:j [:km "trello: open Inventions"]]]}
+       {:des "windows-move"
+         :rules [:windows-move
+         								[:i [:km "window: full"]]
+																	[:k [:km "window: center"]]
+                 [:l [:km "window: right"]]
+                 [:j [:km "window: left"]]]}
         {:des "xkey (Spotify)"
          :rules [:x-mode
                  [:j [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
