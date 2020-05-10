@@ -118,7 +118,7 @@
                  [:c [:km "open: Timing"]]
                  [:u [:km "open: Unity Hub"]]
                  [:r [:km "open: Sublime"]]
-                 [:v [:!CTOSv]] ; Open dotfiles
+                 [:v [:!TOSv]] ; Open dotfiles
                  [:1 [:km "open: 1Password"]]
                  [:2 [:km "open: Caprine"]]
                  [:3 [:km "open: Photos"]]
@@ -159,7 +159,7 @@
                  [:r [:!CTOSr]]]} ; Emojis
         {:des "lkey (quick capture)"
          :rules [:l-mode
-                 [:d [:!CTOd]] ; New entry in Drafts
+                 ; [:d [:!CTOd]] ; New entry in Drafts
                  [:f [:!CTOf]] ; New entry in Fantastical
                  [:a [:!CTOa]]]} ; New entry in DayOne
         {:des "mkey (make)"
@@ -169,6 +169,7 @@
                  [:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
                  [:x [:!CTOSx]] ; Capture Area in CleanShot
                  [:c [:!CTOSc]] ; Record video in CleanShot
+                 [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
                  ; [:e [:km "m: new spark email"]] ; New email in Spark
                  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
                  [:t [:!CT9]]]} ; Add to Typinator
@@ -284,7 +285,7 @@
                  [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:t [:alfred "start timing task" "com.skibitsky.alfred-timing"]]
-                 [:j [:alfred "bear search create" "com.drgrib.bear"]]
+                 [:j [:alfred "search bear" "com.drgrib.bear"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
                  [:m [:alfred "search mindnode" "nikivi.search.content"]]
