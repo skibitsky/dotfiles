@@ -1,8 +1,8 @@
 #!/bin/sh
 
-echo "Setting up macOS deafults..."
+echo "Setting up macOS defaults..."
 
-COMPUTER_NAME="Gleb’s MacBook Pro"
+COMPUTER_NAME="Macy"
 
 osascript -e 'tell application "System Preferences" to quit'
 
@@ -161,6 +161,6 @@ for app in "Activity Monitor" \
 	"Mail" \
 	"Safari" \
 	"Transmission" \
-	"Tweetbot" do
+	"Tweetbot"; do
 	killall "${app}" &> /dev/null
 done
