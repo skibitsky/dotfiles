@@ -68,7 +68,6 @@ cask "dotnet"
 cask "font-hack-nerd-font"
 cask "godot-mono"
 cask "gswitch"
-cask "openconnect-gui"
 cask "sidequest"
 cask "webtorrent"
 mas "1Password 7", id: 1333542190
