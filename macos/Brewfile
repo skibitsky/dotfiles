@@ -70,3 +70,32 @@ cask "godot-mono"
 cask "gswitch"
 cask "sidequest"
 cask "webtorrent"
+mas "1Password 7", id: 1333542190
+mas "Bear", id: 1091189122
+mas "Cascadea", id: 1432182561
+mas "Coin Tick", id: 1141688067
+mas "Dark Reader for Safari", id: 1438243180
+mas "Day One", id: 1055511498
+mas "DevCleaner", id: 1388020431
+mas "DigiDoc4 Client", id: 1370791134
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
+mas "Instapaper", id: 1481302432
+mas "Jira", id: 1475897096
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Paprika Recipe Manager 3", id: 1303222628
+mas "Pixave", id: 924891282
+mas "Pixelmator Pro", id: 1289583905
+mas "Save to Pocket", id: 1477385213
+mas "Select Like A Boss For Safari", id: 1437310115
+mas "Shazam", id: 897118787
+mas "Slack", id: 803453959
+mas "Speedtest", id: 1153157709
+mas "Termius", id: 1176074088
+mas "Things", id: 904280696
+mas "Trello", id: 1278508951
+mas "Tweetbot", id: 1384080005
+mas "Vimari", id: 1480933944
+mas "Wipr", id: 1320666476
+mas "Xcode", id: 497799835
