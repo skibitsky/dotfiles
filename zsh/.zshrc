@@ -39,24 +39,26 @@ HIST_STAMPS="dd-mm-yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 plugins=(
-	git 
-	brew 
-	z 
-	gitignore 
-	zsh-nvm 
-	git-flow-avh 
-	zsh-autosuggestions 
-	zsh-completions 
-	docker 
-	docker-compose
-	zsh-syntax-highlighting
-	zsh-better-npm-completion
+  git 
+  brew 
+  gitignore 
+  zsh-nvm 
+  git-flow-avh 
+  zsh-autosuggestions 
+  zsh-completions 
+  docker 
+  docker-compose
+  zsh-syntax-highlighting
+  zsh-better-npm-completion
 )
 
 autoload -U compinit && compinit
 
 # The Fuck
 eval $(thefuck --alias)
+
+# Zoxide
+eval "$(zoxide init zsh)"
 
 source $ZSH/oh-my-zsh.sh
 

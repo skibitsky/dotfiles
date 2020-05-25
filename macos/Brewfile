@@ -1,3 +1,4 @@
+tap "ajeetdsouza/zoxide"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -61,6 +62,8 @@ brew "wget"
 brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
+# A faster way to navigate your filesystem
+brew "ajeetdsouza/zoxide/zoxide"
 cask "android-platform-tools"
 cask "blackhole"
 cask "brooklyn"
