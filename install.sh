@@ -14,7 +14,7 @@ echo "     /\     .___      __    _____.__.__
 sh ./macos/default.sh
 
 # zsh plugins
-# sh ./zsh/zsh-plugins-downloader.sh
+sh ./zsh/zsh-plugins-downloader.sh
 zsh
 
 # Install apps

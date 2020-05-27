@@ -25,13 +25,14 @@ ln -sf ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User
 ln -sf ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 # Hyper
-ln -sf ~/.dotfiles/hyper/hyper.js ~/.hyper.js
+# ln -sf ~/.dotfiles/hyper/hyper.js ~/.hyper.js
 
 # Bash
 ln -sf ~/.dotfiles/bash/.bash_profile ~/.bash_profile
 
 # zsh
 ln -sf ~/.dotfiles/yabai/.zshrc ~/.zshrc
+ln -sf "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes/typewritten.zsh-theme"
 
 # yabai
 ln -sf ~/.dotfiles/yabai/yabairc ~/.yabairc

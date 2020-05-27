@@ -25,7 +25,8 @@ add-zsh-hook preexec reset_trap
 # Path to oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="typewritten"
+TYPEWRITTEN_GIT_RELATIVE_PATH=true
 
 DISABLE_UPDATE_PROMPT="true"
 
