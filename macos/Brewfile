@@ -58,6 +58,8 @@ brew "thefuck"
 brew "tldr"
 # Internet file retriever
 brew "wget"
+# Black box WordPress vulnerability scanner
+brew "wpscan"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 # UNIX shell (command interpreter)
