@@ -1,6 +1,7 @@
 #!/bin/sh
 
 echo "Setting up macOS defaults..."
+echo "~Make sure the terminal has Full Disk Access~"
 
 COMPUTER_NAME="Macy"
 
