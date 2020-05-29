@@ -126,11 +126,9 @@
         {:des "skey (actions and arrows)"
          :rules [:s-mode
                  [:##l [:right_arrow]]
-                 [:##j [:left_arrow]]
-                 [:##i [:up_arrow]]
-                 [:##k [:down_arrow]]
-                 [:n :!CTOSf] ; Fantastical Mini Window
-                 [:m :!CTOm] ; MindNode Quick Entry
+                 [:##h [:left_arrow]]
+                 [:##k [:up_arrow]]
+                 [:##j [:down_arrow]]
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
                  [:d :delete_or_backspace]
                  [:f :return_or_enter]
@@ -155,12 +153,12 @@
                  [:r [:!CTOS7]]]} ; Different urls and essentials
         {:des "ekey (type using KM palettes)"
          :rules [:e-mode
-                 [:u [:!CTOSu]] ; Unicode symbols
-                 [:r [:!CTOSr]]]} ; Emojis
+                 [:u [:!CTOSu]]]}; Unicode symbols
         {:des "lkey (quick capture)"
          :rules [:l-mode
                  ; [:d [:!CTOd]] ; New entry in Drafts
                  [:f [:!CTOf]] ; New entry in Fantastical
+                 [:m :!CTOm] ; New Quick Entry in MindNode
                  [:a [:!CTOa]]]} ; New entry in DayOne
         {:des "mkey (make)"
          :rules [:m-mode
@@ -213,9 +211,9 @@
                  [:a [:alfred "artist_radio" "com.vdesabou.spotify.mini.player"]]]}
         {:des "ckey (text)"
          :rules [:c-mode
-                 [:e [:km "c: search text in DuckDuckGo"]]
-                 [:w [:km "c: open as URL"]]
                  [:q [:km "c: execute in iTerm"]]
+                 [:w [:km "c: open as URL"]]
+                 [:e [:km "c: search text in DuckDuckGo"]]
                  [:s [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:d [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
