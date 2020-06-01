@@ -34,3 +34,4 @@
 	prompt = false
 [diff]
 	tool = Kaleidoscope
+	submodule = log
