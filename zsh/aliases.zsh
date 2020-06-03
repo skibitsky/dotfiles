@@ -11,6 +11,7 @@ alias bi='brew install'
 
 # Open in Sublime Text
 alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias subl='sublime'
 
 # Jump into dotfiles
 alias cdd='cd ~/.dotfiles'
@@ -23,6 +24,9 @@ alias screenfetch='screenfetch -E'
 
 # Git
 alias gs='git status --short'
+
+# Hub
+alias hubp='hub create -p; git push --set-upstream origin master'
 
 # Git Flow 
 alias gfff='git flow feature finish'
