@@ -139,7 +139,7 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
 # Use `~/Documents/Torrents` to store incomplete downloads
 defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
-defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Documents/Torrents"
+# defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Documents/Torrents"
 
 # Use `~/Downloads` to store completed downloads
 defaults write org.m0k.transmission DownloadLocationConstant -bool true
