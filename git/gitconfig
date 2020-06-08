@@ -12,7 +12,7 @@
 	autocrlf = input
 [commit]
 	template = ~/.stCommitMsg
-	gpgsign = true
+	gpgsign = false
 [github]
    user = skibitsky
 [alias]
