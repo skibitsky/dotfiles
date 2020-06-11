@@ -14,7 +14,7 @@ gih() {
 }
 
 # Commit everything
-gc() {
+gce() {
 	if [ $# -eq 0 ]; then
     echo "No arguments supplied"
 	fi
