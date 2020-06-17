@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # General
 alias f='open .'
@@ -8,6 +8,9 @@ alias c='code .'
 
 # Brew
 alias bi='brew install'
+alias bu='brew uninstall'
+alias bci='brew cask install'
+alias bcu='brew cask uninstall'
 
 # Open in Sublime Text
 alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
@@ -24,6 +27,7 @@ alias screenfetch='screenfetch -E'
 
 # Git
 alias gs='git status --short'
+alias gsur='git submodule update --remote --merge'
 
 # Hub
 alias hubp='hub create -p; git push --set-upstream origin master'
