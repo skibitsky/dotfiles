@@ -4,8 +4,8 @@ gih() {
   git init
 
   if [ ! -z "$1" ]; then 
-		gi $1 >> .gitignore
-	fi
+    gi $1 >> .gitignore
+  fi
 
   git add .
   git commit -m "Initial commit"
@@ -15,10 +15,10 @@ gih() {
 
 # Commit everything
 gce() {
-	if [ $# -eq 0 ]; then
+  if [ $# -eq 0 ]; then
     echo "No arguments supplied"
-	fi
+  fi
 
-	git add .
-	git commit -m $1
+  git add .
+  git commit -m $1
 }
