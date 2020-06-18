@@ -36,9 +36,6 @@ ENABLE_CORRECTION="true"
 
 HIST_STAMPS="dd-mm-yyyy"
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
 plugins=(
   git 
   brew 
@@ -65,3 +62,4 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.dotfiles/zsh/aliases.zsh
 source ~/.dotfiles/zsh/functions/git-functions.zsh
+source ~/.dotfiles/zsh/functions/other-functions.zsh

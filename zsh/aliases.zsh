@@ -51,3 +51,6 @@ alias dk='docker'
 alias ls='exa -F'
 alias ll='exa --long --header --git -F'
 alias tree='exa --tree'
+
+# OpenUPM
+alias upm="openupm"
