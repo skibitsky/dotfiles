@@ -12,6 +12,7 @@ export GOPATH=$HOME/go
 export PATH="$GOPATH/bin:$PATH"
 
 # .NET Core SDK tools
+DOTNET_CLI_TELEMETRY_OPTOUT=1
 export PATH="$PATH:/$HOME/.dotnet/tools"
 
 function reset_trap {
