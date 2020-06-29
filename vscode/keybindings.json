@@ -41,4 +41,8 @@
     "key": "cmd+-",
     "command": "-workbench.action.zoomOut"
   },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
 ]
