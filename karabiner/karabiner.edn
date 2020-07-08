@@ -156,7 +156,6 @@
                  [:u [:!CTOSu]]]}; Unicode symbols
         {:des "lkey (quick capture)"
          :rules [:l-mode
-                 ; [:d [:!CTOd]] ; New entry in Drafts
                  [:f [:!CTOf]] ; New entry in Fantastical
                  [:m :!CTOm] ; New Quick Entry in MindNode
                  [:a [:!CTOa]]]} ; New entry in DayOne
@@ -168,7 +167,6 @@
                  [:x [:!CTOSx]] ; Capture Area in CleanShot
                  [:c [:!CTOSc]] ; Record video in CleanShot
                  [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
-                 ; [:e [:km "m: new spark email"]] ; New email in Spark
                  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
                  [:t [:!CT9]]]} ; Add to Typinator
         {:des "pkey (Text snippets)"
@@ -282,7 +280,6 @@
          :rules [:a-mode
                  [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
-                 [:t [:alfred "start timing task" "com.skibitsky.alfred-timing"]]
                  [:j [:alfred "search bear" "com.drgrib.bear"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
