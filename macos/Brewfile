@@ -52,6 +52,8 @@ brew "mas"
 brew "modd"
 # Fast, highly customisable system info script
 brew "neofetch"
+# Port scanning utility for large networks
+brew "nmap"
 # Generate ASCII art with terminal, shell, and OS info
 brew "screenfetch"
 # Programatically correct mistyped console commands
