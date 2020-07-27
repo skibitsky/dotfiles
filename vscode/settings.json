@@ -36,4 +36,5 @@
     },
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
+    "git.enableCommitSigning": true,
 }

@@ -39,6 +39,7 @@
              :n-mode {:key :n}
              :l-mode {:key :l}
              :m-mode {:key :m}
+             :slash-mode {:key :slash}
              ;:right_commanyabai-move-mode {:key :right_command }
              :spacebar-mode {:key :spacebar}},
  :main [
@@ -232,6 +233,9 @@
                  [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
                  [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]
                  [:s [:alfred "search dash" "com.kapeli.dash.workflow" "!swift: "]]]}
+        {:des "slashkey (open URL)"
+         :rules [:slash-mode
+                 [:f :!CTOSf]]} ; Futuclass links
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode
                  [:open_bracket :!Topen_bracket]
