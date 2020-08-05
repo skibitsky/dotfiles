@@ -28,8 +28,6 @@ brew "readline", link: true
 brew "sqlite"
 # General-purpose data compression with high compression ratio
 brew "xz"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Small Clojure interpreter and linter
