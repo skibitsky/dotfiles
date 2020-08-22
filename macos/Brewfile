@@ -56,10 +56,14 @@ brew "nmap"
 brew "pinentry"
 # Generate ASCII art with terminal, shell, and OS info
 brew "screenfetch"
+# Command-line packet analyzer
+brew "tcpdump"
 # Programatically correct mistyped console commands
 brew "thefuck"
 # Simplified and community-driven man pages
 brew "tldr"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Internet file retriever
 brew "wget"
 # Black box WordPress vulnerability scanner
