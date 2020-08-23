@@ -78,6 +78,7 @@ cask "android-platform-tools"
 cask "dotnet"
 cask "font-hack-nerd-font"
 cask "gswitch"
+cask "termius"
 cask "transmission"
 cask "webtorrent"
 mas "1Password 7", id: 1333542190
