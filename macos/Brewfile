@@ -75,7 +75,7 @@ brew "zsh"
 # A faster way to navigate your filesystem
 brew "ajeetdsouza/zoxide/zoxide"
 cask "android-platform-tools"
-cask "dotnet"
+cask "dotnet-sdk"
 cask "font-hack-nerd-font"
 cask "gswitch"
 cask "termius"
