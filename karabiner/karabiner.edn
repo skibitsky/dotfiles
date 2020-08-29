@@ -179,21 +179,21 @@
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
-        {:des "zkey (Trello)"
-         :rules [:z-mode
-                 [:i [:km "trello: open Setup Ideas"]]
-                 [:l [:km "trello: open Learn"]]
-                 [:n [:km "trello: open Watch list"]]
-                 [:b [:km "trello: open Books"]]
-                 [:r [:km "trello: open Rules"]]
-                 [:g [:km "trello: open SSG"]]
-                 [:j [:km "trello: open Inventions"]]]}
-       {:des "windows-move"
-         :rules [:windows-move
-         								[:i [:km "window: full"]]
-																	[:k [:km "window: center"]]
-                 [:l [:km "window: right"]]
-                 [:j [:km "window: left"]]]}
+        ; {:des "zkey (Trello)"
+        ;  :rules [:z-mode
+        ;          [:i [:km "trello: open Setup Ideas"]]
+        ;          [:l [:km "trello: open Learn"]]
+        ;          [:n [:km "trello: open Watch list"]]
+        ;          [:b [:km "trello: open Books"]]
+        ;          [:r [:km "trello: open Rules"]]
+        ;          [:g [:km "trello: open SSG"]]
+        ;          [:j [:km "trello: open Inventions"]]]}
+       ; {:des "windows-move"
+       ;   :rules [:windows-move
+       ;   								[:i [:km "window: full"]]
+							; 										[:k [:km "window: center"]]
+       ;           [:l [:km "window: right"]]
+       ;           [:j [:km "window: left"]]]}
         {:des "xkey (Spotify)"
          :rules [:x-mode
                  [:j [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
