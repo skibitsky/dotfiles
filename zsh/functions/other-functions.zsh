@@ -1,5 +1,5 @@
 # Download video using youtube-dl into iCLoud Downloads directory
-yd() {
+ydd() {
   if [ $# -eq 0 ]; then
     echo "No arguments supplied"
     return 1

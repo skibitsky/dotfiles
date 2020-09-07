@@ -54,3 +54,6 @@ alias tree='exa --tree'
 
 # OpenUPM
 alias upm="openupm"
+
+# youtube-dl
+alias yd="youtube-dl"
