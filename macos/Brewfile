@@ -16,6 +16,8 @@ brew "duti"
 brew "exa"
 # GNU database manager
 brew "gdbm"
+# GitHub command-line tool
+brew "gh"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # AVH edition of git-flow
