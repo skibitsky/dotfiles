@@ -49,8 +49,8 @@
               {:des "Swap : with ; in Lithuanian layout"
                :rules [[:#Psemicolon :!Ssemicolon :lt]
                  [:!Ssemicolon :semicolon :lt]]}
-              {:des "§ to ~"
-               :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
+              ; {:des "§ to ~"
+              ;  :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
               {:des "Right ⌘ to ⌘ + ⇥"
                :rules [[:right_command :!Ctab]]}
               {:des "Right Option to Grave accent"
@@ -134,7 +134,7 @@
                  [:d :delete_or_backspace]
                  [:f :return_or_enter]
                  [:spacebar :!Cz] ; ⌘ + Z
-                 [:open_bracket :!CSreturn_or_enter] ; ⌘ + ⇧ + Z
+                 [:open_bracket :!CSz] ; ⌘ + ⇧ + Z
                  [:p :!Creturn_or_enter] ; ⌘ + ↩
                  [:o :!CTO9] ; Typinator quick search
                  [:u :!CTO8]]} ; iTerm2 floating window
@@ -170,7 +170,7 @@
                  [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
                  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
                  [:t [:!CT9]]]} ; Add to Typinator
-        {:des "pkey (Text snippets)"
+        {:des "pkey (text snippets)"
          :rules [:p-mode
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
                  [:t [:slash :slash :spacebar :!St :!So :!Sd :!So :!Ssemicolon :spacebar]] ; // TODO: ^
