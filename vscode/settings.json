@@ -14,7 +14,7 @@
         "*.asset": "yaml"
     },
     "liveshare.featureSet": "insiders",
-    "workbench.colorTheme": "GitHub Light",
+    "workbench.colorTheme": "GitHub Dark",
     "git.autoStash": true,
     "explorer.confirmDelete": false,
     "omnisharp.enableRoslynAnalyzers": true,
