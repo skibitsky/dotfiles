@@ -75,6 +75,7 @@ brew "zsh"
 # A faster way to navigate your filesystem
 brew "ajeetdsouza/zoxide/zoxide"
 cask "android-platform-tools"
+cask "brave-browser"
 cask "dotnet-sdk"
 cask "figma"
 cask "font-hack-nerd-font"
