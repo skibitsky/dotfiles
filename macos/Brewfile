@@ -18,6 +18,8 @@ brew "exa"
 brew "gdbm"
 # GitHub command-line tool
 brew "gh"
+# Distributed revision control system
+brew "git"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # AVH edition of git-flow
