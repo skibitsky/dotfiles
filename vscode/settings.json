@@ -11,7 +11,8 @@
         "*.mvir": "rust",
         "*.meta": "yaml",
         "*.mat": "yaml",
-        "*.asset": "yaml"
+        "*.asset": "yaml",
+        ".env": "shellscript"
     },
     "liveshare.featureSet": "insiders",
     "workbench.colorTheme": "GitHub Dark",
