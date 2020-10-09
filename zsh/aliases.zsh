@@ -33,10 +33,8 @@ alias gsur='git submodule update --remote --merge'
 alias hubp='hub create -p; git push --set-upstream origin master'
 
 # Git Flow 
-alias gfff='git flow feature finish'
-alias gffs='git flow feature start'
-alias gfbs='git flow bugfix start'
-alias gfbf='git flow bugfix finish'
+alias feature='git flow feature'
+alias bug='git flow bugfix'
 
 # Navigation
 alias ..="cd .."
@@ -46,6 +44,7 @@ alias ppath='cd "$(osascript <<<"tell application \"Finder\" to get the POSIX pa
 
 # Docker
 alias dk='docker'
+alias dkc='docker-compose'
 
 # exa
 alias ls='exa -F'
