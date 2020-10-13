@@ -53,7 +53,7 @@ brew "modd"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Port scanning utility for large networks
-brew "nmap"
+brew "nmap", link: false
 # Passphrase entry dialog utilizing the Assuan protocol
 brew "pinentry"
 # Generate ASCII art with terminal, shell, and OS info
