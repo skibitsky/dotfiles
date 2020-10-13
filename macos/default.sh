@@ -3,7 +3,7 @@
 echo "Setting up macOS defaults..."
 echo "~Make sure the terminal has Full Disk Access~"
 
-COMPUTER_NAME="Macy"
+COMPUTER_NAME="macy"
 
 osascript -e 'tell application "System Preferences" to quit'
 
