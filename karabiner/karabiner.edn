@@ -1,9 +1,9 @@
 {:profiles
  {:Default {:default true
-         :sim     100
-         :delay   100
-         :alone   100
-         :held    100}}
+         :sim     10
+         :delay   500
+         :alone   500
+         :held    500}}
  :templates {:alfred "osascript -e 'tell application \"Alfred 4\" to run trigger \"%s\" in workflow \"%s\" with argument \"%s\"'"
              :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"
            	 :open "open \"%s\""
@@ -142,8 +142,8 @@
          :rules [:w-mode
                  [:##l [:!Oright_arrow]]
                  [:##h [:!Oleft_arrow]]
-                 [:##j [:!Odown_arrow]]
-                 [:##k [:!Oup_arrow]]
+                 [:##j [:!Fdown_arrow]]
+                 [:##k [:!Fup_arrow]]
                  [:o [:!CTOS5]] ; Things Today lists
                  [:i [:!CTOS4]] ; Things tools lists
                  [:u [:!CTOS9]] ; Personal urls
@@ -288,11 +288,11 @@
                  [:j [:alfred "search bear" "com.drgrib.bear"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
-                 [:m [:alfred "search mindnode" "nikivi.search.content"]]
-                 [:n [:alfred "search numbers" "com.skibitsky.filessearch"]]
+                 ; [:m [:alfred "search mindnode" "nikivi.search.content"]]
+                 ; [:n [:alfred "search numbers" "com.skibitsky.filessearch"]]
                  [:i [:alfred "search websites" "nikivi.web.searches"]]
                  [:open_bracket [:alfred "search tldr" "com.alexlafroscia.tldr-alfred-workflow"]]
-                 [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
+                 ; [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
                  [:l [:alfred "search slack" "com.yannickglt.alfred2.slack"]]
                  [:o [:alfred "iterm" "net.isometry.alfred.tty"]]
                  [:h [:alfred "search docker hub" "com.ryanparman.docker-hub"]]
