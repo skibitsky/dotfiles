@@ -40,6 +40,25 @@ lnunity() {
   done
 }
 
+
+# Symlink all files in dir
+lnall() {
+  if [ $# -eq 0 ]; then
+    echo "No target directory specified"
+    return 1
+  fi
+
+  if [ ! -d "$1" ] ; then 
+    echo "Creating $1"
+    mkdir "$1" ; 
+  fi
+
+  for file in *; do 
+    echo "Linking $(pwd)/$file to $1/$file"
+      ln -s "$(pwd)/$file" "$1/$file"
+  done
+}
+
 # Removes empty dirs
 rmempty() {
   find . -depth  -type d  -empty -exec rmdir {} \;
