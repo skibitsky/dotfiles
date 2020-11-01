@@ -27,10 +27,20 @@ lnunity() {
     return 1
   fi
 
+  if [ ! -d "$1" ] ; then 
+    echo "Creating $1"
+    mkdir "$1" ; 
+  fi
+
   for file in *; do 
     if [[ $file != "Library" && $file != "Logs" && $file != "obj" ]]; then
       echo "Linking $(pwd)/$file to $1/$file"
       ln -s "$(pwd)/$file" "$1/$file"
     fi;
   done
+}
+
+# Removes empty dirs
+rmempty() {
+  find . -depth  -type d  -empty -exec rmdir {} \;
 }
