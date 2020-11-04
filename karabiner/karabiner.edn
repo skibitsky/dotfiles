@@ -131,8 +131,9 @@
                  [:##k [:up_arrow]]
                  [:##j [:down_arrow]]
                  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
-                 [:d :delete_or_backspace]
-                 [:f :return_or_enter]
+                 [:i :!Odelete_or_backspace] ; ⌥ + ⌫
+                 [:d :delete_or_backspace] ; ⌫
+                 [:f :return_or_enter] ; ↩
                  [:spacebar :!Cz] ; ⌘ + Z
                  [:open_bracket :!CSz] ; ⌘ + ⇧ + Z
                  [:p :!Creturn_or_enter] ; ⌘ + ↩
