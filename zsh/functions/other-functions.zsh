@@ -34,8 +34,7 @@ lnunity() {
 
   for file in *; do 
     if [[ $file != "Library" && $file != "Logs" && $file != "obj" ]]; then
-      echo "Linking $(pwd)/$file to $1/$file"
-      ln -s "$(pwd)/$file" "$1/$file"
+      ln -sv "$(pwd)/$file" "$1/$file"
     fi;
   done
 }
@@ -54,8 +53,7 @@ lnall() {
   fi
 
   for file in *; do 
-    echo "Linking $(pwd)/$file to $1/$file"
-      ln -s "$(pwd)/$file" "$1/$file"
+      ln -sv "$(pwd)/$file" "$1/$file"
   done
 }
 
