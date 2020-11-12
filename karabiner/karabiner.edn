@@ -29,9 +29,7 @@
              :p-mode {:key :p :condi :en}
              :a-mode {:key :a}
              :s-mode {:key :s}
-             :windows-move {:key :d}
-             :yabai-focus-mode {:key :f}
-             :g-mode {:key :g}
+             :windows-move {:key :f}
              :z-mode {:key :z}
              :x-mode {:key :x}
              :c-mode {:key :c}
@@ -40,7 +38,6 @@
              :l-mode {:key :l}
              :m-mode {:key :m}
              :slash-mode {:key :slash}
-             ;:right_commanyabai-move-mode {:key :right_command }
              :spacebar-mode {:key :spacebar}},
  :main [
               {:des "Swap : with ; in English layout"
@@ -181,21 +178,13 @@
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
-        ; {:des "zkey (Trello)"
-        ;  :rules [:z-mode
-        ;          [:i [:km "trello: open Setup Ideas"]]
-        ;          [:l [:km "trello: open Learn"]]
-        ;          [:n [:km "trello: open Watch list"]]
-        ;          [:b [:km "trello: open Books"]]
-        ;          [:r [:km "trello: open Rules"]]
-        ;          [:g [:km "trello: open SSG"]]
-        ;          [:j [:km "trello: open Inventions"]]]}
-       ; {:des "windows-move"
-       ;   :rules [:windows-move
-       ;   								[:i [:km "window: full"]]
-							; 										[:k [:km "window: center"]]
-       ;           [:l [:km "window: right"]]
-       ;           [:j [:km "window: left"]]]}
+       {:des "windows-move"
+         :rules [:windows-move
+         								[:i [:!CTOS5]] ; move to next monitor
+         								[:j [:!CTOS4]] ; TODO: restore window layout (BTT only)
+																	[:k [:km "window: center"]] ; center nicely on main screen
+                 [:l [:!CTOS2]] ; move window right
+                 [:h [:!CTOS1]]]} ; move window left
         {:des "xkey (Spotify)"
          :rules [:x-mode
                  [:j [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
