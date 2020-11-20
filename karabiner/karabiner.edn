@@ -1,6 +1,6 @@
 {:profiles
  {:Default {:default true
-         :sim     10
+         :sim     5
          :delay   300
          :alone   300
          :held    300}}
