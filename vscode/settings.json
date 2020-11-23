@@ -15,7 +15,7 @@
         ".env": "shellscript"
     },
     "liveshare.featureSet": "insiders",
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Nord",
     "git.autoStash": true,
     "explorer.confirmDelete": false,
     "omnisharp.enableRoslynAnalyzers": true,
