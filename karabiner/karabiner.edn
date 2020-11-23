@@ -110,7 +110,7 @@
                  [:k [:km "open: KM"]]
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
-                 [:p [:km "open: Pixave"]]
+                 ; [:p [:km "open: Pixave"]]
                  [:d [:km "open: Downloads in Finder"]]
                  [:q [:km "open: Slack"]]
                  [:c [:km "open: Timing"]]
