@@ -30,7 +30,7 @@ ln -sf ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/U
 ln -sf ~/.dotfiles/bash/.bash_profile ~/.bash_profile
 
 # zsh
-ln -sf ~/.dotfiles/yabai/.zshrc ~/.zshrc
+ln -sf ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes/typewritten.zsh-theme"
 
 # yabai
