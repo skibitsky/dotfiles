@@ -11,4 +11,11 @@ then
 fi
 
 # Install Brew packages and apps, and AppStore apps
+echo "Running Brewfile"
 brew bundle --file="~/.dotfiles/macos/Brewfile"
+
+echo "Installing latest node"
+nvm install --lts
+
+echo "Installing go apps"
+go get -u github.com/nikitavoloboev/gitupdate

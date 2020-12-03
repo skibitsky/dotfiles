@@ -1,11 +1,13 @@
-tap "ajeetdsouza/zoxide"
+tap "candid82/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "schniz/tap"
+tap "yqrashawn/goku"
 # Cross-platform make
 brew "cmake"
 # Command-line tool for DigitalOcean
@@ -27,19 +29,13 @@ brew "git-flow-avh"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Library for command-line editing
-brew "readline", link: true
+brew "readline"
 # Command-line interface for SQLite
 brew "sqlite"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Small Clojure interpreter and linter
-brew "joker"
-# Execute commands when watched files change
-brew "watchexec"
-# karabiner configurator
-brew "goku", restart_service: true
 # Add GitHub support to git on the command-line
 brew "hub"
 # Configurable static site generator
@@ -66,23 +62,40 @@ brew "thefuck"
 brew "tldr"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Execute commands when watched files change
+brew "watchexec"
 # Internet file retriever
 brew "wget"
-# Black box WordPress vulnerability scanner
-brew "wpscan"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
-# A faster way to navigate your filesystem
-brew "ajeetdsouza/zoxide/zoxide"
+# karabiner configurator
+brew "yqrashawn/goku/goku"
+cask "alfred"
 cask "android-platform-tools"
+cask "backblaze"
 cask "brave-browser"
+cask "contexts"
+cask "dash"
 cask "dotnet-sdk"
+cask "fantastical"
 cask "figma"
-cask "font-hack-nerd-font"
+cask "firefox"
+cask "font-fira-code"
 cask "gswitch"
+cask "hazel"
+cask "iterm2"
+cask "kaleidoscope"
+cask "karabiner-elements"
+cask "keyboard-maestro"
 cask "moonlight"
-cask "termius"
+cask "spotify"
+cask "steam"
+cask "tower"
 cask "transmission"
+cask "tunnelbear"
+cask "visual-studio-code"
 cask "webtorrent"

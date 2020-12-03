@@ -13,12 +13,13 @@ echo "     /\     .___      __    _____.__.__
 # macOS defaults
 sh ./macos/default.sh
 
-# zsh plugins
-sh ./zsh/zsh-plugins-downloader.sh
-zsh
-
 # Install apps
 sh ./macos/apps.sh
 
-#Symlinks
+# zsh plugins
+sh ./zsh/zsh-plugins-downloader.sh
+
+# Symlinks
 sh symlinks.sh
+
+zsh
