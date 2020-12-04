@@ -50,6 +50,8 @@ brew "modd"
 brew "neofetch"
 # Port scanning utility for large networks
 brew "nmap", link: false
+# Manage multiple Node.js versions
+brew "nvm"
 # Passphrase entry dialog utilizing the Assuan protocol
 brew "pinentry"
 # Generate ASCII art with terminal, shell, and OS info
@@ -91,7 +93,7 @@ cask "iterm2"
 cask "kaleidoscope"
 cask "karabiner-elements"
 cask "keyboard-maestro"
-cask "moonlight"
+cask "parallels"
 cask "spotify"
 cask "steam"
 cask "tower"
