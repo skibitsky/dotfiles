@@ -160,10 +160,10 @@
                  [:a [:!CTOa]]]} ; New entry in DayOne
         {:des "mkey (make)"
          :rules [:m-mode
-                 [:a [:!CTOSa]] ; Connetct/Disconnect AirPods using ToothFairy app
-                 [:s [:!CTOSs]] ; Connetct/Disconnect AirPods Pro using ToothFairy app
                  [:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
                  [:x [:!CTOSx]] ; Capture Area in CleanShot
+                 [:a [:!CTOSa]] ; Capture Area and Annotate in CleanShot
+                 [:s [:!CTOSs]] ; Capture Area and Copy to Clipboard in CleanShot
                  [:c [:!CTOSc]] ; Record video in CleanShot
                  [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
                  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
