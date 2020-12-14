@@ -58,7 +58,7 @@ brew "pinentry"
 brew "screenfetch"
 # Command-line packet analyzer
 brew "tcpdump"
-# Programatically correct mistyped console commands
+# Programmatically correct mistyped console commands
 brew "thefuck"
 # Simplified and community-driven man pages
 brew "tldr"
