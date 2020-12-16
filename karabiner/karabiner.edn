@@ -2,8 +2,8 @@
  {:Default {:default true
          :sim     5
          :delay   0
-         :alone   30
-         :held    50}}
+         :alone   50
+         :held    100}}
  :templates {:alfred "osascript -e 'tell application \"Alfred 4\" to run trigger \"%s\" in workflow \"%s\" with argument \"%s\"'"
              :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"
            	 :open "open \"%s\""
