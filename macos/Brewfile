@@ -8,24 +8,8 @@ tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "schniz/tap"
 tap "yqrashawn/goku"
-# Cross-platform make
-brew "cmake"
-# Command-line tool for DigitalOcean
-brew "doctl"
-# Select default apps for documents and URL schemes on macOS
-brew "duti"
-# Modern replacement for 'ls'
-brew "exa"
 # GNU database manager
 brew "gdbm"
-# GitHub command-line tool
-brew "gh"
-# Distributed revision control system
-brew "git"
-# Command-line option parsing utility
-brew "gnu-getopt"
-# AVH edition of git-flow
-brew "git-flow-avh"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Library for command-line editing
@@ -34,12 +18,32 @@ brew "readline"
 brew "sqlite"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# Cross-platform make
+brew "cmake"
+# Command-line tool for DigitalOcean
+brew "doctl"
+# Select default apps for documents and URL schemes on macOS
+brew "duti"
+# Modern replacement for 'ls'
+brew "exa"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Command-line option parsing utility
+brew "gnu-getopt"
+# AVH edition of git-flow
+brew "git-flow-avh"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Add GitHub support to git on the command-line
 brew "hub"
 # Configurable static site generator
 brew "hugo"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # Version of the SSL/TLS protocol forked from OpenSSL
 brew "libressl"
 # C library for reading, creating, and modifying zip archives
