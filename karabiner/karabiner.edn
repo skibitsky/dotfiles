@@ -180,9 +180,8 @@
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
        {:des "windows-move"
          :rules [:windows-move
-         								[:i [:!CTOS5]] ; move to next monitor
-         								[:j [:!CTOS4]] ; TODO: restore window layout (BTT only)
-																	[:k [:km "window: center"]] ; center nicely on main screen
+         		 [:i [:!CTOS5]] ; move to next monitor
+         		 [:j [:!CTOS4]] ; TODO: restore window layout (BTT only)
                  [:l [:!CTOS2]] ; move window right
                  [:h [:!CTOS1]]]} ; move window left
         {:des "xkey (Spotify)"
