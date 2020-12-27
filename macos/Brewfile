@@ -78,6 +78,8 @@ brew "youtube-dl"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# A tiling window manager for macOS based on binary space partitioning.
+brew "koekeishiya/formulae/yabai"
 # karabiner configurator
 brew "yqrashawn/goku/goku"
 cask "alfred"
