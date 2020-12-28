@@ -110,16 +110,12 @@
                  [:k [:km "open: KM"]]
                  [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
-                 ; [:p [:km "open: Pixave"]]
                  [:d [:km "open: Downloads in Finder"]]
                  [:q [:km "open: Slack"]]
-                 [:c [:km "open: Timing"]]
                  [:u [:km "open: Unity Hub"]]
                  [:r [:km "open: Sublime"]]
                  [:v [:!TOSv]] ; Open dotfiles
                  [:1 [:km "open: 1Password"]]
-                 [:2 [:km "open: Caprine"]]
-                 [:3 [:km "open: Photos"]]
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (actions and arrows)"
          :rules [:s-mode
@@ -277,12 +273,11 @@
                  [:j [:alfred "search bear" "com.drgrib.bear"]]
                  [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
-                 ; [:m [:alfred "search mindnode" "nikivi.search.content"]]
-                 ; [:n [:alfred "search numbers" "com.skibitsky.filessearch"]]
                  [:i [:alfred "search websites" "nikivi.web.searches"]]
-                 [:open_bracket [:alfred "search tldr" "com.alexlafroscia.tldr-alfred-workflow"]]
-                 ; [:period [:alfred "search keynote" "com.skibitsky.filessearch"]]
                  [:l [:alfred "search slack" "com.yannickglt.alfred2.slack"]]
+                 [:r [:alfred "search tabs" "net.deanishe.alfred.safari"]]
+                 [:e [:alfred "search history" "net.deanishe.alfred.safari"]]
+                 [:w [:alfred "search itabs" "net.deanishe.alfred.safari"]]
                  [:o [:alfred "iterm" "net.isometry.alfred.tty"]]
                  [:h [:alfred "search docker hub" "com.ryanparman.docker-hub"]]
                  [:d [:alfred "docker" "com.alfredapp.docker"]]
