@@ -61,3 +61,13 @@ lnall() {
 rmempty() {
   find . -depth  -type d  -empty -exec rmdir {} \;
 }
+
+# Deletes all files in current dir by name pattern. Ex: `$ rmname "*.mp3"`
+rmname() {
+  if [ $# -eq 0 ]; then
+    echo "No file name specified"
+    return 1
+  fi
+
+  find . -type f -name "$1" -exec rm -rf {} \;
+}
