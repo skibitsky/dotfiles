@@ -39,4 +39,5 @@
     "editor.insertSpaces": true,
     "git.enableCommitSigning": true,
     "liveServer.settings.donotVerifyTags": true,
+    "extensions.ignoreRecommendations": true,
 }
