@@ -190,8 +190,8 @@
                  [:o [:alfred "show_search_online" "com.vdesabou.spotify.mini.player"]]
                  [:n [:alfred "next" "com.vdesabou.spotify.mini.player"]]
                  [:p [:alfred "show_playlists" "com.vdesabou.spotify.mini.player"]]
-                 [:equal_sign [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
-                 [:hyphen [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
+                 [:a [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
+                 [:z [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
                  [:r [:alfred "song_radio" "com.vdesabou.spotify.mini.player"]]
                  [:a [:alfred "artist_radio" "com.vdesabou.spotify.mini.player"]]]}
         {:des "ckey (text)"

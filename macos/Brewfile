@@ -84,30 +84,51 @@ brew "zsh"
 brew "koekeishiya/formulae/yabai"
 # karabiner configurator
 brew "yqrashawn/goku/goku"
+# Application launcher and productivity software
 cask "alfred"
+# Android SDK component
 cask "android-platform-tools"
+# Data backup and storage service
 cask "backblaze"
+# Web browser focusing on privacy
 cask "brave-browser"
+# Allows switching between application windows
 cask "contexts"
+# API documentation browser and code snippet manager
 cask "dash"
+# App to build and share containerized applications and microservices
 cask "docker"
+# Developer platform
 cask "dotnet-sdk"
 cask "fantastical"
 cask "figma"
+# Web browser
 cask "firefox"
 cask "font-fira-code"
 cask "gswitch"
+# Automated organization
 cask "hazel"
+# Free and open-source media player
 cask "iina"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Spots differences in text and image files
 cask "kaleidoscope"
+# Keyboard customizer
 cask "karabiner-elements"
 cask "keyboard-maestro"
+# Desktop GUI client for browsing Geminispace
 cask "lagrange"
+# Desktop virtualization software
 cask "parallels"
+# Music streaming service
 cask "spotify"
+# Video game digital distribution service
 cask "steam"
+# Git client focusing on power and productivity
 cask "tower"
+# Open-source BitTorrent client
 cask "transmission"
+# Open-source code editor
 cask "visual-studio-code"
 cask "zsa-wally"
