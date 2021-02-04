@@ -125,6 +125,8 @@ cask "parallels"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
+# Web browser focusing on security
+cask "tor-browser"
 # Git client focusing on power and productivity
 cask "tower"
 # Open-source BitTorrent client
