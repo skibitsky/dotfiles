@@ -9,7 +9,7 @@ gih() {
 
   git add .
   git commit -m "Initial commit"
-  hub create -p
+  gh repo create -y --private
   git push --set-upstream origin master
 }
 

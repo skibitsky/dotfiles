@@ -35,3 +35,5 @@
 [diff]
 	tool = Kaleidoscope
 	submodule = log
+[init]
+	defaultBranch = master
