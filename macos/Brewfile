@@ -20,6 +20,8 @@ brew "readline"
 brew "sqlite"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# Core application library for C
+brew "glib"
 # Cross-platform make
 brew "cmake"
 # Command-line tool for DigitalOcean
@@ -52,6 +54,8 @@ brew "libressl"
 brew "libzip"
 # Flexible tool for responding to filesystem changes
 brew "modd"
+# Cross platform, open source .NET development framework
+brew "mono"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Port scanning utility for large networks
