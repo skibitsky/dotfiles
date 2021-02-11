@@ -9,6 +9,7 @@ tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "schniz/tap"
 tap "skyjake/lagrange"
+tap "wpscanteam/tap"
 tap "yqrashawn/goku"
 # GNU database manager
 brew "gdbm"
