@@ -33,7 +33,7 @@ alias gsur='git submodule update --remote --merge'
 alias hubp='hub create -p; git push --set-upstream origin master'
 
 # Git Flow 
-alias feature='git flow feature'
+alias feat='git flow feature'
 alias bug='git flow bugfix'
 
 # Navigation
