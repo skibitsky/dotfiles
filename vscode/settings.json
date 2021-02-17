@@ -40,4 +40,5 @@
     "git.enableCommitSigning": true,
     "liveServer.settings.donotVerifyTags": true,
     "extensions.ignoreRecommendations": true,
+    "editor.tabSize": 2,
 }
