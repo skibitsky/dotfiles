@@ -117,7 +117,7 @@ cask "hazel"
 cask "iina"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Spots differences in text and image files
+# Spot and merge differences in text and image files or folders
 cask "kaleidoscope"
 # Keyboard customizer
 cask "karabiner-elements"
