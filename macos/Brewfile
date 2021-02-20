@@ -1,3 +1,4 @@
+tap "apparition47/tap"
 tap "candid82/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -124,6 +125,8 @@ cask "karabiner-elements"
 cask "keyboard-maestro"
 # Desktop GUI client for browsing Geminispace
 cask "lagrange"
+# An email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail.
+cask "mailtrackerblocker"
 # Desktop virtualization software
 cask "parallels"
 # Music streaming service
