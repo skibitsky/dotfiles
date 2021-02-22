@@ -56,3 +56,7 @@ alias upm="openupm"
 
 # youtube-dl
 alias yd="youtube-dl"
+
+# There is a bug in latest adb version. Hombrew casks are garbage and hard to downgrade,
+# Therefore I just use adb that comes with Unity
+alias adb='/Applications/Unity/Hub/Editor/2019.4.14f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb'
