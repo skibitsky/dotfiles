@@ -92,8 +92,6 @@ brew "koekeishiya/formulae/yabai"
 brew "yqrashawn/goku/goku"
 # Application launcher and productivity software
 cask "alfred"
-# Android SDK component
-cask "android-platform-tools"
 # Data backup and storage service
 cask "backblaze"
 # Web browser focusing on privacy
