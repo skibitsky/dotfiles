@@ -94,6 +94,7 @@ brew "yqrashawn/goku/goku"
 cask "alfred"
 # Data backup and storage service
 cask "backblaze"
+cask "background-music"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Allows switching between application windows
