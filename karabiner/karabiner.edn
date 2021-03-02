@@ -108,14 +108,12 @@
                  [:w [:km "open: Things"]]
                  [:j [:km "open: iTerm"]]
                  [:k [:km "open: KM"]]
-                 [:g [:km "open: GitHub"]]
                  [:a [:km "open: Alfred"]]
                  [:d [:km "open: Downloads in Finder"]]
                  [:q [:km "open: Slack"]]
                  [:u [:km "open: Unity Hub"]]
-                 [:r [:km "open: Sublime"]]
+                ;;  [:r [:km "open: Sublime"]]
                  [:v [:!TOSv]] ; Open dotfiles
-                 [:1 [:km "open: 1Password"]]
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (actions and arrows)"
          :rules [:s-mode
@@ -142,18 +140,17 @@
                  [:i [:!CTOS4]] ; Things tools lists
                  [:u [:!CTOS9]] ; Personal urls
                  [:p [:!CTOS8]] ; Personal essentials
-                 [:e [:!CTOS6]] ; Current Task
+                ;;  [:e [:!CTOS6]] ; Current Task
                  [:d [:!CTOSd]] ; Paste Clipboard Palette
                  [:c [:!CTOc]] ; Futuclass urls and essentials
-                 [:r [:!CTOS7]]]} ; Different urls and essentials
+                 [:r [:!CTOS7]]]} ; Kitokia urls and essentials
         {:des "ekey (type using KM palettes)"
          :rules [:e-mode
                  [:u [:!CTOSu]]]}; Unicode symbols
         {:des "lkey (quick capture)"
          :rules [:l-mode
                  [:f [:!CTOf]] ; New entry in Fantastical
-                 [:m :!CTOm] ; New Quick Entry in MindNode
-                 [:a [:!CTOa]]]} ; New entry in DayOne
+                 [:m :!CTOm]]} ; New Quick Entry in MindNode
         {:des "mkey (make)"
          :rules [:m-mode
                  [:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
@@ -162,7 +159,7 @@
                  [:s [:!CTOSs]] ; Capture Area and Copy to Clipboard in CleanShot
                  [:c [:!CTOSc]] ; Record video in CleanShot
                  [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
-                 [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
+                ;;  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
                  [:t [:!CT9]]]} ; Add to Typinator
         {:des "pkey (text snippets)"
          :rules [:p-mode
@@ -174,12 +171,12 @@
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :s]]]} ; Thanks       
-       {:des "windows-move"
-         :rules [:windows-move
-         		 [:i [:!CTOS5]] ; move to next monitor
-         		 [:j [:!CTOS4]] ; TODO: restore window layout (BTT only)
-                 [:l [:!CTOS2]] ; move window right
-                 [:h [:!CTOS1]]]} ; move window left
+      ;;  {:des "fkey windows-move"
+      ;;    :rules [:windows-move
+      ;;    		     [:i [:!CTOS5]] ; move to next monitor
+      ;;    		     [:j [:!CTOS4]] ; TODO: restore window layout (BTT only)
+      ;;            [:l [:!CTOS2]] ; move window right
+      ;;            [:h [:!CTOS1]]]} ; move window left
         {:des "xkey (Spotify)"
          :rules [:x-mode
                  [:j [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
@@ -194,16 +191,16 @@
                  [:z [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
                  [:r [:alfred "song_radio" "com.vdesabou.spotify.mini.player"]]
                  [:a [:alfred "artist_radio" "com.vdesabou.spotify.mini.player"]]]}
-        {:des "ckey (text)"
+        {:des "ckey (selected text)"
          :rules [:c-mode
                  [:q [:km "c: execute in iTerm"]]
                  [:w [:km "c: open as URL"]]
                  [:e [:km "c: search text in DuckDuckGo"]]
-                 [:s [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
-                 [:d [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
+                 [:a [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
+                 [:s [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
-                 [:a [:km "c: add to Things"]] ; Add selection to Things Inbox
-                 [:m [:!CTOSb]] ; Add selection to Current Task
+                 [:z [:km "c: add to Things"]] ; Add selection to Things Inbox
+                ;;  [:m [:!CTOSb]] ; Add selection to Current Task
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:i [:!CTOSi]] ; Edit and search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
@@ -212,13 +209,13 @@
                  [:u [:alfred "search dash" "com.kapeli.dash.workflow" "!unity: "]]
                  [:n [:alfred "search dash" "com.kapeli.dash.workflow" "!net: "]]
                  [:a [:alfred "search dash" "com.kapeli.dash.workflow" "!as: "]]
-                 [:r [:alfred "search dash" "com.kapeli.dash.workflow" "!react: "]]
+                ;;  [:r [:alfred "search dash" "com.kapeli.dash.workflow" "!react: "]]
                  [:j [:alfred "search dash" "com.kapeli.dash.workflow" "!js: "]]
                  [:w [:alfred "search dash" "com.kapeli.dash.workflow" "!web: "]]
-                 [:g [:alfred "search dash" "com.kapeli.dash.workflow" "!go: "]]
+                ;;  [:g [:alfred "search dash" "com.kapeli.dash.workflow" "!go: "]]
                  [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
-                 [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]
-                 [:s [:alfred "search dash" "com.kapeli.dash.workflow" "!swift: "]]]}
+                ;;  [:s [:alfred "search dash" "com.kapeli.dash.workflow" "!swift: "]]
+                 [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]]}
         {:des "slashkey (open URL)"
          :rules [:slash-mode
                  [:f :!CTOSf]]} ; Futuclass links
@@ -271,16 +268,13 @@
                  [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:j [:alfred "search bear" "com.drgrib.bear"]]
-                 [:y [:alfred "search youtube" "net.deanishe.alfred-searchio"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
                  [:i [:alfred "search websites" "nikivi.web.searches"]]
                  [:l [:alfred "search slack" "com.yannickglt.alfred2.slack"]]
-                 [:r [:alfred "search tabs" "net.deanishe.alfred.safari"]]
+                 [:w [:alfred "search tabs" "net.deanishe.alfred.safari"]]
                  [:e [:alfred "search history" "net.deanishe.alfred.safari"]]
-                 [:w [:alfred "search itabs" "net.deanishe.alfred.safari"]]
-                 [:o [:alfred "iterm" "net.isometry.alfred.tty"]]
+                 [:r [:alfred "search itabs" "net.deanishe.alfred.safari"]]
                  [:h [:alfred "search docker hub" "com.ryanparman.docker-hub"]]
-                 [:d [:alfred "docker" "com.alfredapp.docker"]]
                  [:u [:alfred "search menu bar" "com.tedwise.menubarsearch"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
