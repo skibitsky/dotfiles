@@ -124,7 +124,7 @@ cask "karabiner-elements"
 cask "keyboard-maestro"
 # Desktop GUI client for browsing Geminispace
 cask "lagrange"
-# An email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail.
+# Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
 cask "mailtrackerblocker"
 # Desktop virtualization software
 cask "parallels"
