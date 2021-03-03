@@ -126,6 +126,8 @@ cask "keyboard-maestro"
 cask "lagrange"
 # Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
 cask "mailtrackerblocker"
+# Client program for the OpenVPN Access Server
+cask "openvpn-connect"
 # Desktop virtualization software
 cask "parallels"
 # Music streaming service
