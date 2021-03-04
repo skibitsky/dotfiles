@@ -110,6 +110,7 @@ cask "figma"
 # Web browser
 cask "firefox"
 cask "font-fira-code"
+# Set which graphics card to use
 cask "gswitch"
 # Automated organization
 cask "hazel"
