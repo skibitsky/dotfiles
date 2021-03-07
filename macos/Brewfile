@@ -125,12 +125,14 @@ cask "karabiner-elements"
 cask "keyboard-maestro"
 # Desktop GUI client for browsing Geminispace
 cask "lagrange"
+cask "ledger-live"
 # Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
 cask "mailtrackerblocker"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
 # Desktop virtualization software
 cask "parallels"
+cask "raspberry-pi-imager"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service
