@@ -270,7 +270,6 @@
                  [:j [:alfred "search bear" "com.drgrib.bear"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
                  [:i [:alfred "search websites" "nikivi.web.searches"]]
-                 [:l [:alfred "search slack" "com.yannickglt.alfred2.slack"]]
                  [:w [:alfred "search tabs" "net.deanishe.alfred.safari"]]
                  [:e [:alfred "search history" "net.deanishe.alfred.safari"]]
                  [:r [:alfred "search itabs" "net.deanishe.alfred.safari"]]
