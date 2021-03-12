@@ -159,7 +159,7 @@
                  [:s [:!CTOSs]] ; Capture Area and Copy to Clipboard in CleanShot
                  [:c [:!CTOSc]] ; Record video in CleanShot
                  [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
-                ;;  [:w [:alfred "new current task" "com.skibitsky.currenttask"]]
+                 [:b [:!CTOSb]] ; Capture Area adn Pin to the screen in CleanShot
                  [:t [:!CT9]]]} ; Add to Typinator
         {:des "pkey (text snippets)"
          :rules [:p-mode
@@ -200,7 +200,6 @@
                  [:s [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
                  [:z [:km "c: add to Things"]] ; Add selection to Things Inbox
-                ;;  [:m [:!CTOSb]] ; Add selection to Current Task
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:i [:!CTOSi]] ; Edit and search selected text in alfred-web-searches
                  [:u [:!CTOSm]]]} ; Selected text actions
