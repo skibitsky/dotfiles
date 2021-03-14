@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# Makes sure the Docker deamon is running before starting container
+# Makes sure the Docker daemon is running before starting container
 # I use it to keep Unity Accelerator container running when Unity engine is launched
 
 if [ $# -eq 0 ]; then
