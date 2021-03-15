@@ -64,3 +64,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.dotfiles/zsh/aliases.zsh
 source ~/.dotfiles/zsh/functions/git-functions.zsh
 source ~/.dotfiles/zsh/functions/other-functions.zsh
+source ~/.dotfiles/zsh/functions/android-functions.zsh
