@@ -215,8 +215,9 @@
                  [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
                 ;;  [:s [:alfred "search dash" "com.kapeli.dash.workflow" "!swift: "]]
                  [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]]}
-        {:des "slashkey (open URL)"
+        {:des "slashkey"
          :rules [:slash-mode
+                 [:d :!CTOSe] ; Futuclass Unity
                  [:f :!CTOSf]]} ; Futuclass links
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode

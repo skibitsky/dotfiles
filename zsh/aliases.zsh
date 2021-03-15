@@ -9,8 +9,8 @@ alias c='code .'
 # Brew
 alias bi='brew install'
 alias bu='brew uninstall'
-alias bci='brew cask install'
-alias bcu='brew cask uninstall'
+alias bci='brew install --cask'
+alias bcu='brew uninstall --cask'
 
 # Open in Sublime Text
 alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
