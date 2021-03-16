@@ -102,12 +102,15 @@ defaults write com.apple.Safari WarnAboutFraudulentWebsites -bool true
 # Disable Java
 defaults write com.apple.Safari WebKitJavaEnabled -bool false
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled -bool false
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled -bool false
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles -bool false
 
 # Enable “Do Not Track”
 defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 
+# JavaScript stuff
+defaults write com.apple.Safari WebKitJavaScriptEnabled -bool true
+defaults write com.apple.Safari AllowJavaScriptFromAppleEvents -bool true
+defaults write com.apple.Safari WebKitPreferences.javaScriptCanOpenWindowsAutomatically -bool true
 
 # Mail
 
