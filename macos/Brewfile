@@ -26,6 +26,8 @@ brew "xz"
 brew "glib"
 # Cross-platform make
 brew "cmake"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
 # Command-line tool for DigitalOcean
 brew "doctl"
 # Select default apps for documents and URL schemes on macOS
@@ -144,6 +146,8 @@ cask "tor-browser"
 cask "tower"
 # Open-source BitTorrent client
 cask "transmission"
+# Tool to automate the insertion of frequently used text and graphics
+cask "typinator"
 # Open-source code editor
 cask "visual-studio-code"
 cask "zsa-wally"

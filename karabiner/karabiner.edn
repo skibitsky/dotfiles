@@ -170,11 +170,11 @@
                  [:s [:open_bracket :!Ss :e :r :i :a :l :i :z :e :!Sf :i :e :l :d :close_bracket :spacebar :p :r :i :v :a :t :e :spacebar]] ; [SerializeField] private
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
-                 [:a [:!St :h :a :n :k :s]]]} ; Thanks       
+                 [:a [:!St :h :a :n :k :spacebar :y :o :u :!S1]]]} ; Thank you!   
       ;;  {:des "fkey windows-move"
       ;;    :rules [:windows-move
-      ;;    		     [:i [:!CTOS5]] ; move to next monitor
-      ;;    		     [:j [:!CTOS4]] ; TODO: restore window layout (BTT only)
+      ;;    	  [:i [:!CTOS5]] ; move to next monitor
+      ;;    	  [:j [:!CTOS4]] ; TODO: restore window layout (BTT only)
       ;;            [:l [:!CTOS2]] ; move window right
       ;;            [:h [:!CTOS1]]]} ; move window left
         {:des "xkey (Spotify)"
