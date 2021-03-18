@@ -2,6 +2,7 @@
 
 # General
 alias f='open .'
+alias flushdns='sudo killall -HUP mDNSResponder'
 
 # VS Code
 alias c='code .'
