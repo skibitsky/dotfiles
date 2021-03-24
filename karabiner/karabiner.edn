@@ -198,11 +198,10 @@
                  [:e [:km "c: search text in DuckDuckGo"]]
                  [:a [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:s [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
-                 [:x [:!Oleft_arrow :!Fdelete_or_backspace]] ; Delete word's first char
                  [:z [:km "c: add to Things"]] ; Add selection to Things Inbox
                  [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
                  [:i [:!CTOSi]] ; Edit and search selected text in alfred-web-searches
-                 [:u [:!CTOSm]]]} ; Selected text actions
+                 [:x [:!CTOSm]]]} ; Selected text actions
         {:des "ikey (Dash)"
          :rules [:i-mode
                  [:u [:alfred "search dash" "com.kapeli.dash.workflow" "!unity: "]]
