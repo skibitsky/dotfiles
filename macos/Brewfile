@@ -130,6 +130,8 @@ cask "lagrange"
 cask "ledger-live"
 # Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
 cask "mailtrackerblocker"
+# Untraceable cryptocurrency wallet
+cask "monero-wallet"
 cask "openmtp"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
