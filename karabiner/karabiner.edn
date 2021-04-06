@@ -20,7 +20,7 @@
              :q-mode {:key :q}
              :w-mode {:key :w}
              :e-mode {:key :e}
-             :r-mode {:key :r}
+             :cursor-management {:key :r}
              :t-mode {:key :t}
              :y-mode {:key :y}
              :u-mode {:key :u}
@@ -29,7 +29,7 @@
              :p-mode {:key :p :condi :en}
              :a-mode {:key :a}
              :s-mode {:key :s}
-             :windows-move {:key :f}
+             :windows-management {:key :f}
              :z-mode {:key :z}
              :x-mode {:key :x}
              :c-mode {:key :c}
@@ -171,12 +171,12 @@
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :spacebar :y :o :u :!S1]]]} ; Thank you!   
-      ;;  {:des "fkey windows-move"
-      ;;    :rules [:windows-move
-      ;;    	  [:i [:!CTOS5]] ; move to next monitor
-      ;;    	  [:j [:!CTOS4]] ; TODO: restore window layout (BTT only)
-      ;;            [:l [:!CTOS2]] ; move window right
-      ;;            [:h [:!CTOS1]]]} ; move window left
+        {:des "rkey :cursor-management"
+         :rules [:cursor-management
+         	  [:p [:km "cursor: center of active window"]]]}
+      ;;  {:des "fkey windows-management"
+      ;;    :rules [:windows-management
+      ;;    	  ;; [:i [:!CTOS5]]]} ; move to next monitor
         {:des "xkey (Spotify)"
          :rules [:x-mode
                  [:j [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
