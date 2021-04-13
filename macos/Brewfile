@@ -107,7 +107,9 @@ cask "dash"
 cask "docker"
 # Developer platform
 cask "dotnet-sdk"
+# Calendar software
 cask "fantastical"
+# Collaborative team software
 cask "figma"
 # Web browser
 cask "firefox"
