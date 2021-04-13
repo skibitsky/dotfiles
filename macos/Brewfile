@@ -66,6 +66,8 @@ brew "neofetch"
 brew "nmap", link: false
 # Manage multiple Node.js versions
 brew "nvm"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Passphrase entry dialog utilizing the Assuan protocol
 brew "pinentry"
 # Generate ASCII art with terminal, shell, and OS info
