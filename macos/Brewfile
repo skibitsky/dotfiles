@@ -26,8 +26,6 @@ brew "xz"
 brew "glib"
 # Cross-platform make
 brew "cmake"
-# Pack, ship and run any application as a lightweight container
-brew "docker", link: false
 # Command-line tool for DigitalOcean
 brew "doctl"
 # Select default apps for documents and URL schemes on macOS
