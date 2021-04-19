@@ -155,4 +155,5 @@ cask "transmission"
 cask "typinator"
 # Open-source code editor
 cask "visual-studio-code"
+# Flash tool for ZSA keyboards
 cask "zsa-wally"
