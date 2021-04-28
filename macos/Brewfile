@@ -127,6 +127,7 @@ cask "iterm2"
 cask "kaleidoscope"
 # Keyboard customizer
 cask "karabiner-elements"
+# Automation software
 cask "keyboard-maestro"
 # Desktop GUI client for browsing Geminispace
 cask "lagrange"
