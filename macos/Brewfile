@@ -133,6 +133,7 @@ cask "karabiner-elements"
 cask "keyboard-maestro"
 # Desktop GUI client for browsing Geminispace
 cask "lagrange"
+# Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-live"
 # Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
 cask "mailtrackerblocker"
