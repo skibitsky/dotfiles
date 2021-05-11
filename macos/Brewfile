@@ -135,6 +135,8 @@ cask "keyboard-maestro"
 cask "lagrange"
 # Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-live"
+# Host-based application firewall
+cask "little-snitch"
 # Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
 cask "mailtrackerblocker"
 # Untraceable cryptocurrency wallet
