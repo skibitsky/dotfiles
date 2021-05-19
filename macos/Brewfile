@@ -100,6 +100,7 @@ cask "alfred"
 cask "backblaze"
 # Web browser focusing on privacy
 cask "brave-browser"
+cask "bunch"
 # Allows switching between application windows
 cask "contexts"
 # API documentation browser and code snippet manager
