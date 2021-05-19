@@ -100,7 +100,6 @@ cask "alfred"
 cask "backblaze"
 # Web browser focusing on privacy
 cask "brave-browser"
-cask "bunch"
 # Allows switching between application windows
 cask "contexts"
 # API documentation browser and code snippet manager
@@ -159,6 +158,8 @@ cask "tor-browser"
 cask "tower"
 # Open-source BitTorrent client
 cask "transmission"
+# File transfer application
+cask "transmit"
 # Tool to automate the insertion of frequently used text and graphics
 cask "typinator"
 # Open-source code editor
