@@ -123,6 +123,8 @@ cask "gswitch"
 cask "hazel"
 # Free and open-source media player
 cask "iina"
+# Avalonia-based .NET decompiler
+cask "ilspy"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Spot and merge differences in text and image files or folders
