@@ -112,8 +112,6 @@ cask "docker"
 cask "dotnet-sdk"
 # Calendar software
 cask "fantastical"
-# Collaborative team software
-cask "figma"
 # Web browser
 cask "firefox"
 cask "font-fira-code"
