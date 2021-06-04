@@ -84,6 +84,8 @@ brew "watch"
 brew "watchexec"
 # Internet file retriever
 brew "wget"
+# Tools for the WireGuard secure network tunnel
+brew "wireguard-tools"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 # Shell extension to navigate your filesystem faster
