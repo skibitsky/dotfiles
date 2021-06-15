@@ -100,7 +100,6 @@
          :rules [:o-mode
                  [:x [:km "open: Tower"]]
                  [:t [:km "open: Telegram"]]
-                 [:b [:km "open: Bear"]]
                  [:s [:km "open: Safari"]]
                  [:f [:km "open: Fantastical"]]
                  [:e [:km "open: Email"]]
@@ -108,11 +107,9 @@
                  [:w [:km "open: Things"]]
                  [:j [:km "open: iTerm"]]
                  [:k [:km "open: KM"]]
-                 [:a [:km "open: Alfred"]]
                  [:d [:km "open: Downloads in Finder"]]
                  [:q [:km "open: Slack"]]
                  [:u [:km "open: Unity Hub"]]
-                ;;  [:r [:km "open: Sublime"]]
                  [:v [:!TOSv]] ; Open dotfiles
                  [:period [:km "open: dotfiles in Finder"]]]}
         {:des "skey (actions and arrows)"
@@ -171,12 +168,9 @@
                  [:f [:f :m :t :period :!Sp :r :i :n :t :l :n :!S9 :!S0 :left_arrow]] ; fmt.Println(^)
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :spacebar :y :o :u :!S1]]]} ; Thank you!   
-        {:des "rkey :cursor-management"
+        {:des "rkey (cursor management)"
          :rules [:cursor-management
          	  [:p [:km "cursor: center of active window"]]]}
-      ;;  {:des "fkey windows-management"
-      ;;    :rules [:windows-management
-      ;;    	  ;; [:i [:!CTOS5]]]} ; move to next monitor
         {:des "xkey (Spotify)"
          :rules [:x-mode
                  [:j [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
@@ -267,11 +261,11 @@
                  [:k [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:j [:alfred "search bear" "com.drgrib.bear"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
-                 [:i [:alfred "search websites" "nikivi.web.searches"]]
+                ;;  [:i [:alfred "search websites" "nikivi.web.searches"]]
                  [:w [:alfred "search tabs" "net.deanishe.alfred.safari"]]
                  [:e [:alfred "search history" "net.deanishe.alfred.safari"]]
                  [:r [:alfred "search itabs" "net.deanishe.alfred.safari"]]
-                 [:h [:alfred "search docker hub" "com.ryanparman.docker-hub"]]
-                 [:u [:alfred "search menu bar" "com.tedwise.menubarsearch"]]
+                ;;  [:h [:alfred "search docker hub" "com.ryanparman.docker-hub"]]
+                ;;  [:u [:alfred "search menu bar" "com.tedwise.menubarsearch"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
