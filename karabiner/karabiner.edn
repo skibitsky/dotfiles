@@ -258,8 +258,8 @@
         {:des "akey (Alfred)"
          :rules [:a-mode
                  [:semicolon [:alfred "run" "iansinnott.keyboardmaestro"]]
-                 [:k [:alfred "search repos" "me.lachlan.githubjump"]]
-                 [:j [:alfred "search bear" "com.drgrib.bear"]]
+                 [:l [:alfred "search repos" "me.lachlan.githubjump"]]
+                 [:k [:alfred "search bear" "com.drgrib.bear"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
                 ;;  [:i [:alfred "search websites" "nikivi.web.searches"]]
                  [:w [:alfred "search tabs" "net.deanishe.alfred.safari"]]
