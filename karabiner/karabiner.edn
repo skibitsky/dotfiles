@@ -105,7 +105,7 @@
                  [:e [:km "open: Email"]]
                  [:m [:km "open: Spotify"]]
                  [:w [:km "open: Things"]]
-                 [:j [:km "open: iTerm"]]
+                 [:i [:km "open: iTerm"]]
                  [:k [:km "open: KM"]]
                  [:d [:km "open: Downloads in Finder"]]
                  [:q [:km "open: Slack"]]
