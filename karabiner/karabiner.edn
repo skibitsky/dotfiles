@@ -154,6 +154,7 @@
                  [:x [:!CTOSx]] ; Capture Area in CleanShot
                  [:a [:!CTOSa]] ; Capture Area and Annotate in CleanShot
                  [:s [:!CTOSs]] ; Capture Area and Copy to Clipboard in CleanShot
+                 [:d [:!CTOd]] ; Text Sniper
                  [:c [:!CTOSc]] ; Record video in CleanShot
                  [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
                  [:b [:!CTOSb]] ; Capture Area adn Pin to the screen in CleanShot
