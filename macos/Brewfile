@@ -90,8 +90,6 @@ brew "youtube-dl"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
-# A tiling window manager for macOS based on binary space partitioning.
-brew "koekeishiya/formulae/yabai"
 # karabiner configurator
 brew "yqrashawn/goku/goku"
 # Application launcher and productivity software
@@ -106,8 +104,6 @@ cask "contexts"
 cask "dash"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Developer platform
 cask "dotnet-sdk"
 # Calendar software
@@ -152,8 +148,6 @@ cask "raspberry-pi-imager"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
-# Web browser focusing on security
-cask "tor-browser"
 # Git client focusing on power and productivity
 cask "tower"
 # Open-source BitTorrent client
