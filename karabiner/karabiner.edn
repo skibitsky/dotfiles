@@ -118,8 +118,6 @@
                  [:##h [:left_arrow]]
                  [:##k [:up_arrow]]
                  [:##j [:down_arrow]]
-                ;;  [:c :!Cdelete_or_backspace] ; ⌘ + ⌫
-                ;;  [:i :!Odelete_or_backspace] ; ⌥ + ⌫
                  [:d :delete_or_backspace] ; ⌫
                  [:f :return_or_enter] ; ↩
                  [:spacebar :!Cz] ; ⌘ + Z
@@ -135,19 +133,12 @@
                  [:##k [:!Fup_arrow]]
                  [:o [:!CTOS5]] ; Things Today lists
                  [:i [:!CTOS4]] ; Things tools lists
-                 [:u [:!CTOS9]] ; Personal urls
+                 [:u [:!CTOSu]] ; Unicode symbols
                  [:p [:!CTOS8]] ; Personal essentials
                 ;;  [:e [:!CTOS6]] ; Current Task
                  [:d [:!CTOSd]] ; Paste Clipboard Palette
                  [:c [:!CTOc]] ; Futuclass urls and essentials
                  [:r [:!CTOS7]]]} ; Kitokia urls and essentials
-        {:des "ekey (type using KM palettes)"
-         :rules [:e-mode
-                 [:u [:!CTOSu]]]}; Unicode symbols
-        {:des "lkey (quick capture)"
-         :rules [:l-mode
-                 [:f [:!CTOf]] ; New entry in Fantastical
-                 [:m :!CTOm]]} ; New Quick Entry in MindNode
         {:des "mkey (make)"
          :rules [:m-mode
                  [:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
@@ -157,8 +148,9 @@
                  [:d [:!CTOd]] ; Text Sniper
                  [:c [:!CTOSc]] ; Record video in CleanShot
                  [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
-                 [:b [:!CTOSb]] ; Capture Area adn Pin to the screen in CleanShot
-                 [:t [:!CT9]]]} ; Add to Typinator
+                 [:b [:!CTOSb]] ; Capture Area and Pin to the screen in CleanShot
+                 [:t [:!CT9]] ; Add to Typinator
+                 [:f [:!CTOf]]]} ; New entry in Fantastical
         {:des "pkey (text snippets)"
          :rules [:p-mode
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
@@ -193,20 +185,14 @@
                  [:e [:km "c: search text in DuckDuckGo"]]
                  [:a [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:s [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
-                 [:b [:km "c: add to Things"]] ; Add selection to Things Inbox
-                 [:n [:!CTOSn]] ; Search selected text in alfred-web-searches
-                 [:i [:!CTOSi]] ; Edit and search selected text in alfred-web-searches
+                 [:i [:km "c: add to Things"]] ; Add selection to Things Inbox
                  [:x [:!CTOSm]]]} ; Selected text actions
         {:des "ikey (Dash)"
          :rules [:i-mode
                  [:u [:alfred "search dash" "com.kapeli.dash.workflow" "!unity: "]]
                  [:n [:alfred "search dash" "com.kapeli.dash.workflow" "!net: "]]
-                 [:a [:alfred "search dash" "com.kapeli.dash.workflow" "!as: "]]
                  [:j [:alfred "search dash" "com.kapeli.dash.workflow" "!js: "]]
-                 [:w [:alfred "search dash" "com.kapeli.dash.workflow" "!web: "]]
-                ;;  [:g [:alfred "search dash" "com.kapeli.dash.workflow" "!go: "]]
                  [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
-                ;;  [:s [:alfred "search dash" "com.kapeli.dash.workflow" "!swift: "]]
                  [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]]}
         {:des "slashkey"
          :rules [:slash-mode
@@ -262,11 +248,8 @@
                  [:l [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:k [:alfred "search bear" "com.drgrib.bear"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
-                ;;  [:i [:alfred "search websites" "nikivi.web.searches"]]
                  [:w [:alfred "search tabs" "net.deanishe.alfred.safari"]]
                  [:e [:alfred "search history" "net.deanishe.alfred.safari"]]
                  [:r [:alfred "search itabs" "net.deanishe.alfred.safari"]]
-                ;;  [:h [:alfred "search docker hub" "com.ryanparman.docker-hub"]]
-                ;;  [:u [:alfred "search menu bar" "com.tedwise.menubarsearch"]]
                  [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
 }
