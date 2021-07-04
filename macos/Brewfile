@@ -137,6 +137,7 @@ cask "little-snitch"
 cask "mailtrackerblocker"
 # Untraceable cryptocurrency wallet
 cask "monero-wallet"
+# Android file transfer
 cask "openmtp"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
