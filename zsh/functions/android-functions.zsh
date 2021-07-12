@@ -5,6 +5,11 @@ adbi() {
   
   echo "Installing..."
   adb shell pm install /data/local/tmp/$(basename $1)
+  echo "Installed!"
+  
+  # When running ADB from external drive, running server prevents it from being ejected
+  echo "Killing adb server..."
+  adb kill-server
 }
 
 # Prints package name of .apk file
