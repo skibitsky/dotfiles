@@ -127,6 +127,8 @@ cask "kaleidoscope"
 cask "karabiner-elements"
 # Automation software
 cask "keyboard-maestro"
+# Sound clear in online meetings
+cask "krisp"
 # Desktop GUI client for browsing Geminispace
 cask "lagrange"
 # Wallet desktop application to maintain multiple cryptocurrencies
