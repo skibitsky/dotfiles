@@ -34,8 +34,6 @@ brew "duti"
 brew "exa"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Command-line interface that provides utilities for building Flow applications
-brew "flow-cli"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
