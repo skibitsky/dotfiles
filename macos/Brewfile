@@ -129,8 +129,6 @@ cask "keyboard-maestro"
 cask "krisp"
 # Desktop GUI client for browsing Geminispace
 cask "lagrange"
-# Wallet desktop application to maintain multiple cryptocurrencies
-cask "ledger-live"
 # Host-based application firewall
 cask "little-snitch"
 # Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
@@ -157,7 +155,5 @@ cask "transmission"
 cask "transmit"
 # Tool to automate the insertion of frequently used text and graphics
 cask "typinator"
-# Open-source code editor
-cask "visual-studio-code"
 # Flash tool for ZSA keyboards
 cask "zsa-wally"
