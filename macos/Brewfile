@@ -61,7 +61,7 @@ brew "mono"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Port scanning utility for large networks
-brew "nmap", link: false
+brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
 # Swiss-army knife of markup format conversion
