@@ -143,6 +143,8 @@ cask "openvpn-connect"
 cask "parallels"
 # Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
+# Desktop chat client for Slack (and Discord)
+cask "ripcord"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service
