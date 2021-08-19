@@ -40,6 +40,7 @@ defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 # Disable accented chars on press and hold 
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+
 # Finder
 
 # Finder: shorter path when in home directory
@@ -85,9 +86,7 @@ defaults write com.apple.dock minimize-to-application -bool true
 
 # Safari
 
-## TODO: TEST
 # Privacy: don’t send search queries to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
 # Prevent Safari from opening ‘safe’ files automatically after downloading
