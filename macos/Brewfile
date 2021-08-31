@@ -62,8 +62,8 @@ brew "mono"
 brew "neofetch"
 # Port scanning utility for large networks
 brew "nmap"
-# Manage multiple Node.js versions
-brew "nvm"
+# Platform built on V8 to build network applications
+brew "node@14"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Passphrase entry dialog utilizing the Assuan protocol

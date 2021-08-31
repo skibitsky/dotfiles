@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Reliable version of `adb install`
 adbi() {
   echo "Pushing file onto device..."

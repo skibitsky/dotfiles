@@ -14,9 +14,9 @@ fi
 echo "Running Brewfile"
 brew bundle --file="~/.dotfiles/macos/Brewfile"
 
-echo "Installing latest node"
-nvm install --lts
-sudo ln -sf "$(nvm which current)" /usr/local/bin/node
+# echo "Installing latest node"
+# nvm install --lts
+# sudo ln -sf "$(nvm which current)" /usr/local/bin/node
 
 echo "Installing node apps"
 npm install -g alfred-fkill \

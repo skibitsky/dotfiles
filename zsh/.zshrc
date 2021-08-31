@@ -1,8 +1,5 @@
-# Removing shell startup lag caused by nvm
-# https://github.com/lukechilds/zsh-nvm#lazy-loading
-export NVM_LAZY_LOAD=true
-
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/usr/local/opt/node@14/bin:$PATH"
 
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -41,12 +38,9 @@ plugins=(
   git 
   brew 
   gitignore 
-  zsh-nvm 
   git-flow-avh 
   zsh-autosuggestions 
   zsh-completions 
-  docker 
-  docker-compose
   zsh-syntax-highlighting
   zsh-better-npm-completion
 )
