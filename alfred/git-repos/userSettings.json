@@ -1,0 +1,20 @@
+{
+      "__workflow_last_version": "2.1.2", 
+      "app_alt": "iTerm",
+      "app_cmd": "Nova", 
+      "app_default": "Finder", 
+      "app_shift": "Tower", 
+      "global_exclude_patterns": [], 
+      "search_dirs": [
+        {
+          "depth": 2, 
+          "excludes": [
+            "tmp", 
+            "bad/smell/*"
+          ], 
+          "name_for_parent": 1, 
+          "path": "~/git"
+        }
+      ]
+    }
+    
