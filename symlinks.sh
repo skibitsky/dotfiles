@@ -33,8 +33,5 @@ ln -sf "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/theme
 # yabai
 ln -sf ~/.dotfiles/yabai/yabairc ~/.yabairc
 
-# Vimari
-ln -sf ~/.dotfiles/vimari/userSettings.json ~/Library/Containers/net.televator.Vimari.SafariExtension/Data/Library/Application\ Support/userSettings.json
-
 # alfred-git-repos
 ln -sf ~/.dotfiles/alfred/git-repos/userSettings.json ~/Library/Application\ Support/Alfred/Workflow\ Data/net.deanishe.alfred-git-repos/settings.json
