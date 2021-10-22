@@ -153,7 +153,7 @@
         {:des "pkey (text snippets)"
          :rules [:p-mode
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
-                 [:t [:slash :slash :spacebar :!St :!So :!Sd :!So :!Ssemicolon :spacebar]] ; // TODO: ^
+                 [:v [:slash :slash :spacebar :!St :!So :!Sd :!So :!Ssemicolon :spacebar]] ; // TODO: ^
                  [:w [:t :!Ssemicolon :s :c :e :n :e :spacebar]] ; t:scene ^
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
                  [:s [:open_bracket :!Ss :e :r :i :a :l :i :z :e :!Sf :i :e :l :d :close_bracket :spacebar :p :r :i :v :a :t :e :spacebar]] ; [SerializeField] private
