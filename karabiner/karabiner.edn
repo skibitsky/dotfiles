@@ -96,7 +96,7 @@
                  [:8 :!TO8]
                  [:9 :!TO9]
                  [:0 :!TO0]]}
-        {:des "o-mode (open)"
+        {:des "okey (open)"
          :rules [:o-mode
                  [:x [:km "open: Tower"]]
                  [:t [:km "open: Telegram"]]
@@ -150,7 +150,7 @@
                  [:b [:!CTOSb]] ; Capture Area and Pin to the screen in CleanShot
                  [:t [:!CT9]] ; Add to Typinator
                  [:f [:!CTOf]]]} ; New entry in Fantastical
-        {:des "pkey (text snippets)"
+        {:des "pkey (text snippets and Dash)"
          :rules [:p-mode
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
                  [:v [:slash :slash :spacebar :!St :!So :!Sd :!So :!Ssemicolon :spacebar]] ; // TODO: ^
@@ -158,7 +158,12 @@
                  [:d [:!Sd :r :a :g :o :n :g :l :a :s :s]] ; Dragonglass
                  [:s [:open_bracket :!Ss :e :r :i :a :l :i :z :e :!Sf :i :e :l :d :close_bracket :spacebar :p :r :i :v :a :t :e :spacebar]] ; [SerializeField] private
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
-                 [:a [:!St :h :a :n :k :spacebar :y :o :u :!S1]]]} ; Thank you!   
+                 [:a [:!St :h :a :n :k :spacebar :y :o :u :!S1]] ; Thank you!   
+                 [:u [:alfred "search dash" "com.kapeli.dash.workflow" "!unity: "]]
+                 [:n [:alfred "search dash" "com.kapeli.dash.workflow" "!net: "]]
+                 [:j [:alfred "search dash" "com.kapeli.dash.workflow" "!js: "]]
+                 [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
+                 [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]]}
         {:des "rkey (cursor management)"
          :rules [:cursor-management
          	  [:p [:km "cursor: center of active window"]]]}
@@ -185,13 +190,6 @@
                  [:s [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:i [:km "c: add to Things"]] ; Add selection to Things Inbox
                  [:x [:!CTOSm]]]} ; Selected text actions
-        {:des "ikey (Dash)"
-         :rules [:i-mode
-                 [:u [:alfred "search dash" "com.kapeli.dash.workflow" "!unity: "]]
-                 [:n [:alfred "search dash" "com.kapeli.dash.workflow" "!net: "]]
-                 [:j [:alfred "search dash" "com.kapeli.dash.workflow" "!js: "]]
-                 [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
-                 [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]]}
         {:des "slashkey"
          :rules [:slash-mode
                  [:d :!CTOSe] ; Futuclass Unity
