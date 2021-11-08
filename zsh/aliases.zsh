@@ -69,3 +69,6 @@ alias aapt="/Volumes/Hitsugi/Applications/Unity\ Editors\ macOS/2019.4.26f1/Play
 
 # Streams Unity logs from connected Android device into terminal and file on Desktop
 alias logcat="adb logcat -s Unity ActivityManager PackageManager dalvikvm DEBUG > ~/Desktop/logcat.log | less +F"
+
+# ffmpeg
+alias keyframes="ffprobe -loglevel error -skip_frame nokey -select_streams v:0 -show_entries frame=pkt_pts_time -of csv=print_section=0"
