@@ -3,6 +3,7 @@
 # General
 alias f='open .'
 alias flushdns='sudo killall -HUP mDNSResponder'
+alias md5dir='md5 -qs $(find ~+ -type f -not -name '.*' -exec md5 -q {} + | LC_ALL=C sort | tr -d '\n')'
 
 # VS Code
 alias c='code .'
