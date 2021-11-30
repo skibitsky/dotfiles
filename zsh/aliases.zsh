@@ -65,8 +65,8 @@ alias yda="youtube-dl -x --audio-format mp3"
 
 # There is a bug in latest adb version. Hombrew casks are garbage and hard to downgrade,
 # Therefore I just use adb that comes with Unity
-alias adb="/Volumes/Hitsugi/Applications/Unity\ Editors\ macOS/2019.4.26f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb"
-alias aapt="/Volumes/Hitsugi/Applications/Unity\ Editors\ macOS/2019.4.26f1/PlaybackEngines/AndroidPlayer/SDK/build-tools/28.0.3/aapt"
+alias adb="/Volumes/Hitsugi/Applications/Unity\ Editors\ macOS/2021.2.0f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb"
+alias aapt="/Volumes/Hitsugi/Applications/Unity\ Editors\ macOS/2021.2.0f1/PlaybackEngines/AndroidPlayer/SDK/build-tools/30.0.2/aapt"
 
 # Streams Unity logs from connected Android device into terminal and file on Desktop
 alias logcat="adb logcat -s Unity ActivityManager PackageManager dalvikvm DEBUG > ~/Desktop/logcat.log | less +F"
