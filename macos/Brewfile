@@ -143,6 +143,8 @@ cask "little-snitch"
 cask "mailtrackerblocker"
 # Untraceable cryptocurrency wallet
 cask "monero-wallet"
+# Finder Toolbar app to open the current directory in Terminal
+cask "openinterminal-lite"
 # Android file transfer
 cask "openmtp"
 # Client program for the OpenVPN Access Server

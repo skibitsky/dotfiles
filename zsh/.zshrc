@@ -59,3 +59,5 @@ source ~/.dotfiles/zsh/aliases.zsh
 source ~/.dotfiles/zsh/functions/git-functions.zsh
 source ~/.dotfiles/zsh/functions/other-functions.zsh
 source ~/.dotfiles/zsh/functions/android-functions.zsh
+
+export SSH_AUTH_SOCK=/Users/gleb/Library/Containers/org.hejki.osx.sshce.agent/Data/socket.ssh
