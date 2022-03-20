@@ -169,5 +169,7 @@ cask "transmission"
 cask "transmit"
 # Tool to automate the insertion of frequently used text and graphics
 cask "typinator"
+# Virtualizer for x86 hardware
+cask "virtualbox"
 # Flash tool for ZSA keyboards
 cask "zsa-wally"
