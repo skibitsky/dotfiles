@@ -98,20 +98,19 @@
                  [:0 :!TO0]]}
         {:des "okey (open)"
          :rules [:o-mode
-                 [:x [:km "open: Tower"]]
-                 [:t [:km "open: Telegram"]]
-                 [:s [:km "open: Safari"]]
-                 [:f [:km "open: Fantastical"]]
-                 [:e [:km "open: Email"]]
-                 [:m [:km "open: Spotify"]]
-                 [:w [:km "open: Things"]]
-                 [:i [:km "open: iTerm"]]
-                 [:k [:km "open: KM"]]
-                 [:d [:km "open: Downloads in Finder"]]
-                 [:q [:km "open: Slack"]]
-                 [:u [:km "open: Unity Hub"]]
-                 [:v [:!TOSv]] ; Open dotfiles
-                 [:period [:km "open: dotfiles in Finder"]]]}
+                 ; [:x [:km "open: Tower"]]
+                 ; [:t [:km "open: Telegram"]]
+                 ; [:s [:km "open: Safari"]]
+                 ; [:f [:km "open: Fantastical"]]
+                 ; [:e [:km "open: Email"]]
+                 ; [:m [:km "open: Spotify"]]
+                 ; [:w [:km "open: Things"]]
+                 ; ; [:i [:km "open: iTerm"]]
+                 ; [:k [:km "open: KM"]]
+                 ; [:d [:km "open: Downloads in Finder"]]
+                 ; [:q [:km "open: Slack"]]
+                 ; [:u [:km "open: Unity Hub"]]
+                 [:v [:!TOSv]]]} ; Open dotfiles
         {:des "skey (actions and arrows)"
          :rules [:s-mode
                  [:##l [:right_arrow]]
