@@ -192,6 +192,7 @@
         {:des "slashkey"
          :rules [:slash-mode
                  [:d :!CTOSe] ; Futuclass Unity
+                 [:s :!CTOSq] ; Futuclass Unity Scene
                  [:f :!CTOSf]]} ; Futuclass links
         {:des "qkey (in-app actions | replacement for ⌃ )"
          :rules [:q-mode
