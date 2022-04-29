@@ -18,6 +18,8 @@ brew "gdbm"
 brew "readline"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Core application library for C
 brew "glib"
 # Generate introspection data for GObject libraries
@@ -26,6 +28,12 @@ brew "gobject-introspection"
 brew "harfbuzz"
 # Framework for layout and rendering of i18n text
 brew "pango"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# Icons for the GNOME project
+brew "adwaita-icon-theme"
+# GSettings schemas for desktop components
+brew "gsettings-desktop-schemas"
 # Tool for reverse engineering 3rd party, closed, binary Android apps
 brew "apktool"
 # Cross-platform make
@@ -34,32 +42,44 @@ brew "cmake"
 brew "doctl"
 # Select default apps for documents and URL schemes on macOS
 brew "duti"
+# Spellchecker wrapping library
+brew "enchant"
 # Modern replacement for 'ls'
 brew "exa"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Command-line option parsing utility
-brew "gnu-getopt"
 # AVH edition of git-flow
 brew "git-flow-avh"
+# Run gitlab pipelines locally as shell executor or docker executor
+brew "gitlab-ci-local"
+# Network related modules for glib
+brew "glib-networking"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Compiler for the GObject type system
 brew "vala"
+# Flexible API to implement spellchecking in GTK+ applications
+brew "gspell"
 # Add GitHub support to git on the command-line
 brew "hub"
 # Configurable static site generator
 brew "hugo"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# GNOME Python bindings (based on GObject Introspection)
+brew "pygobject3"
 # Version of the SSL/TLS protocol forked from OpenSSL
 brew "libressl"
+# HTTP client/server library for GNOME
+brew "libsoup"
 # C library for reading, creating, and modifying zip archives
 brew "libzip"
 # Flexible tool for responding to filesystem changes
