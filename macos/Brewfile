@@ -116,6 +116,8 @@ brew "youtube-dl"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# karabiner configurator
+brew "yqrashawn/goku/goku"
 # Application launcher and productivity software
 cask "alfred"
 # Data backup and storage service
