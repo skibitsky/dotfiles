@@ -130,8 +130,8 @@
                  [:##h [:!Oleft_arrow]]
                  [:##j [:!Fdown_arrow]]
                  [:##k [:!Fup_arrow]]
-                 [:o [:!CTOS5]] Things Today lists
-                 [:i [:!CTOS4]] Things tools lists
+                 ; [:o [:!CTOS5]] Things Today lists
+                 ; [:i [:!CTOS4]] Things tools lists
                  [:u [:!CTOSu]] ; Unicode symbols
                  [:p [:!CTOS8]] ; Personal essentials
                  [:d [:!CTOSd]] ; Paste Clipboard Palette
