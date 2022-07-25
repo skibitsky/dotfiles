@@ -14,14 +14,14 @@ tap "wpscanteam/tap"
 tap "yqrashawn/goku"
 # GNU database manager
 brew "gdbm"
+# Core application library for C
+brew "glib"
 # Library for command-line editing
 brew "readline"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
-# Core application library for C
-brew "glib"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # OpenType text shaping engine
