@@ -22,8 +22,6 @@ brew "readline"
 brew "xz"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Framework for layout and rendering of i18n text
@@ -32,6 +30,8 @@ brew "pango"
 brew "librsvg"
 # Icons for the GNOME project
 brew "adwaita-icon-theme"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # GSettings schemas for desktop components
 brew "gsettings-desktop-schemas"
 # Tool for reverse engineering 3rd party, closed, binary Android apps
@@ -50,18 +50,12 @@ brew "exa"
 brew "gnutls"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# GitHub command-line tool
-brew "gh"
 # Distributed revision control system
 brew "git"
 # AVH edition of git-flow
 brew "git-flow-avh"
-# Run gitlab pipelines locally as shell executor or docker executor
-brew "gitlab-ci-local"
 # Network related modules for glib
 brew "glib-networking"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Compiler for the GObject type system
@@ -124,8 +118,6 @@ cask "alfred"
 cask "backblaze"
 # Web browser focusing on privacy
 cask "brave-browser"
-# Contacts manager
-cask "cardhop"
 # Allows switching between application windows
 cask "contexts"
 # API documentation browser and code snippet manager
@@ -134,8 +126,6 @@ cask "dash"
 cask "discord"
 # Developer platform
 cask "dotnet-sdk"
-# Calendar software
-cask "fantastical"
 # Web browser
 cask "firefox"
 cask "font-fira-code"
@@ -157,14 +147,10 @@ cask "karabiner-elements"
 cask "keyboard-maestro"
 # Sound clear in online meetings
 cask "krisp"
-# Desktop GUI client for browsing Geminispace
-cask "lagrange"
 # Host-based application firewall
 cask "little-snitch"
 # Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
 cask "mailtrackerblocker"
-# Untraceable cryptocurrency wallet
-cask "monero-wallet"
 # Finder Toolbar app to open the current directory in Terminal
 cask "openinterminal-lite"
 # Android file transfer
