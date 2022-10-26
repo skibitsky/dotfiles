@@ -155,8 +155,6 @@ cask "mailtrackerblocker"
 cask "openinterminal-lite"
 # Android file transfer
 cask "openmtp"
-# Client program for the OpenVPN Access Server
-cask "openvpn-connect"
 # Desktop virtualization software
 cask "parallels"
 # Imaging utility to install operating systems to a microSD card
