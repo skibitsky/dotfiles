@@ -30,10 +30,10 @@ brew "pango"
 brew "librsvg"
 # Icons for the GNOME project
 brew "adwaita-icon-theme"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
 # GSettings schemas for desktop components
 brew "gsettings-desktop-schemas"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # Tool for reverse engineering 3rd party, closed, binary Android apps
 brew "apktool"
 # Cross-platform make
