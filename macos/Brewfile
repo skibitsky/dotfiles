@@ -168,8 +168,6 @@ cask "ripcord"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
-# Mesh VPN based on Wireguard
-cask "tailscale"
 # Git client focusing on power and productivity
 cask "tower"
 # Open-source BitTorrent client
