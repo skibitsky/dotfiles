@@ -82,10 +82,12 @@ brew "modd"
 brew "mono"
 # Fast, highly customisable system info script
 brew "neofetch"
+# HTTP/2 C Library
+brew "nghttp2"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node@14"
+brew "node@16", link: true
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Passphrase entry dialog utilizing the Assuan protocol
