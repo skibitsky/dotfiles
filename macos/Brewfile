@@ -32,8 +32,6 @@ brew "librsvg"
 brew "adwaita-icon-theme"
 # GSettings schemas for desktop components
 brew "gsettings-desktop-schemas"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
 # Tool for reverse engineering 3rd party, closed, binary Android apps
 brew "apktool"
 # Cross-platform make
@@ -56,6 +54,8 @@ brew "git"
 brew "git-flow-avh"
 # Network related modules for glib
 brew "glib-networking"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Compiler for the GObject type system
@@ -87,7 +87,7 @@ brew "nghttp2"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node@16", link: true
+brew "node@16"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Passphrase entry dialog utilizing the Assuan protocol
