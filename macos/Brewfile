@@ -10,6 +10,7 @@ tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "schniz/tap"
 tap "skyjake/lagrange"
+tap "supabase/tap"
 tap "wpscanteam/tap"
 tap "yqrashawn/goku"
 # GNU database manager
@@ -87,7 +88,7 @@ brew "nghttp2"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node@16"
+brew "node@16", link: true
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Passphrase entry dialog utilizing the Assuan protocol
@@ -112,6 +113,8 @@ brew "youtube-dl"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Supabase CLI
+brew "supabase/tap/supabase"
 # karabiner configurator
 brew "yqrashawn/goku/goku"
 # Application launcher and productivity software
