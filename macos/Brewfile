@@ -8,6 +8,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
+tap "oven-sh/bun"
 tap "schniz/tap"
 tap "skyjake/lagrange"
 tap "supabase/tap"
@@ -113,6 +114,8 @@ brew "youtube-dl"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
 # Supabase CLI
 brew "supabase/tap/supabase"
 # karabiner configurator
