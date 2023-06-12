@@ -15,23 +15,9 @@ ln -sf ~/.dotfiles/git/gitconfig ~/.gitconfig
 # Karabiner
 ln -sf ~/.dotfiles/karabiner/karabiner.edn ~/.config/karabiner.edn
 
-# Sublime Text 3
-# ln -sf ~/.dotfiles/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
-# ln -sf ~/.dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-
-# VS Code
-ln -sf ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -sf ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-
 # Hyper
 # ln -sf ~/.dotfiles/hyper/hyper.js ~/.hyper.js
 
 # zsh
 ln -sf ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes/typewritten.zsh-theme"
-
-# yabai
-ln -sf ~/.dotfiles/yabai/yabairc ~/.yabairc
-
-# alfred-git-repos
-ln -sf ~/.dotfiles/alfred/git-repos/userSettings.json ~/Library/Application\ Support/Alfred/Workflow\ Data/net.deanishe.alfred-git-repos/settings.json

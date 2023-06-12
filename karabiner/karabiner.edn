@@ -4,11 +4,10 @@
          :delay   0
          :alone   50
          :held    100}}
- :templates {:alfred "osascript -e 'tell application \"Alfred 4\" to run trigger \"%s\" in workflow \"%s\" with argument \"%s\"'"
-             :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"
-           	 :open "open \"%s\""
-           	}
-; :applications {:binded_apps ["^com\\.apple\\.Safari$", "^com\\.apple\\.finder$", "^com\\.stairways\\.keyboardmaestro\\.editor$"]}
+ :templates {:alfred "osascript -e 'tell application id \"com.runningwithcrayons.Alfred\" to run trigger \"%s\" in workflow \"%s\" with argument \"%s\"'"
+                :km "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"%s\"'"
+                :code "code \"%s\""
+                :open "open \"%s\""}
  :input-sources {:en {:language "en"}
                  :lt {:language "lt"}
                  :ru {:language "ru"}}
@@ -46,8 +45,6 @@
               {:des "Swap : with ; in Lithuanian layout"
                :rules [[:#Psemicolon :!Ssemicolon :lt]
                  [:!Ssemicolon :semicolon :lt]]}
-              ; {:des "§ to ~"
-              ;  :rules [[:non_us_backslash :!Sgrave_accent_and_tilde]]}
               {:des "Right ⌘ to ⌘ + ⇥"
                :rules [[:right_command :!Ctab]]}
               {:des "Right Option to Grave accent"
@@ -96,21 +93,6 @@
                  [:8 :!TO8]
                  [:9 :!TO9]
                  [:0 :!TO0]]}
-        {:des "okey (open)"
-         :rules [:o-mode
-                 ; [:x [:km "open: Tower"]]
-                 ; [:t [:km "open: Telegram"]]
-                 ; [:s [:km "open: Safari"]]
-                 ; [:f [:km "open: Fantastical"]]
-                 ; [:e [:km "open: Email"]]
-                 ; [:m [:km "open: Spotify"]]
-                 ; [:w [:km "open: Things"]]
-                 ; ; [:i [:km "open: iTerm"]]
-                 ; [:k [:km "open: KM"]]
-                 ; [:d [:km "open: Downloads in Finder"]]
-                 ; [:q [:km "open: Slack"]]
-                 ; [:u [:km "open: Unity Hub"]]
-                 [:v [:!TOSv]]]} ; Open dotfiles
         {:des "skey (actions and arrows)"
          :rules [:s-mode
                  [:##l [:right_arrow]]
@@ -130,13 +112,11 @@
                  [:##h [:!Oleft_arrow]]
                  [:##j [:!Fdown_arrow]]
                  [:##k [:!Fup_arrow]]
-                 ; [:o [:!CTOS5]] Things Today lists
-                 ; [:i [:!CTOS4]] Things tools lists
                  [:u [:!CTOSu]] ; Unicode symbols
                  [:p [:!CTOS8]] ; Personal essentials
                  [:d [:!CTOSd]] ; Paste Clipboard Palette
                  [:c [:!CTOc]] ; Futuclass urls and essentials
-                 [:r [:!CTOS7]]]} ; Kitokia urls and essentials
+                ]}
         {:des "mkey (make)"
          :rules [:m-mode
                  [:z [:!CTOSz]] ; Capture Fullscreen in CleanShot
@@ -148,7 +128,7 @@
                  [:v [:!CTOSv]] ; Capture Scroll Area in CleanShot
                  [:b [:!CTOSb]] ; Capture Area and Pin to the screen in CleanShot
                  [:t [:!CT9]] ; Add to Typinator
-                 [:f [:!CTOf]]]} ; New entry in Fantastical
+        ]}
         {:des "pkey (text snippets and Dash)"
          :rules [:p-mode
                  [:q [:!Sd :e :b :u :g :period :!Sl :o :g :!S9 :!S0 :semicolon :left_arrow :left_arrow]] ; Debug.Log(^);
@@ -158,39 +138,19 @@
                  [:s [:open_bracket :!Ss :e :r :i :a :l :i :z :e :!Sf :i :e :l :d :close_bracket :spacebar :p :r :i :v :a :t :e :spacebar]] ; [SerializeField] private
                  [:c [:!Sf :u :t :u :c :l :a :s :s]] ; Futuclass
                  [:a [:!St :h :a :n :k :spacebar :y :o :u :!S1]] ; Thank you!   
-                 [:u [:alfred "search dash" "com.kapeli.dash.workflow" "!unity: "]]
-                 [:n [:alfred "search dash" "com.kapeli.dash.workflow" "!net: "]]
-                 [:j [:alfred "search dash" "com.kapeli.dash.workflow" "!js: "]]
-                 [:d [:alfred "search dash" "com.kapeli.dash.workflow" "!docker: "]]
-                 [:m [:alfred "search dash" "com.kapeli.dash.workflow" "!man: "]]]}
+        ]}
         {:des "rkey (cursor management)"
          :rules [:cursor-management
          	  [:p [:km "cursor: center of active window"]]]}
-        {:des "xkey (Spotify)"
-         :rules [:x-mode
-                 [:j [:alfred "spot_mini" "com.vdesabou.spotify.mini.player"]]
-                 ; [:m [:alfred "show_alfred_playlist" "com.vdesabou.spotify.mini.player"]]
-                 [:c [:alfred "show_current_track" "com.vdesabou.spotify.mini.player"]]
-                 [:s [:alfred "share" "com.vdesabou.spotify.mini.player"]]
-                 [:u [:alfred "shuffle" "com.vdesabou.spotify.mini.player"]]
-                 [:o [:alfred "show_search_online" "com.vdesabou.spotify.mini.player"]]
-                 [:n [:alfred "next" "com.vdesabou.spotify.mini.player"]]
-                 [:p [:alfred "show_playlists" "com.vdesabou.spotify.mini.player"]]
-                 [:m [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
-                 [:z [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
-                 [:r [:alfred "song_radio" "com.vdesabou.spotify.mini.player"]]
-                 [:a [:alfred "artist_radio" "com.vdesabou.spotify.mini.player"]]]}
         {:des "ckey (selected text)"
          :rules [:c-mode
-                 [:q [:km "c: execute in iTerm"]]
-                 [:l [:km "c: open as URL"]]
-                 [:o [:km "c: search text in DuckDuckGo"]]
                  [:a [:!Oleft_arrow :!OSright_arrow]] ; Highlight word
                  [:s [:!Cleft_arrow :!CSright_arrow]] ; Highlight line
                  [:i [:km "c: add to Things"]] ; Add selection to Things Inbox
                  [:x [:!CTOSm]]]} ; Selected text actions
         {:des "slashkey"
          :rules [:slash-mode
+                 [:q :!CTOq] ; Open Dotfiles
                  [:d :!CTOSe] ; Futuclass Unity
                  [:s :!CTOSq] ; Futuclass Unity Scene
                  [:f :!CTOSf]]} ; Futuclass links
@@ -244,8 +204,5 @@
                  [:l [:alfred "search repos" "me.lachlan.githubjump"]]
                  [:k [:alfred "search bear" "com.drgrib.bear"]]
                  [:p [:alfred "search repos" "net.deanishe.alfred-git-repos"]]
-                 [:w [:alfred "search tabs" "net.deanishe.alfred.safari"]]
-                 [:e [:alfred "search history" "net.deanishe.alfred.safari"]]
-                 [:r [:alfred "search itabs" "net.deanishe.alfred.safari"]]
-                 [:c [:alfred "convert" "net.deanishe.alfred-convert"]]]}]
+        ]}]
 }

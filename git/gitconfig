@@ -6,9 +6,9 @@
 [user]
 	name = skibitsky
 	email = gleb@skibitsky.com
-	signingkey = C178BFBB16E71E799526FA457001A76D0AE14D68
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6UMGrCEmiv8yyCQM+J0pB9QByC7IiEgxuLxMGRPG/3
 [core]
-	excludesfile = /Users/gleb/.gitignore_global
+	excludesFile = ~/.gitignore_global
 	autocrlf = input
 [commit]
 	template = ~/.stCommitMsg
@@ -19,8 +19,6 @@
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
 	stash-staged = "!zsh -c \"git stash --keep-index; git stash push -m \"staged\" --keep-index; git stash pop stash@{1}\""
 	move-staged = "!zsh -c \"git stash-staged; git commit -m \"temp\"; git stash; git reset --hard HEAD^; git stash pop\""
-[gpg]
-	program = /usr/local/MacGPG2/bin/gpg2
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
@@ -37,3 +35,7 @@
 	submodule = log
 [init]
 	defaultBranch = master
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign

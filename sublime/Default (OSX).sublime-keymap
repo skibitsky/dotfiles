@@ -1,3 +1,0 @@
-[
-	{ "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
-]

@@ -1,145 +1,52 @@
-tap "apparition47/tap"
+tap "1password/tap"
 tap "candid82/brew"
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "koekeishiya/formulae"
-tap "oven-sh/bun"
-tap "schniz/tap"
-tap "skyjake/lagrange"
 tap "supabase/tap"
-tap "wpscanteam/tap"
 tap "yqrashawn/goku"
-# GNU database manager
-brew "gdbm"
-# Core application library for C
-brew "glib"
-# Library for command-line editing
-brew "readline"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Framework for layout and rendering of i18n text
-brew "pango"
-# Library to render SVG files using Cairo
-brew "librsvg"
-# Icons for the GNOME project
-brew "adwaita-icon-theme"
-# GSettings schemas for desktop components
-brew "gsettings-desktop-schemas"
-# Tool for reverse engineering 3rd party, closed, binary Android apps
-brew "apktool"
-# Cross-platform make
-brew "cmake"
-# Command-line tool for DigitalOcean
-brew "doctl"
-# Select default apps for documents and URL schemes on macOS
-brew "duti"
-# Spellchecker wrapping library
-brew "enchant"
 # Modern replacement for 'ls'
 brew "exa"
-# GNU Transport Layer Security (TLS) Library
-brew "gnutls"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Distributed revision control system
-brew "git"
-# AVH edition of git-flow
-brew "git-flow-avh"
-# Network related modules for glib
-brew "glib-networking"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
-# Graph visualization software from AT&T and Bell Labs
-brew "graphviz"
-# Compiler for the GObject type system
-brew "vala"
-# Flexible API to implement spellchecking in GTK+ applications
-brew "gspell"
-# Add GitHub support to git on the command-line
-brew "hub"
-# Configurable static site generator
-brew "hugo"
-# Tools and libraries to manipulate images in many formats
-brew "imagemagick"
-# GNOME Python bindings (based on GObject Introspection)
-brew "pygobject3"
-# Version of the SSL/TLS protocol forked from OpenSSL
-brew "libressl"
-# HTTP client/server library for GNOME
-brew "libsoup"
-# C library for reading, creating, and modifying zip archives
-brew "libzip"
-# Flexible tool for responding to filesystem changes
-brew "modd"
-# Cross platform, open source .NET development framework
-brew "mono"
-# Fast, highly customisable system info script
-brew "neofetch"
-# HTTP/2 C Library
-brew "nghttp2"
-# Port scanning utility for large networks
-brew "nmap"
 # Platform built on V8 to build network applications
-brew "node@16", link: true
-# Swiss-army knife of markup format conversion
-brew "pandoc"
-# Passphrase entry dialog utilizing the Assuan protocol
-brew "pinentry"
+brew "node@16"
 # Persistent key-value database, with built-in net interface
 brew "redis"
-# Generate ASCII art with terminal, shell, and OS info
-brew "screenfetch"
-# Command-line packet analyzer
-brew "tcpdump"
-# Programmatically correct mistyped console commands
-brew "thefuck"
-# Simplified and community-driven man pages
-brew "tldr"
-# Executes a program periodically, showing output fullscreen
-brew "watch"
-# Execute commands when watched files change
-brew "watchexec"
-# Internet file retriever
-brew "wget"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
-# Shell extension to navigate your filesystem faster
-brew "zoxide"
-# UNIX shell (command interpreter)
-brew "zsh"
-# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
-brew "oven-sh/bun/bun"
+# Packer
+brew "hashicorp/tap/packer"
+# Terraform
+brew "hashicorp/tap/terraform"
 # Supabase CLI
 brew "supabase/tap/supabase"
 # karabiner configurator
 brew "yqrashawn/goku/goku"
+# Command-line helper for the 1Password password manager
+cask "1password-cli"
+# AirPods companion app
+cask "airbuddy"
 # Application launcher and productivity software
 cask "alfred"
-# Data backup and storage service
-cask "backblaze"
+# Android SDK component
+cask "android-platform-tools"
 # Web browser focusing on privacy
 cask "brave-browser"
-# Allows switching between application windows
-cask "contexts"
-# API documentation browser and code snippet manager
-cask "dash"
+# Collect, organize, edit and annotate documents
+cask "devonthink"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Developer platform
 cask "dotnet-sdk"
 # Web browser
 cask "firefox"
-# Free monospaced font with programming ligatures
-cask "font-fira-code"
+# Tools to protect your files
+cask "gpg-suite-no-mail"
 # Set which graphics card to use
 cask "gswitch"
 # Automated organization
@@ -156,7 +63,7 @@ cask "kaleidoscope"
 cask "karabiner-elements"
 # Automation software
 cask "keyboard-maestro"
-# Sound clear in online meetings
+# Noise cancelling application
 cask "krisp"
 # Host-based application firewall
 cask "little-snitch"
@@ -172,8 +79,8 @@ cask "openvpn-connect"
 cask "parallels"
 # Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
-# Desktop chat client for Slack (and Discord)
-cask "ripcord"
+# Collection of apps available by subscription
+cask "setapp"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service
@@ -184,9 +91,13 @@ cask "tower"
 cask "transmission"
 # File transfer application
 cask "transmit"
-# Tool to automate the insertion of frequently used text and graphics
-cask "typinator"
-# Virtualizer for x86 hardware
-cask "virtualbox"
-# Flash tool for ZSA keyboards
-cask "zsa-wally"
+# Open-source code editor
+cask "visual-studio-code"
+vscode "bradlc.vscode-tailwindcss"
+vscode "dbaeumer.vscode-eslint"
+vscode "esbenp.prettier-vscode"
+vscode "k--kato.intellij-idea-keybindings"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
+vscode "PKief.material-icon-theme"
+vscode "zhuangtongfa.material-theme"

@@ -4,9 +4,8 @@ export PATH="/usr/local/opt/node@14/bin:$PATH"
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# go
-export GOPATH=$HOME/go
-export PATH="$GOPATH/bin:$PATH"
+# Docker Desktop socket fix
+export DOCKER_HOST=unix:///$HOME/.docker/run/docker.sock
 
 # .NET Core SDK tools
 DOTNET_CLI_TELEMETRY_OPTOUT=1
