@@ -2,8 +2,6 @@
 
 Some of my configuration files for macOS
 
-![screenfetch_mac](https://github.com/skibitsky/dotfiles/raw/master/media/screenshot.png)
-
 ## Install
 
 ```shell
