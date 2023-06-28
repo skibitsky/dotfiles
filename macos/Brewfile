@@ -5,6 +5,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "stripe/stripe-cli"
 tap "supabase/tap"
 tap "yqrashawn/goku"
 # Modern replacement for 'ls'
@@ -15,12 +16,14 @@ brew "ffmpeg"
 brew "node@16"
 # Persistent key-value database, with built-in net interface
 brew "redis"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
+# Fork of youtube-dl with additional features and fixes
+brew "yt-dlp"
 # Packer
 brew "hashicorp/tap/packer"
 # Terraform
 brew "hashicorp/tap/terraform"
+# Stripe CLI utility
+brew "stripe/stripe-cli/stripe"
 # Supabase CLI
 brew "supabase/tap/supabase"
 # karabiner configurator

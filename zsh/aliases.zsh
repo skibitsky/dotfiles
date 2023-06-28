@@ -59,9 +59,9 @@ alias tree='exa --tree'
 # OpenUPM
 alias upm="openupm"
 
-# youtube-dl
-alias yd="youtube-dl"
-alias yda="youtube-dl -x --audio-format mp3"
+# yt-dlp
+alias yt="yt-dlp"
+alias yta="yt-dlp -x --audio-format mp3"
 
 # There is a bug in latest adb version. Hombrew casks are garbage and hard to downgrade,
 # Therefore I just use adb that comes with Unity
@@ -73,3 +73,6 @@ alias logcat="adb logcat -s Unity ActivityManager PackageManager dalvikvm DEBUG 
 
 # ffmpeg
 alias keyframes="ffprobe -loglevel error -skip_frame nokey -select_streams v:0 -show_entries frame=pkt_pts_time -of csv=print_section=0"
+
+# pnpm
+alias pn=pnpm
