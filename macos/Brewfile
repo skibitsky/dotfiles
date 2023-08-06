@@ -12,8 +12,12 @@ tap "yqrashawn/goku"
 brew "exa"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Postgres C API library
+brew "libpq"
 # Platform built on V8 to build network applications
 brew "node@16"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Fork of youtube-dl with additional features and fixes
@@ -46,6 +50,8 @@ cask "discord"
 cask "docker"
 # Developer platform
 cask "dotnet-sdk"
+# Reimagine your terminal
+cask "fig"
 # Web browser
 cask "firefox"
 # Tools to protect your files
@@ -78,6 +84,8 @@ cask "openinterminal-lite"
 cask "openmtp"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
+# Replacement for Docker Desktop
+cask "orbstack"
 # Desktop virtualization software
 cask "parallels"
 # Imaging utility to install operating systems to a microSD card
@@ -103,4 +111,5 @@ vscode "k--kato.intellij-idea-keybindings"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"
 vscode "PKief.material-icon-theme"
+vscode "withfig.fig"
 vscode "zhuangtongfa.material-theme"
