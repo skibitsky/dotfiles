@@ -15,7 +15,7 @@ brew "ffmpeg"
 # Postgres C API library
 brew "libpq"
 # Platform built on V8 to build network applications
-brew "node@16"
+brew "node@18", link: true
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Persistent key-value database, with built-in net interface
