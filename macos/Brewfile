@@ -8,18 +8,30 @@ tap "homebrew/services"
 tap "stripe/stripe-cli"
 tap "supabase/tap"
 tap "yqrashawn/goku"
+# Cross-platform make
+brew "cmake"
 # Modern replacement for 'ls'
 brew "exa"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Distributed revision control system
+brew "git"
 # Postgres C API library
 brew "libpq"
 # Platform built on V8 to build network applications
 brew "node@18", link: true
 # Fast, disk space efficient package manager
 brew "pnpm"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# Safe, concurrent, practical language
+brew "rust"
+# Internet file retriever
+brew "wget"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
 # Packer
