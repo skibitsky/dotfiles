@@ -2,8 +2,6 @@ tap "1password/tap"
 tap "candid82/brew"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "stripe/stripe-cli"
 tap "supabase/tap"
@@ -44,7 +42,7 @@ brew "stripe/stripe-cli/stripe"
 brew "supabase/tap/supabase"
 # karabiner configurator
 brew "yqrashawn/goku/goku"
-# Command-line helper for the 1Password password manager
+# Command-line interface for 1Password
 cask "1password-cli"
 # AirPods companion app
 cask "airbuddy"
